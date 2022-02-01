@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenBetsBeta.Server", "Server\OpenBetsBeta.Server.csproj", "{EDB4499C-285B-4B64-8877-EBAC7BF14C89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenBetsBeta.Client", "Client\OpenBetsBeta.Client.csproj", "{EB86495A-61B7-467B-9721-47D25BF6E22A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenBetsBeta.Shared", "Shared\OpenBetsBeta.Shared.csproj", "{A1F4C91E-5450-4869-8DD5-396C63EDC385}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{582F68EA-AB73-46BA-AE88-FF5447D205C4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDB4499C-285B-4B64-8877-EBAC7BF14C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB4499C-285B-4B64-8877-EBAC7BF14C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB4499C-285B-4B64-8877-EBAC7BF14C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB4499C-285B-4B64-8877-EBAC7BF14C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB86495A-61B7-467B-9721-47D25BF6E22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB86495A-61B7-467B-9721-47D25BF6E22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB86495A-61B7-467B-9721-47D25BF6E22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB86495A-61B7-467B-9721-47D25BF6E22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F4C91E-5450-4869-8DD5-396C63EDC385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F4C91E-5450-4869-8DD5-396C63EDC385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F4C91E-5450-4869-8DD5-396C63EDC385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F4C91E-5450-4869-8DD5-396C63EDC385}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E4DF252-21B3-45A8-9B0F-80242FCE5DAF}
+	EndGlobalSection
+EndGlobal
