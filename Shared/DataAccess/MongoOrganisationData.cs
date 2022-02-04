@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Caching.Memory;
 
-namespace OpenBetsBeta.Shared.DataAccess;
+namespace OpenBets.Shared.DataAccess;
 
 internal class MongoOrganisationData : IOrganisationData
 {

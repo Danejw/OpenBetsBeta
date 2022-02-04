@@ -889,19 +889,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-Q0UIqbUwo6FGlOAj0tdpB+MEbXLhhELXtRzsQMLVIX8=",
+      "hash": "sha256-91fe7uggVY0syfVH6wae2QtGOesj1evAlo42+Kd2XQ0=",
       "url": "_framework\/OpenBetsBeta.Shared.dll"
     },
     {
-      "hash": "sha256-UE2kbxcEGs05QpxWO3W\/OSPcWqI3s0jQtwMFTBxig0g=",
+      "hash": "sha256-E01RTf2p+l9w1Slb2XbyHdl6qE+KB1iVXrIfItRwKbU=",
       "url": "_framework\/OpenBetsBeta.Shared.pdb"
     },
     {
-      "hash": "sha256-Y7CQNp\/ZGqkaSH8Y\/6f\/GlZFC2kAmxg3HHLxeKkCVgg=",
+      "hash": "sha256-ZW+j8bm8x0bCEAf8WEMzqB3TdaFQSyqBtctAns+S\/JM=",
       "url": "_framework\/OpenBetsBeta.Client.dll"
     },
     {
-      "hash": "sha256-tF4aGHCr3rv\/zJhHnvZxy2Bzg5Wj9r649wsgpCPADZw=",
+      "hash": "sha256-Q89tKje8X0ynyX2nuBGusnCPuO\/x13YwNzAmFP8hBRg=",
       "url": "_framework\/OpenBetsBeta.Client.pdb"
     },
     {
@@ -909,9 +909,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-eVX9Gei7f9+7TWMkkHdw7+YTLpbzWPQUkA2f6uOEfIw=",
+      "hash": "sha256-wQ1Ksh\/UqUBVWVN0afpiCGUYDx4QHKKyHucRevUC4PI=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "EfGT94af"
+  "version": "VlfRkWjK"
 };

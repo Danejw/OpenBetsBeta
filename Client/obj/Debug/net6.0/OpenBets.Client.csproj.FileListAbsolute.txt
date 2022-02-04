@@ -1,0 +1,12 @@
+C:\Users\RecallableFacts\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\OpenBets.Client.csproj.AssemblyReference.cache
+C:\Users\RecallableFacts\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\OpenBets.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RecallableFacts\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\OpenBets.Client.AssemblyInfoInputs.cache
+C:\Users\RecallableFacts\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\OpenBets.Client.AssemblyInfo.cs
+C:\Users\RecallableFacts\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\OpenBets.Client.csproj.CoreCompileInputs.cache
+C:\Users\RecallableFacts\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\OpenBets.Client.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\obj\Debug\net6.0\OpenBets.Client.csproj.AssemblyReference.cache
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\obj\Debug\net6.0\OpenBets.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\obj\Debug\net6.0\OpenBets.Client.AssemblyInfoInputs.cache
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\obj\Debug\net6.0\OpenBets.Client.AssemblyInfo.cs
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\obj\Debug\net6.0\OpenBets.Client.csproj.CoreCompileInputs.cache
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\obj\Debug\net6.0\OpenBets.Client.MvcApplicationPartsAssemblyInfo.cache

@@ -6,7 +6,7 @@ internal class DbConnection : IDbConnection
 {
    private readonly IConfiguration _config;
    private readonly IMongoDatabase _db;
-   private string _connectionId = "MongoDB";
+   private readonly string _connectionId = "MongoDB";
 
    // sets the names of each collection
    public string DatabaseName { get; private set; }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xDZgJzevE7eQ9fBpHvLW98Vj0H7+QbDeGbfkx95SoxLQCrdTMzNOGJ0SDv56yXVExIeR+1SAiNvxiDcbvH6xBw==",
+  "dgSpecHash": "kg/fU2LHCneXDTIgP+3ee5PR0zXLGAkKYvZ6EszlMtRtPS+/P9s4vQ+ylrcjNvRxfR9E4/Hi82Soyv2d17ur0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBetsBeta\\Server\\OpenBetsBeta.Server.csproj",
+  "projectFilePath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Server\\OpenBetsBeta.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RecallableFacts\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\RecallableFacts\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.0\\microsoft.aspnetcore.authorization.6.0.0.nupkg.sha512",

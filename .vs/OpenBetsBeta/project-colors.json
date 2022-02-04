@@ -3,17 +3,17 @@
   "ProjectMap": {
     "eb86495a-61b7-467b-9721-47d25bf6e22a": {
       "ProjectGuid": "eb86495a-61b7-467b-9721-47d25bf6e22a",
-      "DisplayName": "OpenBetsBeta.Client",
+      "DisplayName": "OpenBets.Client",
       "ColorIndex": 0
     },
     "edb4499c-285b-4b64-8877-ebac7bf14c89": {
       "ProjectGuid": "edb4499c-285b-4b64-8877-ebac7bf14c89",
-      "DisplayName": "OpenBetsBeta.Server",
+      "DisplayName": "OpenBets.Server",
       "ColorIndex": 1
     },
     "a1f4c91e-5450-4869-8dd5-396c63edc385": {
       "ProjectGuid": "a1f4c91e-5450-4869-8dd5-396c63edc385",
-      "DisplayName": "OpenBetsBeta.Shared",
+      "DisplayName": "OpenBets.Shared",
       "ColorIndex": 2
     },
     "18cb8aee-eb58-4ece-ad0c-9549e09fdcb7": {

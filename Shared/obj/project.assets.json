@@ -665,11 +665,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBetsBeta\\Shared\\OpenBetsBeta.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Shared\\OpenBetsBeta.Shared.csproj",
       "projectName": "OpenBetsBeta.Shared",
-      "projectPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBetsBeta\\Shared\\OpenBetsBeta.Shared.csproj",
+      "projectPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Shared\\OpenBetsBeta.Shared.csproj",
       "packagesPath": "C:\\Users\\RecallableFacts\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBetsBeta\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

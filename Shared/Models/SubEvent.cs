@@ -1,6 +1,6 @@
 ﻿namespace OpenBets.Shared.Models;
 
-internal class SubEvent
+public class SubEvent
 {
     [BsonId] // unique identifer
     [BsonRepresentation(BsonType.ObjectId)] // object id representation

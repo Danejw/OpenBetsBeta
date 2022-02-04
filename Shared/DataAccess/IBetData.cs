@@ -1,5 +1,5 @@
 ﻿
-namespace OpenBetsBeta.Shared.DataAccess;
+namespace OpenBets.Shared.DataAccess;
 
 internal interface IBetData
 {

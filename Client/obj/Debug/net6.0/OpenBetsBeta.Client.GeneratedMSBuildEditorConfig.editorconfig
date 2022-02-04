@@ -11,29 +11,33 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = OpenBetsBeta.Client
 build_property.RootNamespace = OpenBetsBeta.Client
-build_property.ProjectDir = C:\Users\RecallableFacts\Documents\GitHub\OpenBetsBeta\Client\
+build_property.ProjectDir = C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\RecallableFacts\Documents\GitHub\OpenBetsBeta\Client
+build_property.MSBuildProjectDirectory = C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/RecallableFacts/Documents/GitHub/OpenBetsBeta/Client/App.razor]
+[C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RecallableFacts/Documents/GitHub/OpenBetsBeta/Client/Pages/Index.razor]
+[C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/EventComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFdmVudENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RecallableFacts/Documents/GitHub/OpenBetsBeta/Client/_Imports.razor]
+[C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RecallableFacts/Documents/GitHub/OpenBetsBeta/Client/Shared/MainLayout.razor]
+[C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-6tb5dqpbrn
 
-[C:/Users/RecallableFacts/Documents/GitHub/OpenBetsBeta/Client/Shared/NavMenu.razor]
+[C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-d4mem4sdi9
