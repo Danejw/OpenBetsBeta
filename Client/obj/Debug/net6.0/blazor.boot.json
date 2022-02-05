@@ -36,8 +36,10 @@
       "MongoDB.Driver.dll": "sha256-oRHvMHblffrMvscVLxUS14Zme6BOAzL9DFS0Rh6vVvM=",
       "MongoDB.Driver.Core.dll": "sha256-zcOO3XpcY\/TM92l9Op17ugd5NZgvttSpLbn4HZFmpPA=",
       "MongoDB.Libmongocrypt.dll": "sha256-TaK3VRk+NmCEevU0XWGzE\/ID1QBZ5uXyy2DtD6WL54Q=",
+      "Radzen.Blazor.dll": "sha256-QSZCVNTY\/KF9TzrCvUp5opMp+UAVkNr1Z7Be5AfYZ2M=",
       "SharpCompress.dll": "sha256-g6OkB2E3tHVhjYz074TwY\/qKeHk14HgEWYjivSizy68=",
       "System.IO.Pipelines.dll": "sha256-82Azhz6bwUir2bGFgxIgFUe0ecr6JTEuxlnxtWpds+I=",
+      "System.Linq.Dynamic.Core.dll": "sha256-+dlU8yi5zWnF9GeqOTl26t\/y5vllHc9O3mEwXdQjP7M=",
       "Microsoft.CSharp.dll": "sha256-EGpAt7kwlRUTVib4sRhW2WM6jM0n4g3HdFLpAtTGRQk=",
       "Microsoft.VisualBasic.Core.dll": "sha256-tOAS9Bvqm5e3AgYUSVFFl77AHy8JJ+pnglTi7TvPdJA=",
       "Microsoft.VisualBasic.dll": "sha256-I+mq2imKVNBEK\/YEFvvs63\/drwqodJRNPYQMIn9+tlA=",
@@ -204,15 +206,15 @@
       "mscorlib.dll": "sha256-tlYWYAypJO+6gsCjV734iAJn8xcZYhUjM7vgxDLJluE=",
       "netstandard.dll": "sha256-E48Na3ZQWKExltzTwgP0Ao+UqWhiVYeerXfUL9lEc+c=",
       "System.Private.CoreLib.dll": "sha256-J85Z1XnwapHef31sR58JFq+0HrFP5BjOoObPKjdFHCw=",
-      "OpenBetsBeta.Shared.dll": "sha256-BVpqvj4gr9b0vmFx4N9Daa5YyjH\/jLBwDTmbJ9++ZvI=",
-      "OpenBetsBeta.Client.dll": "sha256-PTHxhYhACfbomf6j+e1RoAVRhByKyb3SZEoMXoCnd8c="
+      "OpenBetsBeta.Shared.dll": "sha256-4DMbcNoNhWStpRni145rdcU9d5OXPSQTbTP3H8FnLsQ=",
+      "OpenBetsBeta.Client.dll": "sha256-UHiQKWDvBi+a7yKNFsOsSv99PcufgD80te\/+UoeAcvM="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "OpenBetsBeta.Shared.pdb": "sha256-eoN2Z+MAXAsoPiMHOz+tb+Q1HOzXeONfzJJmP9zgOSc=",
-      "OpenBetsBeta.Client.pdb": "sha256-Xd4+N78+FPqknuPNby38DlEs0RVh8yDiRVRVMvEfIuw="
+      "OpenBetsBeta.Shared.pdb": "sha256-dH2GGgl9jvSveS9GIpvThoxUFpG4qFPgg7\/HCG3rShE=",
+      "OpenBetsBeta.Client.pdb": "sha256-KfYOg03M2Hr0ybMNgGDzS+N2GXrFkA6B+YZG7sO59Ek="
     },
     "runtime": {
       "dotnet.6.0.0.e1ygqxteqp.js": "sha256-LOq52qjRa3+zt3w4UL10rS3UdwHxVQxW0JAsMPO9QAM=",

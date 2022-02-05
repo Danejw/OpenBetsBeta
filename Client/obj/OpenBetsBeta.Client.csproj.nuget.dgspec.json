@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBetsBeta\\Client\\OpenBetsBeta.Client.csproj": {}
+    "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Client\\OpenBetsBeta.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBetsBeta\\Client\\OpenBetsBeta.Client.csproj": {
+    "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Client\\OpenBetsBeta.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBetsBeta\\Client\\OpenBetsBeta.Client.csproj",
+        "projectUniqueName": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Client\\OpenBetsBeta.Client.csproj",
         "projectName": "OpenBetsBeta.Client",
-        "projectPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBetsBeta\\Client\\OpenBetsBeta.Client.csproj",
+        "projectPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Client\\OpenBetsBeta.Client.csproj",
         "packagesPath": "C:\\Users\\RecallableFacts\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBetsBeta\\Client\\obj\\",
+        "outputPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBetsBeta\\Shared\\OpenBetsBeta.Shared.csproj": {
-                "projectPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBetsBeta\\Shared\\OpenBetsBeta.Shared.csproj"
+              "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Shared\\OpenBetsBeta.Shared.csproj": {
+                "projectPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Shared\\OpenBetsBeta.Shared.csproj"
               }
             }
           }
@@ -55,6 +55,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[3.14.12, )"
             }
           },
           "imports": [
@@ -87,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBetsBeta\\Shared\\OpenBetsBeta.Shared.csproj": {
+    "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Shared\\OpenBetsBeta.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBetsBeta\\Shared\\OpenBetsBeta.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Shared\\OpenBetsBeta.Shared.csproj",
         "projectName": "OpenBetsBeta.Shared",
-        "projectPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBetsBeta\\Shared\\OpenBetsBeta.Shared.csproj",
+        "projectPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Shared\\OpenBetsBeta.Shared.csproj",
         "packagesPath": "C:\\Users\\RecallableFacts\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBetsBeta\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

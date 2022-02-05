@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cK4vmJFQSPfduN2cfrqYyXvxzS2IFf10TBFL83uKLlEBX65oUVobyQRtWqyle+bk0CDhO+pm3DaeyvqKtee6lQ==",
+  "dgSpecHash": "+o7UDykznLvU8Coiiv+ftOeczENsvlcb5SZNYYVXJE6vjPdpDRYLV7jysHrol7fyehEn4PU0p63sWebO9OoXWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBetsBeta\\Shared\\OpenBetsBeta.Shared.csproj",
+  "projectFilePath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Shared\\OpenBetsBeta.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RecallableFacts\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\RecallableFacts\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
