@@ -1,7 +1,7 @@
 ﻿
 namespace OpenBets.Shared.DataAccess;
 
-internal interface IDbConnection
+public interface IDbConnection
 {
    IMongoCollection<Account> AccountCollection { get; }
    string AccountCollectionName { get; }

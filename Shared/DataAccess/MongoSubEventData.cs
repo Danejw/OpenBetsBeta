@@ -3,7 +3,7 @@ using Microsoft.Extensions.Caching.Memory;
 
 namespace OpenBetsBeta.Shared.DataAccess;
 
-internal class MongoSubEventData : ISubEventData
+public class MongoSubEventData : ISubEventData
 {
    private readonly IMongoCollection<SubEvent> _subEvents;
    private readonly IMemoryCache _cache;

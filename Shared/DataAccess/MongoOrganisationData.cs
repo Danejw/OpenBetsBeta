@@ -2,7 +2,7 @@
 
 namespace OpenBetsBeta.Shared.DataAccess;
 
-internal class MongoOrganisationData : IOrganisationData
+public class MongoOrganisationData : IOrganisationData
 {
    private readonly IMongoCollection<Organisation> _org;
    private readonly IMemoryCache _cache;
@@ -13,8 +13,6 @@ internal class MongoOrganisationData : IOrganisationData
       _cache = cache;
       _org = db.OrganisationCollection;
    }
-
-
 
    public async Task<List<Organisation>> GetOrganisationsAsync()
    {

@@ -206,15 +206,15 @@
       "mscorlib.dll": "sha256-tlYWYAypJO+6gsCjV734iAJn8xcZYhUjM7vgxDLJluE=",
       "netstandard.dll": "sha256-E48Na3ZQWKExltzTwgP0Ao+UqWhiVYeerXfUL9lEc+c=",
       "System.Private.CoreLib.dll": "sha256-J85Z1XnwapHef31sR58JFq+0HrFP5BjOoObPKjdFHCw=",
-      "OpenBetsBeta.Shared.dll": "sha256-4DMbcNoNhWStpRni145rdcU9d5OXPSQTbTP3H8FnLsQ=",
-      "OpenBetsBeta.Client.dll": "sha256-UHiQKWDvBi+a7yKNFsOsSv99PcufgD80te\/+UoeAcvM="
+      "OpenBetsBeta.Shared.dll": "sha256-TnYZaXnParO3Oj4LeIT26WcE8lBsNllYM2Om0+2RRfs=",
+      "OpenBetsBeta.Client.dll": "sha256-3CTxGmMDwORnRH8pSH3Dh2x6MEEyGDHOvpKBd3\/0AdQ="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "OpenBetsBeta.Shared.pdb": "sha256-dH2GGgl9jvSveS9GIpvThoxUFpG4qFPgg7\/HCG3rShE=",
-      "OpenBetsBeta.Client.pdb": "sha256-KfYOg03M2Hr0ybMNgGDzS+N2GXrFkA6B+YZG7sO59Ek="
+      "OpenBetsBeta.Shared.pdb": "sha256-T\/k2NA8NIHl\/EBy6kkfxMTg8k1EbYxOSSnAVz2\/GBjM=",
+      "OpenBetsBeta.Client.pdb": "sha256-tyyzFlKcP10hKpUYBGlXrU28E7jBiAs0ppppZa5ZUoA="
     },
     "runtime": {
       "dotnet.6.0.0.e1ygqxteqp.js": "sha256-LOq52qjRa3+zt3w4UL10rS3UdwHxVQxW0JAsMPO9QAM=",

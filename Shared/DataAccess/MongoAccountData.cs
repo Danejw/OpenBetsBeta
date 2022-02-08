@@ -1,6 +1,6 @@
 ﻿namespace OpenBets.Shared.DataAccess;
 
-internal class MongoAccountData : IAccountData
+public class MongoAccountData : IAccountData
 {
    private readonly IMongoCollection<Account> _accounts;
 

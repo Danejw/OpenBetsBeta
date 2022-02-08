@@ -1,7 +1,219 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
 
-Welcome to your new app.
+<PageTitle>OpenBets</PageTitle>
+
+<div class="container">
+    <h1 class="text-center">OpenBets</h1>
+    <br>
+</div>
+
+<br>
+    <h2>Search Options</h2>
+<br>
+<h4>Selected Organisation: @selectedOrganisation</h4>
+<h4>Selected Event: @selectedEvent</h4>
+<h4>Search Text: @searchText</h4>
+<h4>Sort By New: @isSortedByNew</h4>
+<br>
+
+<!--Accounts-->
+<div class="container">
+    <h2>Accounts:</h2>
+    <table class="table table-striped table-bordered">
+
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>ObjectId</th>
+                <th>Name</th>
+                <th>DateCreated</th>
+                <th>Public Key</th>
+                <th>Description</th>
+                <th>Reserves</th>
+                <th>Locked</th>
+                <th>PastBets</th>
+                <th>PendingBets</th>
+                <th>OpenBets</th>
+            </tr>
+        </thead>
+
+        <!--
+        <tbody>
+            @foreach (var account in accounts)
+            {
+                <tr>
+                    <td>@account.Id</td>
+                    <td>@account.ObjectIdentifier</td>
+                    <td>@account.Name</td>
+                    <td>@account.CreatedDate</td>
+                    <td>@account.PublicAddress</td>
+                    <td>@account.Description</td>
+                    <td>@account.Reserves</td>
+                    <td>@account.Locked</td>
+                    <td>@account.PastBets</td>
+                    <td>@account.PendingBets</td>
+                    <td>@account.OpenBets</td>                 
+                </tr>
+            }          
+        </tbody>
+        -->
+
+    </table>
+</div>
+
+<!--Organisations-->
+<div class="container">
+    <h2>Organisations:</h2>
+        <table class="table table-striped table-bordered">
+
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>DateCreated</th>
+                <th>Description</th>
+                <th>Events</th>
+            </tr>
+        </thead>
+
+        <!--
+        <tbody>
+            @foreach (var org in organisations)
+            {
+                <tr>
+                    <td>@org.Id</td>
+                    <td>@org.Name</td>
+                    <td>@org.Description</td>
+                    <td>@org.CreatedDate</td>
+                    <td>@org.Events</td>             
+                </tr>
+            }          
+        </tbody>
+        -->
+
+    </table>
+</div>
+
+<!--Events-->
+<div class="container">
+    <h2>Events:</h2>
+            <table class="table table-striped table-bordered">
+
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>DateCreated</th>
+                <th>ScheduledDate</th>
+                <th>SubEvents</th>
+                <th>isDone</th>
+            </tr>
+        </thead>
+
+        <!--
+        <tbody>
+            @foreach (var e in events)
+            {
+                <tr>
+                    <td>@e.Id</td>
+                    <td>@e.Name</td>
+                    <td>@e.Description</td>
+                    <td>@e.CreatedDateTime</td>
+                    <td>@e.ScheduledDateTime</td>
+                    <td>@e.SubEvents</td>             
+                    <td>@e.IsDone</td>             
+                </tr>
+            }          
+        </tbody>
+        -->
+
+    </table>
+</div>
+
+<!--SubEvents-->
+<div class="container">
+    <h2>SubEvents:</h2>
+    <table class="table table-striped table-bordered">
+
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>DateCreated</th>
+                <th>ScheduledDate</th>
+                <th>isDone</th>
+            </tr>
+        </thead>
+
+        <!--
+        <tbody>
+            @foreach (var sub in subEvents)
+            {
+                <tr>
+                    <td>@sub.Id</td>
+                    <td>@sub.Name</td>
+                    <td>@sub.Description</td>
+                    <td>@sub.CreateDateTime</td>
+                    <td>@sub.ScheduledDateTime</td>
+                    <td>@sub.IsDone</td>             
+                </tr>
+            }          
+        </tbody>
+        -->
+
+    </table>
+</div>
+
+<!--Bets-->
+<div class="container">
+    <h2>Bets:</h2>
+    <table class="table table-striped table-bordered">
+
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>TransactionId</th>
+                <th>DateCreated</th>
+                <th>ScheduledDate</th>
+                <th>Address1</th>
+                <th>Address2</th>
+                <th>Event</th>
+                <th>SubEvent</th>
+                <th>Stake</th>
+                <th>Winner</th>
+                <th>Loser</th>
+                <th>IsDone</th>
+            </tr>
+        </thead>
+
+        <!--
+        <tbody>
+            @foreach (var bet in bets)
+            {
+                <tr>
+                    <td>@bet.Id</td>
+                    <td>@bet.TransactionId</td>
+                    <td>@bet.CreatedDateTime</td>
+                    <td>@bet.ScheduledDateTime</td>
+                    <td>@bet.Address1</td>
+                    <td>@bet.Address2</td>
+                    <td>@bet.Event</td>
+                    <td>@bet.SubEvent</td>
+                    <td>@bet.Stake</td>
+                    <td>@bet.Winner</td>
+                    <td>@bet.Loser</td>
+                    <td>@bet.IsDone</td>             
+                </tr>
+            }          
+        </tbody>
+        -->
+
+    </table>
+</div>
+
+
+

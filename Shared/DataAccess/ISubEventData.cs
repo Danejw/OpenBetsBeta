@@ -1,7 +1,7 @@
 ﻿
 namespace OpenBetsBeta.Shared.DataAccess;
 
-internal interface ISubEventData
+public interface ISubEventData
 {
    Task CreateSubEvent(Organisation org, Event parEvent, SubEvent subEvent);
    Task<SubEvent> GetEventAsync(string id);

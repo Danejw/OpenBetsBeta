@@ -1,7 +1,7 @@
 ﻿
 namespace OpenBetsBeta.Shared.DataAccess;
 
-internal interface IBetData
+public interface IBetData
 {
    Task CreateBet(Bet bet);
    Task<Bet> GetBetAsync(string id);

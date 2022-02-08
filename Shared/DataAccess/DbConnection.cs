@@ -2,7 +2,7 @@
 
 namespace OpenBets.Shared.DataAccess;
 
-internal class DbConnection : IDbConnection
+public class DbConnection : IDbConnection
 {
    private readonly IConfiguration _config;
    private readonly IMongoDatabase _db;

@@ -2,7 +2,7 @@
 
 namespace OpenBetsBeta.Shared.DataAccess;
 
-internal class MongoEventData : IEventData
+public class MongoEventData : IEventData
 {
    private readonly IMongoCollection<Event> _events;
    private readonly IMemoryCache _cache;

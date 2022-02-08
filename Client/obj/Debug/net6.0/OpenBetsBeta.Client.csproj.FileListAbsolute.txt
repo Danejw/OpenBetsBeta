@@ -857,6 +857,7 @@ C:\Users\RecallableFacts\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\O
 C:\Users\RecallableFacts\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\OpenBetsBeta.Client.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\ref\OpenBetsBeta.Client.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\OpenBetsBeta.Client.pdb
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\DnsClient.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.0.e1ygqxteqp.js
@@ -901,6 +902,11 @@ C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwro
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\MongoDB.Libmongocrypt.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\mscorlib.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\netstandard.dll
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Client.dll
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Client.pdb
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Shared.dll
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Shared.pdb
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\Radzen.Blazor.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\SharpCompress.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.AppContext.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Buffers.dll
@@ -956,6 +962,7 @@ C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwro
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipes.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Linq.dll
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Dynamic.Core.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Expressions.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Parallel.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Queryable.dll
@@ -1075,6 +1082,7 @@ C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwro
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll.gz
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Shared.pdb.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebClient.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
@@ -1182,6 +1190,7 @@ C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwro
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebSockets.Client.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll.gz
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Dynamic.Core.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Core.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Extensions.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll.gz
@@ -1223,6 +1232,7 @@ C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwro
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Memory.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Registry.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\SharpCompress.dll.gz
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\Radzen.Blazor.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Private.Xml.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Primitives.dll.gz
@@ -1240,6 +1250,7 @@ C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwro
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Formats.Asn1.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Overlapped.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Client.pdb.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\WindowsBase.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\DnsClient.dll.gz
@@ -1254,6 +1265,7 @@ C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwro
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Queryable.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Client.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Web.HttpUtility.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Private.CoreLib.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Transactions.Local.dll.gz
@@ -1262,24 +1274,12 @@ C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwro
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Timer.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.VisualBasic.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XDocument.dll.gz
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Shared.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\icudt_CJK.dat.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.ServiceProcess.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.Sockets.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Client.dll
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Client.pdb
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Shared.dll
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Shared.pdb
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\Radzen.Blazor.dll
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Dynamic.Core.dll
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Shared.pdb.gz
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Dynamic.Core.dll.gz
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\Radzen.Blazor.dll.gz
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Client.pdb.gz
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Client.dll.gz
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Shared.dll.gz
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\service-worker.js
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\wwwroot\service-worker-assets.js
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\bin\Debug\net6.0\OpenBetsBeta.Client.staticwebassets.runtime.json

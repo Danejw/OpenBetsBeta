@@ -3,7 +3,7 @@ using OpenBets.Shared.DataAccess;
 
 namespace OpenBetsBeta.Shared.DataAccess;
 
-internal class MongoBetData : IBetData
+public class MongoBetData : IBetData
 {
    private readonly IMongoCollection<Bet> _bets;
    private readonly IMemoryCache _cache;

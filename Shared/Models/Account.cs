@@ -1,6 +1,6 @@
 ﻿namespace OpenBets.Shared.Models;
 
-internal class Account
+public class Account
 {
     [BsonId] // unique identifer
     [BsonRepresentation(BsonType.ObjectId)] // object id representation

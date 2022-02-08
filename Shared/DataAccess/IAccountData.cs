@@ -1,7 +1,7 @@
 ﻿
 namespace OpenBets.Shared.DataAccess;
 
-internal interface IAccountData
+public interface IAccountData
 {
    Task CreateAccount(Account account);
    Task<Account> GetAccount(string id);

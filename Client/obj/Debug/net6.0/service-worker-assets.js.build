@@ -189,12 +189,20 @@
       "url": "_framework\/MongoDB.Libmongocrypt.dll"
     },
     {
+      "hash": "sha256-QSZCVNTY\/KF9TzrCvUp5opMp+UAVkNr1Z7Be5AfYZ2M=",
+      "url": "_framework\/Radzen.Blazor.dll"
+    },
+    {
       "hash": "sha256-g6OkB2E3tHVhjYz074TwY\/qKeHk14HgEWYjivSizy68=",
       "url": "_framework\/SharpCompress.dll"
     },
     {
       "hash": "sha256-82Azhz6bwUir2bGFgxIgFUe0ecr6JTEuxlnxtWpds+I=",
       "url": "_framework\/System.IO.Pipelines.dll"
+    },
+    {
+      "hash": "sha256-+dlU8yi5zWnF9GeqOTl26t\/y5vllHc9O3mEwXdQjP7M=",
+      "url": "_framework\/System.Linq.Dynamic.Core.dll"
     },
     {
       "hash": "sha256-EGpAt7kwlRUTVib4sRhW2WM6jM0n4g3HdFLpAtTGRQk=",
@@ -889,19 +897,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-BVpqvj4gr9b0vmFx4N9Daa5YyjH\/jLBwDTmbJ9++ZvI=",
+      "hash": "sha256-TnYZaXnParO3Oj4LeIT26WcE8lBsNllYM2Om0+2RRfs=",
       "url": "_framework\/OpenBetsBeta.Shared.dll"
     },
     {
-      "hash": "sha256-eoN2Z+MAXAsoPiMHOz+tb+Q1HOzXeONfzJJmP9zgOSc=",
+      "hash": "sha256-T\/k2NA8NIHl\/EBy6kkfxMTg8k1EbYxOSSnAVz2\/GBjM=",
       "url": "_framework\/OpenBetsBeta.Shared.pdb"
     },
     {
-      "hash": "sha256-PTHxhYhACfbomf6j+e1RoAVRhByKyb3SZEoMXoCnd8c=",
+      "hash": "sha256-mCSMFRdejDN945xfb9So08KtSxsLASPi4hiue7oWosE=",
       "url": "_framework\/OpenBetsBeta.Client.dll"
     },
     {
-      "hash": "sha256-Xd4+N78+FPqknuPNby38DlEs0RVh8yDiRVRVMvEfIuw=",
+      "hash": "sha256-VA5VctTWN9\/G5y1g6cJF8aAb8VHeVASmfM3HsopfG7U=",
       "url": "_framework\/OpenBetsBeta.Client.pdb"
     },
     {
@@ -909,16 +917,8 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-iyXiJ9SY1VV7cAi3nwhQ2LkpJogy4PgqHCaVCSHv4io=",
+      "hash": "sha256-3Yi+Xi+bfJJGSaa4gqZcTtBGSVR28Sk9QLoD7L+79pM=",
       "url": "_framework\/blazor.boot.json"
-    },
-    {
-      "hash": "sha256-QSZCVNTY\/KF9TzrCvUp5opMp+UAVkNr1Z7Be5AfYZ2M=",
-      "url": "_framework\/Radzen.Blazor.dll"
-    },
-    {
-      "hash": "sha256-+dlU8yi5zWnF9GeqOTl26t\/y5vllHc9O3mEwXdQjP7M=",
-      "url": "_framework\/System.Linq.Dynamic.Core.dll"
     },
     {
       "hash": "sha256-aKCLZSE+EJ3M8bFaetBrmsFs0+\/SWYYlSmyDKlOzrsk=",
@@ -1029,5 +1029,5 @@
       "url": "_content\/Radzen.Blazor\/Radzen.Blazor.js"
     }
   ],
-  "version": "BxciDWNb"
+  "version": "gQWFX3nH"
 };

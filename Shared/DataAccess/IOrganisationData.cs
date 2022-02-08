@@ -1,7 +1,7 @@
 ﻿
 namespace OpenBetsBeta.Shared.DataAccess;
 
-internal interface IOrganisationData
+public interface IOrganisationData
 {
    Task CreateOrganisation(Organisation org);
    Task<Organisation> GetOrganisationAsync(string id);
