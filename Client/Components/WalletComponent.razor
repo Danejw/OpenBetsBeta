@@ -1,8 +1,59 @@
 ﻿@page "/wallet"
 
 
-<h3>WalletComponent</h3>
+<!--Accounts-->
+<div class="container">
+    <h2>Accounts:</h2>
+    <table class="table table-striped table-bordered">
+
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>ObjectId</th>
+                <th>Name</th>
+                <th>DateCreated</th>
+                <th>Public Key</th>
+                <th>Description</th>
+                <th>Reserves</th>
+                <th>Locked</th>
+                <th>PastBets</th>
+                <th>PendingBets</th>
+                <th>OpenBets</th>
+            </tr>
+        </thead>
+
+        <!--
+        <tbody>
+            @foreach (var account in accounts)
+            {
+                <tr>
+                    <td>@account.Id</td>
+                    <td>@account.ObjectIdentifier</td>
+                    <td>@account.Name</td>
+                    <td>@account.CreatedDate</td>
+                    <td>@account.PublicAddress</td>
+                    <td>@account.Description</td>
+                    <td>@account.Reserves</td>
+                    <td>@account.Locked</td>
+                    <td>@account.PastBets</td>
+                    <td>@account.PendingBets</td>
+                    <td>@account.OpenBets</td>                 
+                </tr>
+            }          
+        </tbody>
+        -->
+
+    </table>
+</div>
+
 
 @code {
+    private List<Account> accounts;
+    private readonly MongoAccountData accountData;
+
+    protected async override Task OnInitializedAsync()
+    {
+       accounts = await accountData.GetAccountsAsync();
+    }
 
 }

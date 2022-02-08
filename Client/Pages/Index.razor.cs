@@ -20,6 +20,7 @@ using OpenBetsBeta.Shared.DataAccess;
 namespace OpenBetsBeta.Client.Pages;
 public partial class Index
 {
+   /*
    private List<Organisation> organisations;
    private List<Event> events;
    private List<SubEvent> subEvents;
@@ -31,25 +32,26 @@ public partial class Index
    private readonly MongoSubEventData subEventData;
    private readonly MongoAccountData accountData;
    private readonly MongoBetData betData;
-
+   */
    private string selectedOrganisation = "All";
    private string selectedEvent = "All";
    private string searchText = "ufc";
    private bool isSortedByNew = true;
-
+   /*
    protected async override Task OnInitializedAsync()
    {
+      /*
       organisations = await organisationData.GetOrganisationsAsync();
       events = await eventData.GetEventsAsync();
       subEvents = await subEventData.GetSubEventsAsync();
       accounts = await accountData.GetAccountsAsync();
-      bets = await betData.GetBetsAsync();
+      
    }
-
+   
    protected override Task OnAfterRenderAsync(bool firstRender)
    {
       
-
+      
       organisations = new List<Organisation>();
 
       //creating sample organisations
@@ -63,5 +65,6 @@ public partial class Index
 
       return base.OnAfterRenderAsync(firstRender);
    }
+   */
 
 }

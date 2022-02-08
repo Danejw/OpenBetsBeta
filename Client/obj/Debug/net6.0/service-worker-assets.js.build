@@ -905,11 +905,11 @@
       "url": "_framework\/OpenBetsBeta.Shared.pdb"
     },
     {
-      "hash": "sha256-mCSMFRdejDN945xfb9So08KtSxsLASPi4hiue7oWosE=",
+      "hash": "sha256-\/Lz4rh+c0tc7u8Y8K6OIAbnxNWA2ZH4BRA+Mth63y0Y=",
       "url": "_framework\/OpenBetsBeta.Client.dll"
     },
     {
-      "hash": "sha256-VA5VctTWN9\/G5y1g6cJF8aAb8VHeVASmfM3HsopfG7U=",
+      "hash": "sha256-1xWl4BOek2OICo\/ir3f+j07Z21WXNB8AA393iXATm5g=",
       "url": "_framework\/OpenBetsBeta.Client.pdb"
     },
     {
@@ -917,7 +917,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-3Yi+Xi+bfJJGSaa4gqZcTtBGSVR28Sk9QLoD7L+79pM=",
+      "hash": "sha256-4MRC\/glpxSA+A+CTIwlhnZot9HbP+VsaNYEIYANVcr0=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1029,5 +1029,5 @@
       "url": "_content\/Radzen.Blazor\/Radzen.Blazor.js"
     }
   ],
-  "version": "gQWFX3nH"
+  "version": "qG2oyXBx"
 };

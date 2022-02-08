@@ -1,8 +1,50 @@
 ﻿@page "/organisation"
+@using Radzen
+@using Radzen.Blazor
 
 
-<h3>OrganisationComponent</h3>
+<!--Organisations-->
+<div class="container">
 
-@code {
+    <!--Title-->
+    <div align="left">
+        <h2>Organisations:</h2>
+    </div>
 
-}
+    <!--AddButton-->
+    <div align="right">
+        <RadzenButton 
+            Click=@CreateSampleOrganisations 
+            Text="Add New Organisation" 
+            ButtonStyle="ButtonStyle.Primary">
+        </RadzenButton>       
+    </div>
+
+    <!--Table-->
+    <table class="table table-striped table-bordered">
+
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>DateCreated</th>
+                <th>Events</th>
+            </tr>
+        </thead>
+
+       <!--
+        <tbody>
+                <tr>
+                    <td>@sample.Id</td>
+                    <td>@sample.Name</td>
+                    <td>@sample.Description</td>
+                    <td>@sample.CreatedDate</td>
+                    <td>@sample.Events</td>       
+                </tr>          
+        </tbody>
+        -->
+        
+
+    </table>
+</div>

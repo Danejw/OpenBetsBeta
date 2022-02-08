@@ -1,7 +1,59 @@
 ﻿@page "/bet"
 
-<h3>BetComponent</h3>
+<!--Bets-->
+<div class="container">
+    <h2>Bets:</h2>
+    <table class="table table-striped table-bordered">
+
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>TransactionId</th>
+                <th>DateCreated</th>
+                <th>ScheduledDate</th>
+                <th>Address1</th>
+                <th>Address2</th>
+                <th>Event</th>
+                <th>SubEvent</th>
+                <th>Stake</th>
+                <th>Winner</th>
+                <th>Loser</th>
+                <th>IsDone</th>
+            </tr>
+        </thead>
+
+        <!--
+        <tbody>
+            @foreach (var bet in bets)
+            {
+                <tr>
+                    <td>@bet.Id</td>
+                    <td>@bet.TransactionId</td>
+                    <td>@bet.CreatedDateTime</td>
+                    <td>@bet.ScheduledDateTime</td>
+                    <td>@bet.Address1</td>
+                    <td>@bet.Address2</td>
+                    <td>@bet.Event</td>
+                    <td>@bet.SubEvent</td>
+                    <td>@bet.Stake</td>
+                    <td>@bet.Winner</td>
+                    <td>@bet.Loser</td>
+                    <td>@bet.IsDone</td>             
+                </tr>
+            }          
+        </tbody>
+        -->
+
+    </table>
+</div>
 
 @code {
+    private List<Bet> bets;
+    private readonly MongoBetData betData;
+
+    protected async override Task OnInitializedAsync()
+    {
+       bets = await betData.GetBetsAsync();
+    }
 
 }
