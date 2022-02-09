@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_open_bets_beta_1_1_shared_1_1_data_access" kind="namespace" language="C#">
+    <compoundname>OpenBetsBeta::Shared::DataAccess</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/GlobalUsings.cs" line="5" column="44"/>
+  </compounddef>
+</doxygen>

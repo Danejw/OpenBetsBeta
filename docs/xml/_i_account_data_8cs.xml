@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_i_account_data_8cs" kind="file" language="C#">
+    <compoundname>IAccountData.cs</compoundname>
+    <innerclass refid="interface_i_account_data" prot="public">IAccountData</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">OpenBets.Shared.DataAccess;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="interface_i_account_data" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_i_account_data" kindref="compound">IAccountData</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/>Task<sp/><ref refid="interface_i_account_data_1a02eef0c635ebd245a041d96569dcc4a3" kindref="member">CreateAccount</ref>(<ref refid="class_account" kindref="compound">Account</ref><sp/>account);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/>Task&lt;Account&gt;<sp/><ref refid="interface_i_account_data_1a823fbd40cf55bad6c534f983f88bdac1" kindref="member">GetAccount</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/>Task&lt;Account&gt;<sp/><ref refid="interface_i_account_data_1a9d8647b5b7f323b03279e40dfead7171" kindref="member">GetAccountFromAutentication</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>objectId);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/>Task&lt;List&lt;Account&gt;&gt;<sp/><ref refid="interface_i_account_data_1a5fc5d7cab9247b567b35e00ff5d0a7bd" kindref="member">GetAccountsAsync</ref>();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/>Task<sp/><ref refid="interface_i_account_data_1a3e0ca20963709b383ac9943554cb30ff" kindref="member">UpdateAccount</ref>(<ref refid="class_account" kindref="compound">Account</ref><sp/>account);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/IAccountData.cs"/>
+  </compounddef>
+</doxygen>

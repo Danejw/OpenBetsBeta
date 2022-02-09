@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_client_2wwwroot_2css_2open-iconic_2_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">[Open<sp/>Iconic<sp/>v1.1.1](http://useiconic.com/open)</highlight></codeline>
+<codeline><highlight class="normal">===========</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Open<sp/>Iconic<sp/>is<sp/>the<sp/>open<sp/>source<sp/>sibling<sp/>of<sp/>[Iconic](http://useiconic.com).<sp/>It<sp/>is<sp/>a<sp/>hyper-legible<sp/>collection<sp/>of<sp/>223<sp/>icons<sp/>with<sp/>a<sp/>tiny<sp/>footprint&amp;mdash;ready<sp/>to<sp/>use<sp/>with<sp/>Bootstrap<sp/>and<sp/>Foundation.<sp/>[View<sp/>the<sp/>collection](http://useiconic.com/open#icons)</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>What&apos;s<sp/>in<sp/>Open<sp/>Iconic?</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>223<sp/>icons<sp/>designed<sp/>to<sp/>be<sp/>legible<sp/>down<sp/>to<sp/>8<sp/>pixels</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Super-light<sp/>SVG<sp/>files<sp/>-<sp/>61.8<sp/>for<sp/>the<sp/>entire<sp/>set<sp/></highlight></codeline>
+<codeline><highlight class="normal">*<sp/>SVG<sp/>sprite&amp;mdash;the<sp/>modern<sp/>replacement<sp/>for<sp/>icon<sp/>fonts</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Webfont<sp/>(EOT,<sp/>OTF,<sp/>SVG,<sp/>TTF,<sp/>WOFF),<sp/>PNG<sp/>and<sp/>WebP<sp/>formats</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Webfont<sp/>stylesheets<sp/>(including<sp/>versions<sp/>for<sp/>Bootstrap<sp/>and<sp/>Foundation)<sp/>in<sp/>CSS,<sp/>LESS,<sp/>SCSS<sp/>and<sp/>Stylus<sp/>formats</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>PNG<sp/>and<sp/>WebP<sp/>raster<sp/>images<sp/>in<sp/>8px,<sp/>16px,<sp/>24px,<sp/>32px,<sp/>48px<sp/>and<sp/>64px.</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Getting<sp/>Started</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>For<sp/>code<sp/>samples<sp/>and<sp/>everything<sp/>else<sp/>you<sp/>need<sp/>to<sp/>get<sp/>started<sp/>with<sp/>Open<sp/>Iconic,<sp/>check<sp/>out<sp/>our<sp/>[Icons](http://useiconic.com/open#icons)<sp/>and<sp/>[Reference](http://useiconic.com/open#reference)<sp/>sections.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>General<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Using<sp/>Open<sp/>Iconic&apos;s<sp/>SVGs</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">We<sp/>like<sp/>SVGs<sp/>and<sp/>we<sp/>think<sp/>they&apos;re<sp/>the<sp/>way<sp/>to<sp/>display<sp/>icons<sp/>on<sp/>the<sp/>web.<sp/>Since<sp/>Open<sp/>Iconic<sp/>are<sp/>just<sp/>basic<sp/>SVGs,<sp/>we<sp/>suggest<sp/>you<sp/>display<sp/>them<sp/>like<sp/>you<sp/>would<sp/>any<sp/>other<sp/>image<sp/>(don&apos;t<sp/>forget<sp/>the<sp/>`alt`<sp/>attribute).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">&lt;img<sp/>src=&quot;/open-iconic/svg/icon-name.svg&quot;<sp/>alt=&quot;icon<sp/>name&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Using<sp/>Open<sp/>Iconic&apos;s<sp/>SVG<sp/>Sprite</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Open<sp/>Iconic<sp/>also<sp/>comes<sp/>in<sp/>a<sp/>SVG<sp/>sprite<sp/>which<sp/>allows<sp/>you<sp/>to<sp/>display<sp/>all<sp/>the<sp/>icons<sp/>in<sp/>the<sp/>set<sp/>with<sp/>a<sp/>single<sp/>request.<sp/>It&apos;s<sp/>like<sp/>an<sp/>icon<sp/>font,<sp/>without<sp/>being<sp/>a<sp/>hack.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Adding<sp/>an<sp/>icon<sp/>from<sp/>an<sp/>SVG<sp/>sprite<sp/>is<sp/>a<sp/>little<sp/>different<sp/>than<sp/>what<sp/>you&apos;re<sp/>used<sp/>to,<sp/>but<sp/>it&apos;s<sp/>still<sp/>a<sp/>piece<sp/>of<sp/>cake.<sp/>*Tip:<sp/>To<sp/>make<sp/>your<sp/>icons<sp/>easily<sp/>style<sp/>able,<sp/>we<sp/>suggest<sp/>adding<sp/>a<sp/>general<sp/>class<sp/>to<sp/>the*<sp/>`&lt;svg&gt;`<sp/>*tag<sp/>and<sp/>a<sp/>unique<sp/>class<sp/>name<sp/>for<sp/>each<sp/>different<sp/>icon<sp/>in<sp/>the*<sp/>`&lt;use&gt;`<sp/>*tag.*<sp/><sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">&lt;svg<sp/>class=&quot;icon&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;use<sp/>xlink:href=&quot;open-iconic.svg#account-login&quot;<sp/>class=&quot;icon-account-login&quot;&gt;&lt;/use&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/svg&gt;</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Sizing<sp/>icons<sp/>only<sp/>needs<sp/>basic<sp/>CSS.<sp/>All<sp/>the<sp/>icons<sp/>are<sp/>in<sp/>a<sp/>square<sp/>format,<sp/>so<sp/>just<sp/>set<sp/>the<sp/>`&lt;svg&gt;`<sp/>tag<sp/>with<sp/>equal<sp/>width<sp/>and<sp/>height<sp/>dimensions.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">.icon<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>width:<sp/>16px;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>height:<sp/>16px;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Coloring<sp/>icons<sp/>is<sp/>even<sp/>easier.<sp/>All<sp/>you<sp/>need<sp/>to<sp/>do<sp/>is<sp/>set<sp/>the<sp/>`fill`<sp/>rule<sp/>on<sp/>the<sp/>`&lt;use&gt;`<sp/>tag.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">.icon-account-login<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>fill:<sp/>#f00;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">To<sp/>learn<sp/>more<sp/>about<sp/>SVG<sp/>Sprites,<sp/>read<sp/>[Chris<sp/>Coyier&apos;s<sp/>guide](http://css-tricks.com/svg-sprites-use-better-icon-fonts/).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Using<sp/>Open<sp/>Iconic&apos;s<sp/>Icon<sp/>Font...</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#####<sp/>…with<sp/>Bootstrap</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">You<sp/>can<sp/>find<sp/>our<sp/>Bootstrap<sp/>stylesheets<sp/>in<sp/>`font/css/open-iconic-bootstrap.{css,<sp/>less,<sp/>scss,<sp/>styl}`</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">&lt;link<sp/>href=&quot;/open-iconic/font/css/open-iconic-bootstrap.css&quot;<sp/>rel=&quot;stylesheet&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">&lt;span<sp/>class=&quot;oi<sp/>oi-icon-name&quot;<sp/>title=&quot;icon<sp/>name&quot;<sp/>aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#####<sp/>…with<sp/>Foundation</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">You<sp/>can<sp/>find<sp/>our<sp/>Foundation<sp/>stylesheets<sp/>in<sp/>`font/css/open-iconic-foundation.{css,<sp/>less,<sp/>scss,<sp/>styl}`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">&lt;link<sp/>href=&quot;/open-iconic/font/css/open-iconic-foundation.css&quot;<sp/>rel=&quot;stylesheet&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">&lt;span<sp/>class=&quot;fi-icon-name&quot;<sp/>title=&quot;icon<sp/>name&quot;<sp/>aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#####<sp/>…on<sp/>its<sp/>own</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">You<sp/>can<sp/>find<sp/>our<sp/>default<sp/>stylesheets<sp/>in<sp/>`font/css/open-iconic.{css,<sp/>less,<sp/>scss,<sp/>styl}`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">&lt;link<sp/>href=&quot;/open-iconic/font/css/open-iconic.css&quot;<sp/>rel=&quot;stylesheet&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">&lt;span<sp/>class=&quot;oi&quot;<sp/>data-glyph=&quot;icon-name&quot;<sp/>title=&quot;icon<sp/>name&quot;<sp/>aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>License</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Icons</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">All<sp/>code<sp/>(including<sp/>SVG<sp/>markup)<sp/>is<sp/>under<sp/>the<sp/>[MIT<sp/>License](http://opensource.org/licenses/MIT).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Fonts</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">All<sp/>fonts<sp/>are<sp/>under<sp/>the<sp/>[SIL<sp/>Licensed](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web).</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/wwwroot/css/open-iconic/README.md"/>
+  </compounddef>
+</doxygen>

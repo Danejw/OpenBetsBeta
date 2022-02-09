@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_open_bets_beta_1_1_server_1_1_pages_1_1_error_model" kind="class" language="C#" prot="public">
+    <compoundname>OpenBetsBeta::Server::Pages::ErrorModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PageModel</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_open_bets_beta_1_1_server_1_1_pages_1_1_error_model_1a5bf4cedc9d740ed16eb3bf4a6d3cde48" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? OpenBetsBeta.Server.Pages.ErrorModel.RequestId</definition>
+        <argsstring></argsstring>
+        <name>RequestId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Pages/Error.cshtml.cs" line="11" column="23" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Pages/Error.cshtml.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_open_bets_beta_1_1_server_1_1_pages_1_1_error_model_1a9c1978e31c3ed8c70f87c1c7556f6800" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool OpenBetsBeta.Server.Pages.ErrorModel.ShowRequestId</definition>
+        <argsstring></argsstring>
+        <name>ShowRequestId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Pages/Error.cshtml.cs" line="13" column="21" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Pages/Error.cshtml.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_open_bets_beta_1_1_server_1_1_pages_1_1_error_model_1a783b72ce0e3fb39b7a9d5c1e129c95d2" prot="private" static="no" mutable="no">
+        <type>readonly ILogger&lt; <ref refid="class_open_bets_beta_1_1_server_1_1_pages_1_1_error_model" kindref="compound">ErrorModel</ref> &gt;</type>
+        <definition>readonly ILogger&lt;ErrorModel&gt; OpenBetsBeta.Server.Pages.ErrorModel._logger</definition>
+        <argsstring></argsstring>
+        <name>_logger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Pages/Error.cshtml.cs" line="15" column="34" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Pages/Error.cshtml.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_open_bets_beta_1_1_server_1_1_pages_1_1_error_model_1ab2da70a456c2abc011b8bdd460e5c576" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OpenBetsBeta.Server.Pages.ErrorModel.ErrorModel</definition>
+        <argsstring>(ILogger&lt; ErrorModel &gt; logger)</argsstring>
+        <name>ErrorModel</name>
+        <param>
+          <type>ILogger&lt; <ref refid="class_open_bets_beta_1_1_server_1_1_pages_1_1_error_model" kindref="compound">ErrorModel</ref> &gt;</type>
+          <declname>logger</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Pages/Error.cshtml.cs" line="17" column="16" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Pages/Error.cshtml.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_open_bets_beta_1_1_server_1_1_pages_1_1_error_model_1a9ee57d4daa56864964d7e66e4a02b812" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OpenBetsBeta.Server.Pages.ErrorModel.OnGet</definition>
+        <argsstring>()</argsstring>
+        <name>OnGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Pages/Error.cshtml.cs" line="22" column="21" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Pages/Error.cshtml.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>OpenBetsBeta.Server.Pages.ErrorModel</label>
+        <link refid="class_open_bets_beta_1_1_server_1_1_pages_1_1_error_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PageModel</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>OpenBetsBeta.Server.Pages.ErrorModel</label>
+        <link refid="class_open_bets_beta_1_1_server_1_1_pages_1_1_error_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PageModel</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Pages/Error.cshtml.cs" line="9" column="11" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Pages/Error.cshtml.cs" bodystart="10" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_open_bets_beta_1_1_server_1_1_pages_1_1_error_model_1a783b72ce0e3fb39b7a9d5c1e129c95d2" prot="private" virt="non-virtual"><scope>OpenBetsBeta::Server::Pages::ErrorModel</scope><name>_logger</name></member>
+      <member refid="class_open_bets_beta_1_1_server_1_1_pages_1_1_error_model_1ab2da70a456c2abc011b8bdd460e5c576" prot="public" virt="non-virtual"><scope>OpenBetsBeta::Server::Pages::ErrorModel</scope><name>ErrorModel</name></member>
+      <member refid="class_open_bets_beta_1_1_server_1_1_pages_1_1_error_model_1a9ee57d4daa56864964d7e66e4a02b812" prot="public" virt="non-virtual"><scope>OpenBetsBeta::Server::Pages::ErrorModel</scope><name>OnGet</name></member>
+      <member refid="class_open_bets_beta_1_1_server_1_1_pages_1_1_error_model_1a5bf4cedc9d740ed16eb3bf4a6d3cde48" prot="public" virt="non-virtual"><scope>OpenBetsBeta::Server::Pages::ErrorModel</scope><name>RequestId</name></member>
+      <member refid="class_open_bets_beta_1_1_server_1_1_pages_1_1_error_model_1a9c1978e31c3ed8c70f87c1c7556f6800" prot="public" virt="non-virtual"><scope>OpenBetsBeta::Server::Pages::ErrorModel</scope><name>ShowRequestId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

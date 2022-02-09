@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_organisation_component_8razor_8cs" kind="file" language="C#">
+    <compoundname>OrganisationComponent.razor.cs</compoundname>
+    <innerclass refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component" prot="public">OpenBetsBeta::Client::Components::OrganisationComponent</innerclass>
+    <innernamespace refid="namespace_open_bets_beta">OpenBetsBeta</innernamespace>
+    <innernamespace refid="namespace_open_bets_beta_1_1_client">OpenBetsBeta::Client</innernamespace>
+    <innernamespace refid="namespace_open_bets_beta_1_1_client_1_1_components">OpenBetsBeta::Client::Components</innernamespace>
+    <innernamespace refid="namespace_system">System</innernamespace>
+    <innernamespace refid="namespace_system_1_1_collections_1_1_generic">System::Collections::Generic</innernamespace>
+    <innernamespace refid="namespace_system_1_1_linq">System::Linq</innernamespace>
+    <innernamespace refid="namespace_system_1_1_threading_1_1_tasks">System::Threading::Tasks</innernamespace>
+    <innernamespace refid="namespace_microsoft_1_1_asp_net_core_1_1_components">Microsoft::AspNetCore::Components</innernamespace>
+    <innernamespace refid="namespace_system_1_1_net_1_1_http">System::Net::Http</innernamespace>
+    <innernamespace refid="namespace_system_1_1_net_1_1_http_1_1_json">System::Net::Http::Json</innernamespace>
+    <innernamespace refid="namespace_microsoft_1_1_asp_net_core_1_1_components_1_1_forms">Microsoft::AspNetCore::Components::Forms</innernamespace>
+    <innernamespace refid="namespace_microsoft_1_1_asp_net_core_1_1_components_1_1_routing">Microsoft::AspNetCore::Components::Routing</innernamespace>
+    <innernamespace refid="namespace_microsoft_1_1_asp_net_core_1_1_components_1_1_web">Microsoft::AspNetCore::Components::Web</innernamespace>
+    <innernamespace refid="namespace_microsoft_1_1_asp_net_core_1_1_components_1_1_web_1_1_virtualization">Microsoft::AspNetCore::Components::Web::Virtualization</innernamespace>
+    <innernamespace refid="namespace_microsoft_1_1_asp_net_core_1_1_components_1_1_web_assembly_1_1_http">Microsoft::AspNetCore::Components::WebAssembly::Http</innernamespace>
+    <innernamespace refid="namespace_microsoft_1_1_j_s_interop">Microsoft::JSInterop</innernamespace>
+    <innernamespace refid="namespace_open_bets_beta_1_1_client_1_1_shared">OpenBetsBeta::Client::Shared</innernamespace>
+    <innernamespace refid="namespace_radzen_1_1_blazor">Radzen::Blazor</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Components;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Net.Http;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Net.Http.Json;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Components.Forms;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Components.Routing;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Components.Web;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Components.Web.Virtualization;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Components.WebAssembly.Http;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.JSInterop;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_open_bets_beta" kindref="compound">OpenBetsBeta</ref>.<ref refid="namespace_open_bets_beta_1_1_client" kindref="compound">Client</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_open_bets_beta" kindref="compound">OpenBetsBeta</ref>.<ref refid="namespace_open_bets_beta_1_1_client" kindref="compound">Client</ref>.Shared;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Radzen.Blazor;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="namespace_open_bets_beta" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_open_bets_beta_1_1_client_1_1_components" kindref="compound">OpenBetsBeta.Client.Components</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20" refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">partial<sp/>class<sp/></highlight><highlight class="normal"><ref refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component" kindref="compound">OrganisationComponent</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>RadzenDataGrid&lt;Organisation&gt;<sp/>table;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>IEnumerable&lt;Organisation&gt;<sp/>organisations;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_mongo_organisation_data" kindref="compound">MongoOrganisationData</ref><sp/>organisationData;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>count;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_organisation" kindref="compound">Organisation</ref><sp/>sample;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//private<sp/>string<sp/>selectedOrganisation<sp/>=<sp/>&quot;All&quot;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>async<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/>Task<sp/><ref refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1adddf14309b83ca1b40a411efc43b456e" kindref="member">OnInitializedAsync</ref>()</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>organisations<sp/>=<sp/>await<sp/>organisationData.<ref refid="class_mongo_organisation_data_1a74fef2e885f04a56c706400d8baeb66f" kindref="member">GetOrganisationsAsync</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/>Task<sp/><ref refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1afd5eedf5e058c81e7c7534f0db4aaa9d" kindref="member">OnAfterRenderAsync</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>firstRender)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sample<sp/>=<sp/><ref refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1a503972bc6d468876143e375a4cd79944" kindref="member">CreateOrganisation</ref>(</highlight><highlight class="stringliteral">&quot;UFC&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>base.OnAfterRenderAsync(firstRender);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CreateSampleOrganisations()</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//organisations<sp/>=<sp/>await<sp/>organisationData.GetOrganisationsAsync();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>table.InsertRow(<ref refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1a503972bc6d468876143e375a4cd79944" kindref="member">CreateOrganisation</ref>(</highlight><highlight class="stringliteral">&quot;UFC&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>table.InsertRow(<ref refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1a503972bc6d468876143e375a4cd79944" kindref="member">CreateOrganisation</ref>(</highlight><highlight class="stringliteral">&quot;NFL&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>table.InsertRow(<ref refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1a503972bc6d468876143e375a4cd79944" kindref="member">CreateOrganisation</ref>(</highlight><highlight class="stringliteral">&quot;MBA&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_organisation" kindref="compound">Organisation</ref><sp/><ref refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1a503972bc6d468876143e375a4cd79944" kindref="member">CreateOrganisation</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_organisation" kindref="compound">Organisation</ref><sp/>org<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_organisation" kindref="compound">Organisation</ref>();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>org.<ref refid="class_organisation_1a0b30418341cbdc1d2ac725530cb40aa8" kindref="member">Id</ref><sp/>=<sp/>count++.ToString();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>org.<ref refid="class_organisation_1a4c7b13e649071b0125072b117d95287b" kindref="member">Name</ref><sp/>=<sp/>name;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>org.<ref refid="class_organisation_1ac50511de0d03942434ec3566a89fc49e" kindref="member">Description</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>org.<ref refid="class_organisation_1a194d842708d8243a6891bb3f27658f62" kindref="member">CreatedDate</ref><sp/>=<sp/>DateTime.UtcNow;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>org.<ref refid="class_organisation_1a87e37e35cca8a4afba645d91d4e4d586" kindref="member">Events</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>List&lt;Event&gt;();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>org;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Console.Out.WriteLine(&quot;Added<sp/>New<sp/>Organisation:<sp/>&quot;<sp/>+<sp/>org.Name);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//await<sp/>organisationData.CreateOrganisation(org);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs"/>
+  </compounddef>
+</doxygen>

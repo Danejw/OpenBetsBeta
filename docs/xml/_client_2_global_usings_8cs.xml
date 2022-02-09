@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_client_2_global_usings_8cs" kind="file" language="C#">
+    <compoundname>GlobalUsings.cs</compoundname>
+    <innernamespace refid="namespace_mongo_d_b_1_1_bson">MongoDB::Bson</innernamespace>
+    <innernamespace refid="namespace_mongo_d_b_1_1_driver">MongoDB::Driver</innernamespace>
+    <innernamespace refid="namespace_open_bets_1_1_shared_1_1_models">OpenBets::Shared::Models</innernamespace>
+    <innernamespace refid="namespace_open_bets_1_1_shared_1_1_data_access">OpenBets::Shared::DataAccess</innernamespace>
+    <innernamespace refid="namespace_open_bets_beta_1_1_shared_1_1_data_access">OpenBetsBeta::Shared::DataAccess</innernamespace>
+    <innernamespace refid="namespace_open_bets_beta_1_1_client_1_1_pages">OpenBetsBeta::Client::Pages</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>MongoDB.Bson;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>MongoDB.Driver;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>OpenBets.Shared.Models;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>OpenBets.Shared.DataAccess;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_open_bets_beta" kindref="compound">OpenBetsBeta</ref>.Shared.DataAccess;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_open_bets_beta" kindref="compound">OpenBetsBeta</ref>.<ref refid="namespace_open_bets_beta_1_1_client" kindref="compound">Client</ref>.Pages;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/GlobalUsings.cs"/>
+  </compounddef>
+</doxygen>

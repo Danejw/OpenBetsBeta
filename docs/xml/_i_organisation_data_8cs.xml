@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_i_organisation_data_8cs" kind="file" language="C#">
+    <compoundname>IOrganisationData.cs</compoundname>
+    <innerclass refid="interface_i_organisation_data" prot="public">IOrganisationData</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">OpenBetsBeta.Shared.DataAccess;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="interface_i_organisation_data" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_i_organisation_data" kindref="compound">IOrganisationData</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/>Task<sp/><ref refid="interface_i_organisation_data_1aa7cf09485c3442d8607869651f8ce3e7" kindref="member">CreateOrganisation</ref>(<ref refid="class_organisation" kindref="compound">Organisation</ref><sp/>org);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/>Task&lt;Organisation&gt;<sp/><ref refid="interface_i_organisation_data_1a7227c9e7e1bf409dda34b4ae8540c166" kindref="member">GetOrganisationAsync</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/>Task&lt;List&lt;Organisation&gt;&gt;<sp/><ref refid="interface_i_organisation_data_1a07b66ae93363a9f96c8fefc39515647f" kindref="member">GetOrganisationsAsync</ref>();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/>Task<sp/><ref refid="interface_i_organisation_data_1a77e246255f9788cc6ffe5ab2395452e6" kindref="member">UpdateOrganisation</ref>(<ref refid="class_organisation" kindref="compound">Organisation</ref><sp/>org);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/IOrganisationData.cs"/>
+  </compounddef>
+</doxygen>

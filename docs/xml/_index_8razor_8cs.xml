@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_index_8razor_8cs" kind="file" language="C#">
+    <compoundname>Index.razor.cs</compoundname>
+    <innerclass refid="class_index" prot="public">Index</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Components;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Net.Http;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Net.Http.Json;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Components.Forms;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Components.Routing;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Components.Web;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Components.Web.Virtualization;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Components.WebAssembly.Http;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.JSInterop;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_open_bets_beta" kindref="compound">OpenBetsBeta</ref>.<ref refid="namespace_open_bets_beta_1_1_client" kindref="compound">Client</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_open_bets_beta" kindref="compound">OpenBetsBeta</ref>.<ref refid="namespace_open_bets_beta_1_1_client" kindref="compound">Client</ref>.Shared;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>OpenBets.Shared.DataAccess;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_open_bets_beta" kindref="compound">OpenBetsBeta</ref>.Shared.DataAccess;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">OpenBetsBeta.Client.Pages;</highlight></codeline>
+<codeline lineno="21" refid="class_index" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">partial<sp/>class<sp/></highlight><highlight class="normal"><ref refid="class_index" kindref="compound">Index</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/><sp/><sp/>private<sp/>List&lt;Organisation&gt;<sp/>organisations;</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/><sp/><sp/>private<sp/>List&lt;Event&gt;<sp/>events;</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/><sp/><sp/>private<sp/>List&lt;SubEvent&gt;<sp/>subEvents;</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/><sp/><sp/>private<sp/>List&lt;Bet&gt;<sp/>bets;</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/><sp/><sp/>private<sp/>List&lt;Account&gt;<sp/>accounts;</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/>private<sp/>readonly<sp/>MongoOrganisationData<sp/>organisationData;</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/><sp/><sp/>private<sp/>readonly<sp/>MongoEventData<sp/>eventData;</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/>private<sp/>readonly<sp/>MongoSubEventData<sp/>subEventData;</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/>private<sp/>readonly<sp/>MongoAccountData<sp/>accountData;</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/>private<sp/>readonly<sp/>MongoBetData<sp/>betData;</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>selectedOrganisation<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;All&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>selectedEvent<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;All&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>searchText<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;ufc&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isSortedByNew<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/>protected<sp/>async<sp/>override<sp/>Task<sp/>OnInitializedAsync()</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>/*</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>organisations<sp/>=<sp/>await<sp/>organisationData.GetOrganisationsAsync();</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>events<sp/>=<sp/>await<sp/>eventData.GetEventsAsync();</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>subEvents<sp/>=<sp/>await<sp/>subEventData.GetSubEventsAsync();</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>accounts<sp/>=<sp/>await<sp/>accountData.GetAccountsAsync();</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/>protected<sp/>override<sp/>Task<sp/>OnAfterRenderAsync(bool<sp/>firstRender)</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>organisations<sp/>=<sp/>new<sp/>List&lt;Organisation&gt;();</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"></highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>//creating<sp/>sample<sp/>organisations</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>Organisation<sp/>ufc<sp/>=<sp/>new<sp/>Organisation();</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>ufc.Name<sp/>=<sp/>&quot;UFC&quot;;</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>Organisation<sp/>nfl<sp/>=<sp/>new<sp/>Organisation();</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>nfl.Name<sp/>=<sp/>&quot;NFL&quot;;</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"></highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>organisations.Add(ufc);</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>organisations.Add(nfl);</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"></highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>base.OnAfterRenderAsync(firstRender);</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Pages/Index.razor.cs"/>
+  </compounddef>
+</doxygen>

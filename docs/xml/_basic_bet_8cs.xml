@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_basic_bet_8cs" kind="file" language="C#">
+    <compoundname>BasicBet.cs</compoundname>
+    <innerclass refid="class_basic_bet" prot="public">BasicBet</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">OpenBets.Shared.Models;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_basic_bet" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_basic_bet" kindref="compound">BasicBet</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>[BsonRepresentation(BsonType.ObjectId)]<sp/></highlight><highlight class="comment">//<sp/>object<sp/>id<sp/>representation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_basic_bet_1ad74d96a3572ae8d7ca2e9a5d3ea2c4f7" kindref="member">Id</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_basic_bet_1aafda1f66054015dfb88c516ac13e2650" kindref="member">TransactionId</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>DateTime<sp/><ref refid="class_basic_bet_1aa6fb83cd8f07f9e963ed1341317a60a3" kindref="member">ScheduledDateTime</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_event" kindref="compound">Event</ref><sp/><ref refid="class_event" kindref="compound">Event</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_sub_event" kindref="compound">SubEvent</ref><sp/><ref refid="class_sub_event" kindref="compound">SubEvent</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_basic_bet_1a8fdc1247c271555266118e93244a1e2a" kindref="member">Winner</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_basic_bet_1a9ab0ec7bd916f5efd7fb6fc9aa68b1fa" kindref="member">Loser</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_basic_bet_1abfc9e623e7c33c1a4325b06b46ef0c73" kindref="member">Stake</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_basic_bet_1a1488dfa086ce872f0a923147a27a2cdf" kindref="member">BasicBet</ref>()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_basic_bet_1a1488dfa086ce872f0a923147a27a2cdf" kindref="member">BasicBet</ref>(<ref refid="class_bet" kindref="compound">Bet</ref><sp/>bet)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_basic_bet_1ad74d96a3572ae8d7ca2e9a5d3ea2c4f7" kindref="member">Id</ref><sp/>=<sp/>bet.<ref refid="class_bet_1a2d8498c107d960007a9442731cf2cd0c" kindref="member">Id</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_basic_bet_1aafda1f66054015dfb88c516ac13e2650" kindref="member">TransactionId</ref><sp/>=<sp/>bet.<ref refid="class_bet_1a2a186a17f597ab134271244306f2343e" kindref="member">TransactionId</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_basic_bet_1aa6fb83cd8f07f9e963ed1341317a60a3" kindref="member">ScheduledDateTime</ref><sp/>=<sp/>bet.<ref refid="class_bet_1a8606d48dbed5dc11607ea0a202546f11" kindref="member">ScheduledDateTime</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_event" kindref="compound">Event</ref><sp/>=<sp/>bet.<ref refid="class_bet_1ab916b88aa584b20652f1a2ef44321daf" kindref="member">Event</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_sub_event" kindref="compound">SubEvent</ref><sp/>=<sp/>bet.<ref refid="class_bet_1a2b13fd5d45b7106535c79431fcf71471" kindref="member">SubEvent</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_basic_bet_1a8fdc1247c271555266118e93244a1e2a" kindref="member">Winner</ref><sp/>=<sp/>bet.<ref refid="class_bet_1a683e4c98b70e92fc2296406ea61156d5" kindref="member">Winner</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_basic_bet_1a9ab0ec7bd916f5efd7fb6fc9aa68b1fa" kindref="member">Loser</ref><sp/>=<sp/>bet.<ref refid="class_bet_1ac922602f6db3746d0fbd3c5dcc0fafe4" kindref="member">Loser</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_basic_bet_1abfc9e623e7c33c1a4325b06b46ef0c73" kindref="member">Stake</ref><sp/>=<sp/>bet.<ref refid="class_bet_1a74934bacc1fc4e34863d5ced7e8f8921" kindref="member">Stake</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs"/>
+  </compounddef>
+</doxygen>

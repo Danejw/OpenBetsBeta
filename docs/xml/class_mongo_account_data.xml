@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_mongo_account_data" kind="class" language="C#" prot="public">
+    <compoundname>MongoAccountData</compoundname>
+    <basecompoundref refid="interface_i_account_data" prot="public" virt="non-virtual">IAccountData</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mongo_account_data_1a0b28f08b064081743baed2407538bd3c" prot="private" static="no" mutable="no">
+        <type>readonly IMongoCollection&lt; <ref refid="class_account" kindref="compound">Account</ref> &gt;</type>
+        <definition>readonly IMongoCollection&lt;Account&gt; MongoAccountData._accounts</definition>
+        <argsstring></argsstring>
+        <name>_accounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs" line="5" column="38" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mongo_account_data_1a4bc2a9ff0aa1f42fdf4afd14742d9dd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MongoAccountData.MongoAccountData</definition>
+        <argsstring>(IDbConnection db)</argsstring>
+        <name>MongoAccountData</name>
+        <param>
+          <type><ref refid="interface_i_db_connection" kindref="compound">IDbConnection</ref></type>
+          <declname>db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs" line="8" column="11" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_account_data_1a6f8240bd654e1c41b3e273e44ef2b93f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; List&lt; <ref refid="class_account" kindref="compound">Account</ref> &gt; &gt;</type>
+        <definition>async Task&lt; List&lt; Account &gt; &gt; MongoAccountData.GetAccountsAsync</definition>
+        <argsstring>()</argsstring>
+        <name>GetAccountsAsync</name>
+        <reimplements refid="interface_i_account_data_1a5fc5d7cab9247b567b35e00ff5d0a7bd">GetAccountsAsync</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs" line="13" column="22" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_account_data_1a9392f756feaa44b2064cca1282d8b854" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_account" kindref="compound">Account</ref> &gt;</type>
+        <definition>async Task&lt; Account &gt; MongoAccountData.GetAccount</definition>
+        <argsstring>(string id)</argsstring>
+        <name>GetAccount</name>
+        <reimplements refid="interface_i_account_data_1a823fbd40cf55bad6c534f983f88bdac1">GetAccount</reimplements>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs" line="19" column="22" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_account_data_1a9b9d6ed5f6db21abf120724ec6b1bdf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_account" kindref="compound">Account</ref> &gt;</type>
+        <definition>async Task&lt; Account &gt; MongoAccountData.GetAccountFromAutentication</definition>
+        <argsstring>(string objectId)</argsstring>
+        <name>GetAccountFromAutentication</name>
+        <reimplements refid="interface_i_account_data_1a9d8647b5b7f323b03279e40dfead7171">GetAccountFromAutentication</reimplements>
+        <param>
+          <type>string</type>
+          <declname>objectId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs" line="25" column="22" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_account_data_1ac64a5c6664be6810379cb79d0a703afe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task MongoAccountData.CreateAccount</definition>
+        <argsstring>(Account account)</argsstring>
+        <name>CreateAccount</name>
+        <reimplements refid="interface_i_account_data_1a02eef0c635ebd245a041d96569dcc4a3">CreateAccount</reimplements>
+        <param>
+          <type><ref refid="class_account" kindref="compound">Account</ref></type>
+          <declname>account</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs" line="31" column="16" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_account_data_1ace995058405a35a320c12ca23f07d67c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task MongoAccountData.UpdateAccount</definition>
+        <argsstring>(Account account)</argsstring>
+        <name>UpdateAccount</name>
+        <reimplements refid="interface_i_account_data_1a3e0ca20963709b383ac9943554cb30ff">UpdateAccount</reimplements>
+        <param>
+          <type><ref refid="class_account" kindref="compound">Account</ref></type>
+          <declname>account</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs" line="36" column="16" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs" bodystart="36" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IAccountData</label>
+        <link refid="interface_i_account_data"/>
+      </node>
+      <node id="1">
+        <label>MongoAccountData</label>
+        <link refid="class_mongo_account_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IAccountData</label>
+        <link refid="interface_i_account_data"/>
+      </node>
+      <node id="1">
+        <label>MongoAccountData</label>
+        <link refid="class_mongo_account_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs" line="3" column="7" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs" bodystart="4" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_mongo_account_data_1a0b28f08b064081743baed2407538bd3c" prot="private" virt="non-virtual"><scope>MongoAccountData</scope><name>_accounts</name></member>
+      <member refid="class_mongo_account_data_1ac64a5c6664be6810379cb79d0a703afe" prot="public" virt="non-virtual"><scope>MongoAccountData</scope><name>CreateAccount</name></member>
+      <member refid="class_mongo_account_data_1a9392f756feaa44b2064cca1282d8b854" prot="public" virt="non-virtual"><scope>MongoAccountData</scope><name>GetAccount</name></member>
+      <member refid="class_mongo_account_data_1a9b9d6ed5f6db21abf120724ec6b1bdf2" prot="public" virt="non-virtual"><scope>MongoAccountData</scope><name>GetAccountFromAutentication</name></member>
+      <member refid="class_mongo_account_data_1a6f8240bd654e1c41b3e273e44ef2b93f" prot="public" virt="non-virtual"><scope>MongoAccountData</scope><name>GetAccountsAsync</name></member>
+      <member refid="class_mongo_account_data_1a4bc2a9ff0aa1f42fdf4afd14742d9dd8" prot="public" virt="non-virtual"><scope>MongoAccountData</scope><name>MongoAccountData</name></member>
+      <member refid="class_mongo_account_data_1ace995058405a35a320c12ca23f07d67c" prot="public" virt="non-virtual"><scope>MongoAccountData</scope><name>UpdateAccount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

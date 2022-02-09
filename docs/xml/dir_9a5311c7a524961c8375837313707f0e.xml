@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_9a5311c7a524961c8375837313707f0e" kind="dir">
+    <compoundname>C:/Users/RecallableFacts/Documents/GitHub/OpenBets</compoundname>
+    <innerdir refid="dir_d7b177f809a268f6ad758575413edf31">C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client</innerdir>
+    <innerdir refid="dir_645eb568627c5901ee1868199281f4ec">C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server</innerdir>
+    <innerdir refid="dir_2b7ec9c392e900d18a70ec9a1b0128d0">C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/"/>
+  </compounddef>
+</doxygen>

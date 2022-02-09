@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_mongo_account_data_8cs" kind="file" language="C#">
+    <compoundname>MongoAccountData.cs</compoundname>
+    <innerclass refid="class_mongo_account_data" prot="public">MongoAccountData</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">OpenBets.Shared.DataAccess;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_mongo_account_data" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_mongo_account_data" kindref="compound">MongoAccountData</ref><sp/>:<sp/><ref refid="interface_i_account_data" kindref="compound">IAccountData</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/>IMongoCollection&lt;Account&gt;<sp/>_accounts;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_mongo_account_data_1a4bc2a9ff0aa1f42fdf4afd14742d9dd8" kindref="member">MongoAccountData</ref>(<ref refid="interface_i_db_connection" kindref="compound">IDbConnection</ref><sp/>db)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>_accounts<sp/>=<sp/>db.<ref refid="interface_i_db_connection_1ac03129a2476429c8592939a4fa492de0" kindref="member">AccountCollection</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>async<sp/>Task&lt;List&lt;Account&gt;&gt;<sp/><ref refid="class_mongo_account_data_1a6f8240bd654e1c41b3e273e44ef2b93f" kindref="member">GetAccountsAsync</ref>()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>results<sp/>=<sp/>await<sp/>_accounts.FindAsync(_<sp/>=&gt;<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>results.ToList();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>async<sp/>Task&lt;Account&gt;<sp/><ref refid="class_mongo_account_data_1a9392f756feaa44b2064cca1282d8b854" kindref="member">GetAccount</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>results<sp/>=<sp/>await<sp/>_accounts.FindAsync(u<sp/>=&gt;<sp/>u.Id<sp/>==<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>results.FirstOrDefault();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>async<sp/>Task&lt;Account&gt;<sp/><ref refid="class_mongo_account_data_1a9b9d6ed5f6db21abf120724ec6b1bdf2" kindref="member">GetAccountFromAutentication</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>objectId)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>results<sp/>=<sp/>await<sp/>_accounts.FindAsync(u<sp/>=&gt;<sp/>u.ObjectIdentifier<sp/>==<sp/>objectId);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>results.FirstOrDefault();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Task<sp/><ref refid="class_mongo_account_data_1ac64a5c6664be6810379cb79d0a703afe" kindref="member">CreateAccount</ref>(<ref refid="class_account" kindref="compound">Account</ref><sp/>account)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_accounts.InsertOneAsync(account);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Task<sp/><ref refid="class_mongo_account_data_1ace995058405a35a320c12ca23f07d67c" kindref="member">UpdateAccount</ref>(<ref refid="class_account" kindref="compound">Account</ref><sp/>account)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>filter<sp/>=<sp/>Builders&lt;Account&gt;.Filter.Eq(</highlight><highlight class="stringliteral">&quot;Id&quot;</highlight><highlight class="normal">,<sp/>account.<ref refid="class_account_1a103773d8e2bdb473844aaa419a641860" kindref="member">Id</ref>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_accounts.ReplaceOneAsync(filter,<sp/>account,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ReplaceOptions<sp/>{<sp/>IsUpsert<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>});</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoAccountData.cs"/>
+  </compounddef>
+</doxygen>

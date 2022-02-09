@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_basic_bet" kind="class" language="C#" prot="public">
+    <compoundname>BasicBet</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_basic_bet_1ad74d96a3572ae8d7ca2e9a5d3ea2c4f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BasicBet.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" line="6" column="19" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_basic_bet_1aafda1f66054015dfb88c516ac13e2650" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BasicBet.TransactionId</definition>
+        <argsstring></argsstring>
+        <name>TransactionId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" line="7" column="19" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="class_basic_bet_1aa6fb83cd8f07f9e963ed1341317a60a3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime BasicBet.ScheduledDateTime</definition>
+        <argsstring></argsstring>
+        <name>ScheduledDateTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" line="9" column="21" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_basic_bet_1afd16e19944368a1e5696cfdc5c973ded" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_event" kindref="compound">Event</ref></type>
+        <definition>Event BasicBet.Event</definition>
+        <argsstring></argsstring>
+        <name>Event</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" line="11" column="18" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_basic_bet_1a8cdd2f02cbf501efbf34341efea5baa0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_sub_event" kindref="compound">SubEvent</ref></type>
+        <definition>SubEvent BasicBet.SubEvent</definition>
+        <argsstring></argsstring>
+        <name>SubEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" line="12" column="21" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_basic_bet_1a8fdc1247c271555266118e93244a1e2a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BasicBet.Winner</definition>
+        <argsstring></argsstring>
+        <name>Winner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" line="14" column="19" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_basic_bet_1a9ab0ec7bd916f5efd7fb6fc9aa68b1fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BasicBet.Loser</definition>
+        <argsstring></argsstring>
+        <name>Loser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" line="15" column="19" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_basic_bet_1abfc9e623e7c33c1a4325b06b46ef0c73" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float BasicBet.Stake</definition>
+        <argsstring></argsstring>
+        <name>Stake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" line="16" column="18" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_basic_bet_1a1488dfa086ce872f0a923147a27a2cdf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BasicBet.BasicBet</definition>
+        <argsstring>()</argsstring>
+        <name>BasicBet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" line="18" column="12" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_basic_bet_1ada6187cc098e23c46e347f491401cafa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BasicBet.BasicBet</definition>
+        <argsstring>(Bet bet)</argsstring>
+        <name>BasicBet</name>
+        <param>
+          <type><ref refid="class_bet" kindref="compound">Bet</ref></type>
+          <declname>bet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" line="23" column="12" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" bodystart="23" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" line="3" column="7" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/Models/BasicBet.cs" bodystart="4" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_basic_bet_1a1488dfa086ce872f0a923147a27a2cdf" prot="public" virt="non-virtual"><scope>BasicBet</scope><name>BasicBet</name></member>
+      <member refid="class_basic_bet_1ada6187cc098e23c46e347f491401cafa" prot="public" virt="non-virtual"><scope>BasicBet</scope><name>BasicBet</name></member>
+      <member refid="class_basic_bet_1afd16e19944368a1e5696cfdc5c973ded" prot="public" virt="non-virtual"><scope>BasicBet</scope><name>Event</name></member>
+      <member refid="class_basic_bet_1ad74d96a3572ae8d7ca2e9a5d3ea2c4f7" prot="public" virt="non-virtual"><scope>BasicBet</scope><name>Id</name></member>
+      <member refid="class_basic_bet_1a9ab0ec7bd916f5efd7fb6fc9aa68b1fa" prot="public" virt="non-virtual"><scope>BasicBet</scope><name>Loser</name></member>
+      <member refid="class_basic_bet_1aa6fb83cd8f07f9e963ed1341317a60a3" prot="public" virt="non-virtual"><scope>BasicBet</scope><name>ScheduledDateTime</name></member>
+      <member refid="class_basic_bet_1abfc9e623e7c33c1a4325b06b46ef0c73" prot="public" virt="non-virtual"><scope>BasicBet</scope><name>Stake</name></member>
+      <member refid="class_basic_bet_1a8cdd2f02cbf501efbf34341efea5baa0" prot="public" virt="non-virtual"><scope>BasicBet</scope><name>SubEvent</name></member>
+      <member refid="class_basic_bet_1aafda1f66054015dfb88c516ac13e2650" prot="public" virt="non-virtual"><scope>BasicBet</scope><name>TransactionId</name></member>
+      <member refid="class_basic_bet_1a8fdc1247c271555266118e93244a1e2a" prot="public" virt="non-virtual"><scope>BasicBet</scope><name>Winner</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

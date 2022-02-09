@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_i_sub_event_data_8cs" kind="file" language="C#">
+    <compoundname>ISubEventData.cs</compoundname>
+    <innerclass refid="interface_i_sub_event_data" prot="public">ISubEventData</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">OpenBetsBeta.Shared.DataAccess;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="interface_i_sub_event_data" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_i_sub_event_data" kindref="compound">ISubEventData</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/>Task<sp/><ref refid="interface_i_sub_event_data_1a2c9b6f2cace272b426711c215a55caa5" kindref="member">CreateSubEvent</ref>(<ref refid="class_organisation" kindref="compound">Organisation</ref><sp/>org,<sp/><ref refid="class_event" kindref="compound">Event</ref><sp/>parEvent,<sp/><ref refid="class_sub_event" kindref="compound">SubEvent</ref><sp/>subEvent);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/>Task&lt;SubEvent&gt;<sp/><ref refid="interface_i_sub_event_data_1a8fdeb6a1ecd556d4f52e20588699b7a5" kindref="member">GetEventAsync</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/>Task&lt;List&lt;SubEvent&gt;&gt;<sp/><ref refid="interface_i_sub_event_data_1ab176ca3a177bc8d85ceaa11f6cf0ac73" kindref="member">GetSubEventsAsync</ref>();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/>Task<sp/><ref refid="interface_i_sub_event_data_1a2d70a931b1fba760f9bfbd8409b445a9" kindref="member">UpdateSubEvent</ref>(<ref refid="class_organisation" kindref="compound">Organisation</ref><sp/>org,<sp/><ref refid="class_event" kindref="compound">Event</ref><sp/>parEvent,<sp/><ref refid="class_sub_event" kindref="compound">SubEvent</ref><sp/>subEvent);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/ISubEventData.cs"/>
+  </compounddef>
+</doxygen>

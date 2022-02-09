@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e" kind="page">
+    <compoundname>md_C__Users_RecallableFacts_Documents_GitHub_OpenBets_Client_wwwroot_css_open_iconic_README</compoundname>
+    <title>&lt;a href=&quot;http://useiconic.com/open&quot; &gt;Open Iconic v1.1.1&lt;/a&gt;</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect2 id="md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_1autotoc_md0">
+<title>Open Iconic is the open source sibling of &lt;a href=&quot;http://useiconic.com&quot; &gt;Iconic&lt;/a&gt;. It is a hyper-legible collection of 223 icons with a tiny footprint—ready to use with Bootstrap and Foundation. &lt;a href=&quot;http://useiconic.com/open#icons&quot; &gt;View the collection&lt;/a&gt;</title>
+</sect2>
+<sect1 id="md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_1autotoc_md1">
+<title>What&apos;s in Open Iconic?</title>
+<para><itemizedlist>
+<listitem><para>223 icons designed to be legible down to 8 pixels</para>
+</listitem><listitem><para>Super-light SVG files - 61.8 for the entire set</para>
+</listitem><listitem><para>SVG sprite<mdash/>the modern replacement for icon fonts</para>
+</listitem><listitem><para>Webfont (EOT, OTF, SVG, TTF, WOFF), PNG and WebP formats</para>
+</listitem><listitem><para>Webfont stylesheets (including versions for Bootstrap and Foundation) in CSS, LESS, SCSS and Stylus formats</para>
+</listitem><listitem><para>PNG and WebP raster images in 8px, 16px, 24px, 32px, 48px and 64px.</para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_1autotoc_md2">
+<title>Getting Started</title>
+<sect3 id="md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_1autotoc_md3">
+<title>For code samples and everything else you need to get started with Open Iconic, check out our &lt;a href=&quot;http://useiconic.com/open#icons&quot; &gt;Icons&lt;/a&gt; and &lt;a href=&quot;http://useiconic.com/open#reference&quot; &gt;Reference&lt;/a&gt; sections.</title>
+</sect3>
+<sect2 id="md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_1autotoc_md4">
+<title>General Usage</title>
+<sect3 id="md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_1autotoc_md5">
+<title>Using Open Iconic&apos;s SVGs</title>
+<para>We like SVGs and we think they&apos;re the way to display icons on the web. Since Open Iconic are just basic SVGs, we suggest you display them like you would any other image (don&apos;t forget the <computeroutput>alt</computeroutput> attribute).</para>
+<para><programlisting><codeline><highlight class="normal">&lt;img<sp/>src=&quot;/open-iconic/svg/icon-name.svg&quot;<sp/>alt=&quot;icon<sp/>name&quot;&gt;</highlight></codeline>
+</programlisting></para>
+</sect3>
+<sect3 id="md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_1autotoc_md6">
+<title>Using Open Iconic&apos;s SVG Sprite</title>
+<para>Open Iconic also comes in a SVG sprite which allows you to display all the icons in the set with a single request. It&apos;s like an icon font, without being a hack.</para>
+<para>Adding an icon from an SVG sprite is a little different than what you&apos;re used to, but it&apos;s still a piece of cake. <emphasis>Tip: To make your icons easily style able, we suggest adding a general class to the</emphasis> <computeroutput>&lt;svg&gt;</computeroutput> <emphasis>tag and a unique class name for each different icon in the</emphasis> <computeroutput>&lt;use&gt;</computeroutput> <emphasis>tag.</emphasis> <linebreak/>
+</para>
+<para><programlisting><codeline><highlight class="normal">&lt;svg<sp/>class=&quot;icon&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;use<sp/>xlink:href=&quot;open-iconic.svg#account-login&quot;<sp/>class=&quot;icon-account-login&quot;&gt;&lt;/use&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/svg&gt;</highlight></codeline>
+</programlisting></para>
+<para>Sizing icons only needs basic CSS. All the icons are in a square format, so just set the <computeroutput>&lt;svg&gt;</computeroutput> tag with equal width and height dimensions.</para>
+<para><programlisting><codeline><highlight class="normal">.icon<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>width:<sp/>16px;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>height:<sp/>16px;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para>
+<para>Coloring icons is even easier. All you need to do is set the <computeroutput>fill</computeroutput> rule on the <computeroutput>&lt;use&gt;</computeroutput> tag.</para>
+<para><programlisting><codeline><highlight class="normal">.icon-account-login<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>fill:<sp/>#f00;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para>
+<para>To learn more about SVG Sprites, read <ulink url="http://css-tricks.com/svg-sprites-use-better-icon-fonts/">Chris Coyier&apos;s guide</ulink>.</para>
+</sect3>
+<sect3 id="md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_1autotoc_md7">
+<title>Using Open Iconic&apos;s Icon Font...</title>
+<sect4 id="md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_1autotoc_md8">
+<title>…with Bootstrap</title>
+<para>You can find our Bootstrap stylesheets in <computeroutput>font/css/open-iconic-bootstrap.{css, less, scss, styl}</computeroutput></para>
+<para><programlisting><codeline><highlight class="normal">&lt;link<sp/>href=&quot;/open-iconic/font/css/open-iconic-bootstrap.css&quot;<sp/>rel=&quot;stylesheet&quot;&gt;</highlight></codeline>
+</programlisting></para>
+<para><programlisting><codeline><highlight class="normal">&lt;span<sp/>class=&quot;oi<sp/>oi-icon-name&quot;<sp/>title=&quot;icon<sp/>name&quot;<sp/>aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;</highlight></codeline>
+</programlisting></para>
+</sect4>
+<sect4 id="md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_1autotoc_md9">
+<title>…with Foundation</title>
+<para>You can find our Foundation stylesheets in <computeroutput>font/css/open-iconic-foundation.{css, less, scss, styl}</computeroutput></para>
+<para><programlisting><codeline><highlight class="normal">&lt;link<sp/>href=&quot;/open-iconic/font/css/open-iconic-foundation.css&quot;<sp/>rel=&quot;stylesheet&quot;&gt;</highlight></codeline>
+</programlisting></para>
+<para><programlisting><codeline><highlight class="normal">&lt;span<sp/>class=&quot;fi-icon-name&quot;<sp/>title=&quot;icon<sp/>name&quot;<sp/>aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;</highlight></codeline>
+</programlisting></para>
+</sect4>
+<sect4 id="md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_1autotoc_md10">
+<title>…on its own</title>
+<para>You can find our default stylesheets in <computeroutput>font/css/open-iconic.{css, less, scss, styl}</computeroutput></para>
+<para><programlisting><codeline><highlight class="normal">&lt;link<sp/>href=&quot;/open-iconic/font/css/open-iconic.css&quot;<sp/>rel=&quot;stylesheet&quot;&gt;</highlight></codeline>
+</programlisting></para>
+<para><programlisting><codeline><highlight class="normal">&lt;span<sp/>class=&quot;oi&quot;<sp/>data-glyph=&quot;icon-name&quot;<sp/>title=&quot;icon<sp/>name&quot;<sp/>aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;</highlight></codeline>
+</programlisting></para>
+</sect4>
+</sect3>
+</sect2>
+</sect1>
+<sect1 id="md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_1autotoc_md11">
+<title>License</title>
+<sect2 id="md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_1autotoc_md12">
+<title>Icons</title>
+<para>All code (including SVG markup) is under the <ulink url="http://opensource.org/licenses/MIT">MIT License</ulink>.</para>
+</sect2>
+<sect2 id="md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_1autotoc_md13">
+<title>Fonts</title>
+<para>All fonts are under the <ulink url="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web">SIL Licensed</ulink>. </para>
+</sect2>
+</sect1>
+    </detaileddescription>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/wwwroot/css/open-iconic/README.md"/>
+  </compounddef>
+</doxygen>

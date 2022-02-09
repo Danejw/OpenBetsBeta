@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_mongo_bet_data" kind="class" language="C#" prot="public">
+    <compoundname>MongoBetData</compoundname>
+    <basecompoundref refid="interface_i_bet_data" prot="public" virt="non-virtual">IBetData</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mongo_bet_data_1a2e6dd0e57ff6f5ac05a3f2fb554a41db" prot="private" static="no" mutable="no">
+        <type>readonly IMongoCollection&lt; <ref refid="class_bet" kindref="compound">Bet</ref> &gt;</type>
+        <definition>readonly IMongoCollection&lt;Bet&gt; MongoBetData._bets</definition>
+        <argsstring></argsstring>
+        <name>_bets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" line="8" column="38" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mongo_bet_data_1aeeded6e39aa678357c395c698d27110c" prot="private" static="no" mutable="no">
+        <type>readonly IMemoryCache</type>
+        <definition>readonly IMemoryCache MongoBetData._cache</definition>
+        <argsstring></argsstring>
+        <name>_cache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" line="9" column="34" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_mongo_bet_data_1abaf4795b53b3a00d158889b62d7ff4ea" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string MongoBetData.cacheName</definition>
+        <argsstring></argsstring>
+        <name>cacheName</name>
+        <initializer>= &quot;BetData&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" line="10" column="25" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mongo_bet_data_1abf5c1493de9b545cd058872f5cad9e28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MongoBetData.MongoBetData</definition>
+        <argsstring>(IDbConnection db, IMemoryCache cache)</argsstring>
+        <name>MongoBetData</name>
+        <param>
+          <type><ref refid="interface_i_db_connection" kindref="compound">IDbConnection</ref></type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>IMemoryCache</type>
+          <declname>cache</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" line="12" column="11" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_bet_data_1a3e32f8d0f552442f043f05b8e1908c40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; List&lt; <ref refid="class_bet" kindref="compound">Bet</ref> &gt; &gt;</type>
+        <definition>async Task&lt; List&lt; Bet &gt; &gt; MongoBetData.GetBetsAsync</definition>
+        <argsstring>()</argsstring>
+        <name>GetBetsAsync</name>
+        <reimplements refid="interface_i_bet_data_1a8cdbc0bb9e99821e5d00b2e9f067dec5">GetBetsAsync</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" line="18" column="22" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" bodystart="18" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_bet_data_1a540912504f8f166bdabe97acf4ee7fa2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_bet" kindref="compound">Bet</ref> &gt;</type>
+        <definition>async Task&lt; Bet &gt; MongoBetData.GetBetAsync</definition>
+        <argsstring>(string id)</argsstring>
+        <name>GetBetAsync</name>
+        <reimplements refid="interface_i_bet_data_1aec9ddf2e888242f8812b451248c0bc08">GetBetAsync</reimplements>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" line="34" column="22" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_bet_data_1adca2b3a178da4f13f258223405a53784" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task MongoBetData.CreateBet</definition>
+        <argsstring>(Bet bet)</argsstring>
+        <name>CreateBet</name>
+        <reimplements refid="interface_i_bet_data_1a781f0c2023bd85b479236b2260cca703">CreateBet</reimplements>
+        <param>
+          <type><ref refid="class_bet" kindref="compound">Bet</ref></type>
+          <declname>bet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" line="40" column="16" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_bet_data_1a345cb84b522a19f373c5a5da0d310827" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MongoBetData.MatchBet</definition>
+        <argsstring>(Bet bet)</argsstring>
+        <name>MatchBet</name>
+        <reimplements refid="interface_i_bet_data_1a045238dcc13efda5708c0e3faddb2647">MatchBet</reimplements>
+        <param>
+          <type><ref refid="class_bet" kindref="compound">Bet</ref></type>
+          <declname>bet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" line="45" column="16" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" bodystart="45" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IBetData</label>
+        <link refid="interface_i_bet_data"/>
+      </node>
+      <node id="1">
+        <label>MongoBetData</label>
+        <link refid="class_mongo_bet_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IBetData</label>
+        <link refid="interface_i_bet_data"/>
+      </node>
+      <node id="1">
+        <label>MongoBetData</label>
+        <link refid="class_mongo_bet_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" line="6" column="7" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoBetData.cs" bodystart="7" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_mongo_bet_data_1a2e6dd0e57ff6f5ac05a3f2fb554a41db" prot="private" virt="non-virtual"><scope>MongoBetData</scope><name>_bets</name></member>
+      <member refid="class_mongo_bet_data_1aeeded6e39aa678357c395c698d27110c" prot="private" virt="non-virtual"><scope>MongoBetData</scope><name>_cache</name></member>
+      <member refid="class_mongo_bet_data_1abaf4795b53b3a00d158889b62d7ff4ea" prot="private" virt="non-virtual"><scope>MongoBetData</scope><name>cacheName</name></member>
+      <member refid="class_mongo_bet_data_1adca2b3a178da4f13f258223405a53784" prot="public" virt="non-virtual"><scope>MongoBetData</scope><name>CreateBet</name></member>
+      <member refid="class_mongo_bet_data_1a540912504f8f166bdabe97acf4ee7fa2" prot="public" virt="non-virtual"><scope>MongoBetData</scope><name>GetBetAsync</name></member>
+      <member refid="class_mongo_bet_data_1a3e32f8d0f552442f043f05b8e1908c40" prot="public" virt="non-virtual"><scope>MongoBetData</scope><name>GetBetsAsync</name></member>
+      <member refid="class_mongo_bet_data_1a345cb84b522a19f373c5a5da0d310827" prot="public" virt="non-virtual"><scope>MongoBetData</scope><name>MatchBet</name></member>
+      <member refid="class_mongo_bet_data_1abf5c1493de9b545cd058872f5cad9e28" prot="public" virt="non-virtual"><scope>MongoBetData</scope><name>MongoBetData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

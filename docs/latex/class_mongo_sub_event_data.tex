@@ -1,0 +1,78 @@
+\hypertarget{class_mongo_sub_event_data}{}\doxysection{Mongo\+Sub\+Event\+Data Class Reference}
+\label{class_mongo_sub_event_data}\index{MongoSubEventData@{MongoSubEventData}}
+Inheritance diagram for Mongo\+Sub\+Event\+Data\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_mongo_sub_event_data}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_mongo_sub_event_data_aed3232d64b9a6f42b0da4bc19b43b2f8}{Mongo\+Sub\+Event\+Data}} (\mbox{\hyperlink{interface_i_db_connection}{IDb\+Connection}} db, IMemory\+Cache cache)
+\item 
+async Task$<$ List$<$ \mbox{\hyperlink{class_sub_event}{Sub\+Event}} $>$ $>$ \mbox{\hyperlink{class_mongo_sub_event_data_a69764280e198ce81dad3b2d081cf1cec}{Get\+Sub\+Events\+Async}} ()
+\item 
+async Task$<$ \mbox{\hyperlink{class_sub_event}{Sub\+Event}} $>$ \mbox{\hyperlink{class_mongo_sub_event_data_a326412625fc12330e0fbac181df32e14}{Get\+Event\+Async}} (string id)
+\item 
+Task \mbox{\hyperlink{class_mongo_sub_event_data_a390590c2fa38a97a1b60923d8af5c7d2}{Create\+Sub\+Event}} (\mbox{\hyperlink{class_organisation}{Organisation}} org, \mbox{\hyperlink{class_event}{Event}} par\+Event, \mbox{\hyperlink{class_sub_event}{Sub\+Event}} sub\+Event)
+\item 
+Task \mbox{\hyperlink{class_mongo_sub_event_data_a48df4e583f81e7300be4c0b189d71039}{Update\+Sub\+Event}} (\mbox{\hyperlink{class_organisation}{Organisation}} org, \mbox{\hyperlink{class_event}{Event}} par\+Event, \mbox{\hyperlink{class_sub_event}{Sub\+Event}} sub\+Event)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_mongo_sub_event_data_aed3232d64b9a6f42b0da4bc19b43b2f8}\label{class_mongo_sub_event_data_aed3232d64b9a6f42b0da4bc19b43b2f8}} 
+\index{MongoSubEventData@{MongoSubEventData}!MongoSubEventData@{MongoSubEventData}}
+\index{MongoSubEventData@{MongoSubEventData}!MongoSubEventData@{MongoSubEventData}}
+\doxysubsubsection{\texorpdfstring{MongoSubEventData()}{MongoSubEventData()}}
+{\footnotesize\ttfamily Mongo\+Sub\+Event\+Data.\+Mongo\+Sub\+Event\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_i_db_connection}{IDb\+Connection}}}]{db,  }\item[{IMemory\+Cache}]{cache }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_mongo_sub_event_data_a390590c2fa38a97a1b60923d8af5c7d2}\label{class_mongo_sub_event_data_a390590c2fa38a97a1b60923d8af5c7d2}} 
+\index{MongoSubEventData@{MongoSubEventData}!CreateSubEvent@{CreateSubEvent}}
+\index{CreateSubEvent@{CreateSubEvent}!MongoSubEventData@{MongoSubEventData}}
+\doxysubsubsection{\texorpdfstring{CreateSubEvent()}{CreateSubEvent()}}
+{\footnotesize\ttfamily Task Mongo\+Sub\+Event\+Data.\+Create\+Sub\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_organisation}{Organisation}}}]{org,  }\item[{\mbox{\hyperlink{class_event}{Event}}}]{par\+Event,  }\item[{\mbox{\hyperlink{class_sub_event}{Sub\+Event}}}]{sub\+Event }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_sub_event_data_a2c9b6f2cace272b426711c215a55caa5}{ISub\+Event\+Data}}.
+
+\mbox{\Hypertarget{class_mongo_sub_event_data_a326412625fc12330e0fbac181df32e14}\label{class_mongo_sub_event_data_a326412625fc12330e0fbac181df32e14}} 
+\index{MongoSubEventData@{MongoSubEventData}!GetEventAsync@{GetEventAsync}}
+\index{GetEventAsync@{GetEventAsync}!MongoSubEventData@{MongoSubEventData}}
+\doxysubsubsection{\texorpdfstring{GetEventAsync()}{GetEventAsync()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_sub_event}{Sub\+Event}} $>$ Mongo\+Sub\+Event\+Data.\+Get\+Event\+Async (\begin{DoxyParamCaption}\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_sub_event_data_a8fdeb6a1ecd556d4f52e20588699b7a5}{ISub\+Event\+Data}}.
+
+\mbox{\Hypertarget{class_mongo_sub_event_data_a69764280e198ce81dad3b2d081cf1cec}\label{class_mongo_sub_event_data_a69764280e198ce81dad3b2d081cf1cec}} 
+\index{MongoSubEventData@{MongoSubEventData}!GetSubEventsAsync@{GetSubEventsAsync}}
+\index{GetSubEventsAsync@{GetSubEventsAsync}!MongoSubEventData@{MongoSubEventData}}
+\doxysubsubsection{\texorpdfstring{GetSubEventsAsync()}{GetSubEventsAsync()}}
+{\footnotesize\ttfamily async Task$<$ List$<$ \mbox{\hyperlink{class_sub_event}{Sub\+Event}} $>$ $>$ Mongo\+Sub\+Event\+Data.\+Get\+Sub\+Events\+Async (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_sub_event_data_ab176ca3a177bc8d85ceaa11f6cf0ac73}{ISub\+Event\+Data}}.
+
+\mbox{\Hypertarget{class_mongo_sub_event_data_a48df4e583f81e7300be4c0b189d71039}\label{class_mongo_sub_event_data_a48df4e583f81e7300be4c0b189d71039}} 
+\index{MongoSubEventData@{MongoSubEventData}!UpdateSubEvent@{UpdateSubEvent}}
+\index{UpdateSubEvent@{UpdateSubEvent}!MongoSubEventData@{MongoSubEventData}}
+\doxysubsubsection{\texorpdfstring{UpdateSubEvent()}{UpdateSubEvent()}}
+{\footnotesize\ttfamily Task Mongo\+Sub\+Event\+Data.\+Update\+Sub\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_organisation}{Organisation}}}]{org,  }\item[{\mbox{\hyperlink{class_event}{Event}}}]{par\+Event,  }\item[{\mbox{\hyperlink{class_sub_event}{Sub\+Event}}}]{sub\+Event }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_sub_event_data_a2d70a931b1fba760f9bfbd8409b445a9}{ISub\+Event\+Data}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Recallable\+Facts/\+Documents/\+Git\+Hub/\+Open\+Bets/\+Shared/\+Data\+Access/\mbox{\hyperlink{_mongo_sub_event_data_8cs}{Mongo\+Sub\+Event\+Data.\+cs}}\end{DoxyCompactItemize}

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bjAYM1hnj2EF7tQpQGYcEI3A04G+UAOV6i2mVt8QOV4UQ/P5XxARgkIJUms07IGLaP49hYqBBM+FiFxjfmM7jA==",
+  "dgSpecHash": "cOIDgEWAq0Grqp95YYBvwWfNx+O6df+t7IQxrnA3FyzIC0B7XwGlffHuvO7PVPzMCWJPsINMqzJHUvIoUWVTzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Client\\OpenBetsBeta.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RecallableFacts\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
+    "C:\\Users\\RecallableFacts\\.nuget\\packages\\doxygen\\1.8.14\\doxygen.1.8.14.nupkg.sha512",
     "C:\\Users\\RecallableFacts\\.nuget\\packages\\libsassbuilder\\2.0.1\\libsassbuilder.2.0.1.nupkg.sha512",
     "C:\\Users\\RecallableFacts\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.0\\microsoft.aspnetcore.authorization.6.0.0.nupkg.sha512",
     "C:\\Users\\RecallableFacts\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.0\\microsoft.aspnetcore.components.6.0.0.nupkg.sha512",

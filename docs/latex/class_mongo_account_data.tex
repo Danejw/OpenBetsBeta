@@ -1,0 +1,90 @@
+\hypertarget{class_mongo_account_data}{}\doxysection{Mongo\+Account\+Data Class Reference}
+\label{class_mongo_account_data}\index{MongoAccountData@{MongoAccountData}}
+Inheritance diagram for Mongo\+Account\+Data\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_mongo_account_data}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_mongo_account_data_a4bc2a9ff0aa1f42fdf4afd14742d9dd8}{Mongo\+Account\+Data}} (\mbox{\hyperlink{interface_i_db_connection}{IDb\+Connection}} db)
+\item 
+async Task$<$ List$<$ \mbox{\hyperlink{class_account}{Account}} $>$ $>$ \mbox{\hyperlink{class_mongo_account_data_a6f8240bd654e1c41b3e273e44ef2b93f}{Get\+Accounts\+Async}} ()
+\item 
+async Task$<$ \mbox{\hyperlink{class_account}{Account}} $>$ \mbox{\hyperlink{class_mongo_account_data_a9392f756feaa44b2064cca1282d8b854}{Get\+Account}} (string id)
+\item 
+async Task$<$ \mbox{\hyperlink{class_account}{Account}} $>$ \mbox{\hyperlink{class_mongo_account_data_a9b9d6ed5f6db21abf120724ec6b1bdf2}{Get\+Account\+From\+Autentication}} (string object\+Id)
+\item 
+Task \mbox{\hyperlink{class_mongo_account_data_ac64a5c6664be6810379cb79d0a703afe}{Create\+Account}} (\mbox{\hyperlink{class_account}{Account}} account)
+\item 
+Task \mbox{\hyperlink{class_mongo_account_data_ace995058405a35a320c12ca23f07d67c}{Update\+Account}} (\mbox{\hyperlink{class_account}{Account}} account)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_mongo_account_data_a4bc2a9ff0aa1f42fdf4afd14742d9dd8}\label{class_mongo_account_data_a4bc2a9ff0aa1f42fdf4afd14742d9dd8}} 
+\index{MongoAccountData@{MongoAccountData}!MongoAccountData@{MongoAccountData}}
+\index{MongoAccountData@{MongoAccountData}!MongoAccountData@{MongoAccountData}}
+\doxysubsubsection{\texorpdfstring{MongoAccountData()}{MongoAccountData()}}
+{\footnotesize\ttfamily Mongo\+Account\+Data.\+Mongo\+Account\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_i_db_connection}{IDb\+Connection}}}]{db }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_mongo_account_data_ac64a5c6664be6810379cb79d0a703afe}\label{class_mongo_account_data_ac64a5c6664be6810379cb79d0a703afe}} 
+\index{MongoAccountData@{MongoAccountData}!CreateAccount@{CreateAccount}}
+\index{CreateAccount@{CreateAccount}!MongoAccountData@{MongoAccountData}}
+\doxysubsubsection{\texorpdfstring{CreateAccount()}{CreateAccount()}}
+{\footnotesize\ttfamily Task Mongo\+Account\+Data.\+Create\+Account (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_account}{Account}}}]{account }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_account_data_a02eef0c635ebd245a041d96569dcc4a3}{IAccount\+Data}}.
+
+\mbox{\Hypertarget{class_mongo_account_data_a9392f756feaa44b2064cca1282d8b854}\label{class_mongo_account_data_a9392f756feaa44b2064cca1282d8b854}} 
+\index{MongoAccountData@{MongoAccountData}!GetAccount@{GetAccount}}
+\index{GetAccount@{GetAccount}!MongoAccountData@{MongoAccountData}}
+\doxysubsubsection{\texorpdfstring{GetAccount()}{GetAccount()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_account}{Account}} $>$ Mongo\+Account\+Data.\+Get\+Account (\begin{DoxyParamCaption}\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_account_data_a823fbd40cf55bad6c534f983f88bdac1}{IAccount\+Data}}.
+
+\mbox{\Hypertarget{class_mongo_account_data_a9b9d6ed5f6db21abf120724ec6b1bdf2}\label{class_mongo_account_data_a9b9d6ed5f6db21abf120724ec6b1bdf2}} 
+\index{MongoAccountData@{MongoAccountData}!GetAccountFromAutentication@{GetAccountFromAutentication}}
+\index{GetAccountFromAutentication@{GetAccountFromAutentication}!MongoAccountData@{MongoAccountData}}
+\doxysubsubsection{\texorpdfstring{GetAccountFromAutentication()}{GetAccountFromAutentication()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_account}{Account}} $>$ Mongo\+Account\+Data.\+Get\+Account\+From\+Autentication (\begin{DoxyParamCaption}\item[{string}]{object\+Id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_account_data_a9d8647b5b7f323b03279e40dfead7171}{IAccount\+Data}}.
+
+\mbox{\Hypertarget{class_mongo_account_data_a6f8240bd654e1c41b3e273e44ef2b93f}\label{class_mongo_account_data_a6f8240bd654e1c41b3e273e44ef2b93f}} 
+\index{MongoAccountData@{MongoAccountData}!GetAccountsAsync@{GetAccountsAsync}}
+\index{GetAccountsAsync@{GetAccountsAsync}!MongoAccountData@{MongoAccountData}}
+\doxysubsubsection{\texorpdfstring{GetAccountsAsync()}{GetAccountsAsync()}}
+{\footnotesize\ttfamily async Task$<$ List$<$ \mbox{\hyperlink{class_account}{Account}} $>$ $>$ Mongo\+Account\+Data.\+Get\+Accounts\+Async (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_account_data_a5fc5d7cab9247b567b35e00ff5d0a7bd}{IAccount\+Data}}.
+
+\mbox{\Hypertarget{class_mongo_account_data_ace995058405a35a320c12ca23f07d67c}\label{class_mongo_account_data_ace995058405a35a320c12ca23f07d67c}} 
+\index{MongoAccountData@{MongoAccountData}!UpdateAccount@{UpdateAccount}}
+\index{UpdateAccount@{UpdateAccount}!MongoAccountData@{MongoAccountData}}
+\doxysubsubsection{\texorpdfstring{UpdateAccount()}{UpdateAccount()}}
+{\footnotesize\ttfamily Task Mongo\+Account\+Data.\+Update\+Account (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_account}{Account}}}]{account }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_account_data_a3e0ca20963709b383ac9943554cb30ff}{IAccount\+Data}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Recallable\+Facts/\+Documents/\+Git\+Hub/\+Open\+Bets/\+Shared/\+Data\+Access/\mbox{\hyperlink{_mongo_account_data_8cs}{Mongo\+Account\+Data.\+cs}}\end{DoxyCompactItemize}

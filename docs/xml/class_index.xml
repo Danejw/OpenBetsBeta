@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_index" kind="class" language="C#" prot="public">
+    <compoundname>Index</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_index_1a825c4ce65d6992556286beed593e8c2d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Index.selectedOrganisation</definition>
+        <argsstring></argsstring>
+        <name>selectedOrganisation</name>
+        <initializer>= &quot;All&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Pages/Index.razor.cs" line="36" column="19" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Pages/Index.razor.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_index_1a35c0d0ffdab684d8be42fd7fbfc21881" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Index.selectedEvent</definition>
+        <argsstring></argsstring>
+        <name>selectedEvent</name>
+        <initializer>= &quot;All&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Pages/Index.razor.cs" line="37" column="19" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Pages/Index.razor.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_index_1a30b5a738b3f6eb7ed2a0d768a7d2c5ec" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Index.searchText</definition>
+        <argsstring></argsstring>
+        <name>searchText</name>
+        <initializer>= &quot;ufc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Pages/Index.razor.cs" line="38" column="19" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Pages/Index.razor.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_index_1a6a5b0676a9d352ad75af32e5a8a7c273" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Index.isSortedByNew</definition>
+        <argsstring></argsstring>
+        <name>isSortedByNew</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Pages/Index.razor.cs" line="39" column="17" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Pages/Index.razor.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Pages/Index.razor.cs" line="21" column="15" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Pages/Index.razor.cs" bodystart="22" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_index_1a6a5b0676a9d352ad75af32e5a8a7c273" prot="private" virt="non-virtual"><scope>Index</scope><name>isSortedByNew</name></member>
+      <member refid="class_index_1a30b5a738b3f6eb7ed2a0d768a7d2c5ec" prot="private" virt="non-virtual"><scope>Index</scope><name>searchText</name></member>
+      <member refid="class_index_1a35c0d0ffdab684d8be42fd7fbfc21881" prot="private" virt="non-virtual"><scope>Index</scope><name>selectedEvent</name></member>
+      <member refid="class_index_1a825c4ce65d6992556286beed593e8c2d" prot="private" virt="non-virtual"><scope>Index</scope><name>selectedOrganisation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="interface_i_organisation_data" kind="interface" language="C#" prot="public">
+    <compoundname>IOrganisationData</compoundname>
+    <derivedcompoundref refid="class_mongo_organisation_data" prot="public" virt="non-virtual">MongoOrganisationData</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_i_organisation_data_1aa7cf09485c3442d8607869651f8ce3e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task IOrganisationData.CreateOrganisation</definition>
+        <argsstring>(Organisation org)</argsstring>
+        <name>CreateOrganisation</name>
+        <reimplementedby refid="class_mongo_organisation_data_1a041d7d84f9fc6141b63326f36c26f9d9">CreateOrganisation</reimplementedby>
+        <param>
+          <type><ref refid="class_organisation" kindref="compound">Organisation</ref></type>
+          <declname>org</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/IOrganisationData.cs" line="6" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_organisation_data_1a7227c9e7e1bf409dda34b4ae8540c166" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_organisation" kindref="compound">Organisation</ref> &gt;</type>
+        <definition>Task&lt; Organisation &gt; IOrganisationData.GetOrganisationAsync</definition>
+        <argsstring>(string id)</argsstring>
+        <name>GetOrganisationAsync</name>
+        <reimplementedby refid="class_mongo_organisation_data_1a8f487310e5c49720199a012e388904ab">GetOrganisationAsync</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/IOrganisationData.cs" line="7" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_organisation_data_1a07b66ae93363a9f96c8fefc39515647f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_organisation" kindref="compound">Organisation</ref> &gt; &gt;</type>
+        <definition>Task&lt; List&lt; Organisation &gt; &gt; IOrganisationData.GetOrganisationsAsync</definition>
+        <argsstring>()</argsstring>
+        <name>GetOrganisationsAsync</name>
+        <reimplementedby refid="class_mongo_organisation_data_1a74fef2e885f04a56c706400d8baeb66f">GetOrganisationsAsync</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/IOrganisationData.cs" line="8" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_organisation_data_1a77e246255f9788cc6ffe5ab2395452e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task IOrganisationData.UpdateOrganisation</definition>
+        <argsstring>(Organisation org)</argsstring>
+        <name>UpdateOrganisation</name>
+        <reimplementedby refid="class_mongo_organisation_data_1aad7bbc84a7bfdcdd9243234d0f6df603">UpdateOrganisation</reimplementedby>
+        <param>
+          <type><ref refid="class_organisation" kindref="compound">Organisation</ref></type>
+          <declname>org</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/IOrganisationData.cs" line="9" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IOrganisationData</label>
+        <link refid="interface_i_organisation_data"/>
+      </node>
+      <node id="2">
+        <label>MongoOrganisationData</label>
+        <link refid="class_mongo_organisation_data"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/IOrganisationData.cs" line="4" column="18" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/IOrganisationData.cs" bodystart="5" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interface_i_organisation_data_1aa7cf09485c3442d8607869651f8ce3e7" prot="public" virt="non-virtual"><scope>IOrganisationData</scope><name>CreateOrganisation</name></member>
+      <member refid="interface_i_organisation_data_1a7227c9e7e1bf409dda34b4ae8540c166" prot="public" virt="non-virtual"><scope>IOrganisationData</scope><name>GetOrganisationAsync</name></member>
+      <member refid="interface_i_organisation_data_1a07b66ae93363a9f96c8fefc39515647f" prot="public" virt="non-virtual"><scope>IOrganisationData</scope><name>GetOrganisationsAsync</name></member>
+      <member refid="interface_i_organisation_data_1a77e246255f9788cc6ffe5ab2395452e6" prot="public" virt="non-virtual"><scope>IOrganisationData</scope><name>UpdateOrganisation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

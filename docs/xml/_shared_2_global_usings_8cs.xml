@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_shared_2_global_usings_8cs" kind="file" language="C#">
+    <compoundname>GlobalUsings.cs</compoundname>
+    <innernamespace refid="namespace_mongo_d_b_1_1_bson_1_1_serialization_1_1_attributes">MongoDB::Bson::Serialization::Attributes</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>MongoDB.Bson;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>MongoDB.Bson.Serialization.Attributes;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>MongoDB.Driver;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>OpenBets.Shared.Models;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>OpenBets.Shared.DataAccess;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/GlobalUsings.cs"/>
+  </compounddef>
+</doxygen>

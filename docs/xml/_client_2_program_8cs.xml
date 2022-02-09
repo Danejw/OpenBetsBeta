@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_client_2_program_8cs" kind="file" language="C#">
+    <compoundname>Program.cs</compoundname>
+    <innernamespace refid="namespace_microsoft_1_1_asp_net_core_1_1_components_1_1_web_assembly_1_1_hosting">Microsoft::AspNetCore::Components::WebAssembly::Hosting</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_client_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" prot="public" static="no" mutable="no">
+        <type>var</type>
+        <definition>var builder</definition>
+        <argsstring></argsstring>
+        <name>builder</name>
+        <initializer>= WebAssemblyHostBuilder.CreateDefault(args)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Program.cs" line="5" column="5" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Program.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_client_2_program_8cs_1a40d549968a84d91d5a5eb9ecf29daae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.RootComponents.</type>
+        <definition>builder.RootComponents. Add&lt; App &gt;</definition>
+        <argsstring>(&quot;#app&quot;)</argsstring>
+        <name>Add&lt; App &gt;</name>
+        <param>
+          <type>&quot;#app&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Program.cs" line="6" column="8" declfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Program.cs" declline="6" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="_client_2_program_8cs_1ad6782a94a41c3712e4b16f5e5e37f781" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.RootComponents.</type>
+        <definition>builder.RootComponents. Add&lt; HeadOutlet &gt;</definition>
+        <argsstring>(&quot;head::after&quot;)</argsstring>
+        <name>Add&lt; HeadOutlet &gt;</name>
+        <param>
+          <type>&quot;head::after&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Program.cs" line="7" column="8" declfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Program.cs" declline="7" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="_client_2_program_8cs_1ad23e038402085511bf6d150f155199f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddScoped</definition>
+        <argsstring>(sp=&gt; new HttpClient { BaseAddress=new Uri(builder.HostEnvironment.BaseAddress) })</argsstring>
+        <name>AddScoped</name>
+        <param>
+          <type>sp</type>
+        </param>
+        <param>
+          <type>new HttpClient { BaseAddress=new Uri(builder.HostEnvironment.BaseAddress) }</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Program.cs" line="9" column="16" declfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Program.cs" declline="9" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="_client_2_program_8cs_1a103eab9352a5901779f62f6c98b53f7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>await builder.</type>
+        <definition>await builder. Build</definition>
+        <argsstring>().RunAsync()</argsstring>
+        <name>Build</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Program.cs" line="11" column="14" declfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Program.cs" declline="11" declcolumn="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Components.Web;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Components.WebAssembly.Hosting;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_open_bets_beta" kindref="compound">OpenBetsBeta</ref>.<ref refid="namespace_open_bets_beta_1_1_client" kindref="compound">Client</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">var<sp/><ref refid="_client_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref><sp/>=<sp/>WebAssemblyHostBuilder.CreateDefault(args);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><ref refid="_client_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.RootComponents.Add&lt;App&gt;(</highlight><highlight class="stringliteral">&quot;#app&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="_client_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.RootComponents.Add&lt;HeadOutlet&gt;(</highlight><highlight class="stringliteral">&quot;head::after&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="_client_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Services.AddScoped(sp<sp/>=&gt;<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>HttpClient<sp/>{<sp/>BaseAddress<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Uri(<ref refid="_client_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.HostEnvironment.BaseAddress)<sp/>});</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">await<sp/><ref refid="_client_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Build().RunAsync();</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Program.cs"/>
+  </compounddef>
+</doxygen>

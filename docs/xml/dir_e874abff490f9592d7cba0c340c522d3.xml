@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_e874abff490f9592d7cba0c340c522d3" kind="dir">
+    <compoundname>C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess</compoundname>
+    <innerfile refid="_db_connection_8cs">DbConnection.cs</innerfile>
+    <innerfile refid="_i_account_data_8cs">IAccountData.cs</innerfile>
+    <innerfile refid="_i_bet_data_8cs">IBetData.cs</innerfile>
+    <innerfile refid="_i_db_connection_8cs">IDbConnection.cs</innerfile>
+    <innerfile refid="_i_event_data_8cs">IEventData.cs</innerfile>
+    <innerfile refid="_i_organisation_data_8cs">IOrganisationData.cs</innerfile>
+    <innerfile refid="_i_sub_event_data_8cs">ISubEventData.cs</innerfile>
+    <innerfile refid="_mongo_account_data_8cs">MongoAccountData.cs</innerfile>
+    <innerfile refid="_mongo_bet_data_8cs">MongoBetData.cs</innerfile>
+    <innerfile refid="_mongo_event_data_8cs">MongoEventData.cs</innerfile>
+    <innerfile refid="_mongo_organisation_data_8cs">MongoOrganisationData.cs</innerfile>
+    <innerfile refid="_mongo_sub_event_data_8cs">MongoSubEventData.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/"/>
+  </compounddef>
+</doxygen>

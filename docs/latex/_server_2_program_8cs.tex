@@ -1,0 +1,132 @@
+\hypertarget{_server_2_program_8cs}{}\doxysection{C\+:/\+Users/\+Recallable\+Facts/\+Documents/\+Git\+Hub/\+Open\+Bets/\+Server/\+Program.cs File Reference}
+\label{_server_2_program_8cs}\index{C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs@{C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+Register\+Services. \mbox{\hyperlink{_server_2_program_8cs_afbaab97b3439ca0f47837c99f9997c9f}{Configure\+Services}} (\mbox{\hyperlink{_server_2_program_8cs_a2f78352277081c620fd4cf92a5ce15e5}{builder}})
+\item 
+\mbox{\hyperlink{_server_2_program_8cs_a79a944c7f0e25196ca3c5a8638b919b9}{if}} (app.\+Environment.\+Is\+Development())
+\item 
+app. \mbox{\hyperlink{_server_2_program_8cs_a8c2c34f600427906d008e9ce976831ec}{Use\+Hsts}} ()
+\item 
+app. \mbox{\hyperlink{_server_2_program_8cs_aa4d447fc3129a3aa301d736b8bd04ae9}{Use\+Https\+Redirection}} ()
+\item 
+app. \mbox{\hyperlink{_server_2_program_8cs_aed1efa704e60214c06e980909b57ee78}{Use\+Blazor\+Framework\+Files}} ()
+\item 
+app. \mbox{\hyperlink{_server_2_program_8cs_a906a3ce545279a7a73941f1d7b64d7cf}{Use\+Static\+Files}} ()
+\item 
+app. \mbox{\hyperlink{_server_2_program_8cs_a94c810d266751293a2d511a720a5625f}{Use\+Routing}} ()
+\item 
+app. \mbox{\hyperlink{_server_2_program_8cs_aea1890390376604d4d91e0bdb76602a3}{Map\+Razor\+Pages}} ()
+\item 
+app. \mbox{\hyperlink{_server_2_program_8cs_a9e2ee3170aa6279b68eefd1651f7d96c}{Map\+Controllers}} ()
+\item 
+app. \mbox{\hyperlink{_server_2_program_8cs_ab162ca4c83853bf01175352d441bd220}{Map\+Fallback\+To\+File}} (\char`\"{}index.\+html\char`\"{})
+\item 
+app. \mbox{\hyperlink{_server_2_program_8cs_aaa3dbf02e269c3ef7e8546d290c6b3dd}{Run}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+var \mbox{\hyperlink{_server_2_program_8cs_a2f78352277081c620fd4cf92a5ce15e5}{builder}} = Web\+Application.\+Create\+Builder(args)
+\item 
+var \mbox{\hyperlink{_server_2_program_8cs_a7b225fcb720e4d5ed2bbf60e28a25e6d}{app}} = \mbox{\hyperlink{_client_2_program_8cs_a103eab9352a5901779f62f6c98b53f7b}{builder.\+Build}}()
+\item 
+\mbox{\hyperlink{_server_2_program_8cs_a0544c3fe466e421738dae463968b70ba}{else}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_server_2_program_8cs_afbaab97b3439ca0f47837c99f9997c9f}\label{_server_2_program_8cs_afbaab97b3439ca0f47837c99f9997c9f}} 
+\index{Program.cs@{Program.cs}!ConfigureServices@{ConfigureServices}}
+\index{ConfigureServices@{ConfigureServices}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{ConfigureServices()}{ConfigureServices()}}
+{\footnotesize\ttfamily Register\+Services. Configure\+Services (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_server_2_program_8cs_a2f78352277081c620fd4cf92a5ce15e5}{builder}}}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_server_2_program_8cs_a79a944c7f0e25196ca3c5a8638b919b9}\label{_server_2_program_8cs_a79a944c7f0e25196ca3c5a8638b919b9}} 
+\index{Program.cs@{Program.cs}!if@{if}}
+\index{if@{if}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{if()}{if()}}
+{\footnotesize\ttfamily if (\begin{DoxyParamCaption}\item[{app.\+Environment.}]{Is\+Development() }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_server_2_program_8cs_a9e2ee3170aa6279b68eefd1651f7d96c}\label{_server_2_program_8cs_a9e2ee3170aa6279b68eefd1651f7d96c}} 
+\index{Program.cs@{Program.cs}!MapControllers@{MapControllers}}
+\index{MapControllers@{MapControllers}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{MapControllers()}{MapControllers()}}
+{\footnotesize\ttfamily app. Map\+Controllers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_server_2_program_8cs_ab162ca4c83853bf01175352d441bd220}\label{_server_2_program_8cs_ab162ca4c83853bf01175352d441bd220}} 
+\index{Program.cs@{Program.cs}!MapFallbackToFile@{MapFallbackToFile}}
+\index{MapFallbackToFile@{MapFallbackToFile}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{MapFallbackToFile()}{MapFallbackToFile()}}
+{\footnotesize\ttfamily app. Map\+Fallback\+To\+File (\begin{DoxyParamCaption}\item[{\char`\"{}index.\+html\char`\"{}}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_server_2_program_8cs_aea1890390376604d4d91e0bdb76602a3}\label{_server_2_program_8cs_aea1890390376604d4d91e0bdb76602a3}} 
+\index{Program.cs@{Program.cs}!MapRazorPages@{MapRazorPages}}
+\index{MapRazorPages@{MapRazorPages}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{MapRazorPages()}{MapRazorPages()}}
+{\footnotesize\ttfamily app. Map\+Razor\+Pages (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_server_2_program_8cs_aaa3dbf02e269c3ef7e8546d290c6b3dd}\label{_server_2_program_8cs_aaa3dbf02e269c3ef7e8546d290c6b3dd}} 
+\index{Program.cs@{Program.cs}!Run@{Run}}
+\index{Run@{Run}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{Run()}{Run()}}
+{\footnotesize\ttfamily app. Run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_server_2_program_8cs_aed1efa704e60214c06e980909b57ee78}\label{_server_2_program_8cs_aed1efa704e60214c06e980909b57ee78}} 
+\index{Program.cs@{Program.cs}!UseBlazorFrameworkFiles@{UseBlazorFrameworkFiles}}
+\index{UseBlazorFrameworkFiles@{UseBlazorFrameworkFiles}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{UseBlazorFrameworkFiles()}{UseBlazorFrameworkFiles()}}
+{\footnotesize\ttfamily app. Use\+Blazor\+Framework\+Files (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_server_2_program_8cs_a8c2c34f600427906d008e9ce976831ec}\label{_server_2_program_8cs_a8c2c34f600427906d008e9ce976831ec}} 
+\index{Program.cs@{Program.cs}!UseHsts@{UseHsts}}
+\index{UseHsts@{UseHsts}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{UseHsts()}{UseHsts()}}
+{\footnotesize\ttfamily app. Use\+Hsts (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_server_2_program_8cs_aa4d447fc3129a3aa301d736b8bd04ae9}\label{_server_2_program_8cs_aa4d447fc3129a3aa301d736b8bd04ae9}} 
+\index{Program.cs@{Program.cs}!UseHttpsRedirection@{UseHttpsRedirection}}
+\index{UseHttpsRedirection@{UseHttpsRedirection}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{UseHttpsRedirection()}{UseHttpsRedirection()}}
+{\footnotesize\ttfamily app. Use\+Https\+Redirection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_server_2_program_8cs_a94c810d266751293a2d511a720a5625f}\label{_server_2_program_8cs_a94c810d266751293a2d511a720a5625f}} 
+\index{Program.cs@{Program.cs}!UseRouting@{UseRouting}}
+\index{UseRouting@{UseRouting}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{UseRouting()}{UseRouting()}}
+{\footnotesize\ttfamily app. Use\+Routing (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_server_2_program_8cs_a906a3ce545279a7a73941f1d7b64d7cf}\label{_server_2_program_8cs_a906a3ce545279a7a73941f1d7b64d7cf}} 
+\index{Program.cs@{Program.cs}!UseStaticFiles@{UseStaticFiles}}
+\index{UseStaticFiles@{UseStaticFiles}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{UseStaticFiles()}{UseStaticFiles()}}
+{\footnotesize\ttfamily app. Use\+Static\+Files (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{_server_2_program_8cs_a7b225fcb720e4d5ed2bbf60e28a25e6d}\label{_server_2_program_8cs_a7b225fcb720e4d5ed2bbf60e28a25e6d}} 
+\index{Program.cs@{Program.cs}!app@{app}}
+\index{app@{app}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{app}{app}}
+{\footnotesize\ttfamily var app = \mbox{\hyperlink{_client_2_program_8cs_a103eab9352a5901779f62f6c98b53f7b}{builder.\+Build}}()}
+
+\mbox{\Hypertarget{_server_2_program_8cs_a2f78352277081c620fd4cf92a5ce15e5}\label{_server_2_program_8cs_a2f78352277081c620fd4cf92a5ce15e5}} 
+\index{Program.cs@{Program.cs}!builder@{builder}}
+\index{builder@{builder}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{builder}{builder}}
+{\footnotesize\ttfamily var builder = Web\+Application.\+Create\+Builder(args)}
+
+\mbox{\Hypertarget{_server_2_program_8cs_a0544c3fe466e421738dae463968b70ba}\label{_server_2_program_8cs_a0544c3fe466e421738dae463968b70ba}} 
+\index{Program.cs@{Program.cs}!else@{else}}
+\index{else@{else}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{else}{else}}
+{\footnotesize\ttfamily else}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{    \mbox{\hyperlink{_server_2_program_8cs_a7b225fcb720e4d5ed2bbf60e28a25e6d}{app}}.UseExceptionHandler(\textcolor{stringliteral}{"{}/Error"{}})}
+
+\end{DoxyCode}

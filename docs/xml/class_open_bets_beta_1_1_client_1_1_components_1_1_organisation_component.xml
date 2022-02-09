@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component" kind="class" language="C#" prot="public">
+    <compoundname>OpenBetsBeta::Client::Components::OrganisationComponent</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1a4140146002b93f4aa22f0ecc55478fd6" prot="private" static="no" mutable="no">
+        <type>RadzenDataGrid&lt; <ref refid="class_organisation" kindref="compound">Organisation</ref> &gt;</type>
+        <definition>RadzenDataGrid&lt;Organisation&gt; OpenBetsBeta.Client.Components.OrganisationComponent.table</definition>
+        <argsstring></argsstring>
+        <name>table</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" line="22" column="22" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1abe21c59d918300c25152f2646883db71" prot="private" static="no" mutable="no">
+        <type>IEnumerable&lt; <ref refid="class_organisation" kindref="compound">Organisation</ref> &gt;</type>
+        <definition>IEnumerable&lt;Organisation&gt; OpenBetsBeta.Client.Components.OrganisationComponent.organisations</definition>
+        <argsstring></argsstring>
+        <name>organisations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" line="23" column="27" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1a94959cff54781490d4abe526da83eb03" prot="private" static="no" mutable="no">
+        <type><ref refid="class_mongo_organisation_data" kindref="compound">MongoOrganisationData</ref></type>
+        <definition>MongoOrganisationData OpenBetsBeta.Client.Components.OrganisationComponent.organisationData</definition>
+        <argsstring></argsstring>
+        <name>organisationData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" line="24" column="37" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1a163f688f0baec8e7ed7968ae05a8a1a7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OpenBetsBeta.Client.Components.OrganisationComponent.count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" line="25" column="19" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1add1ff6967f1a37299e351cb17a1d5b5b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_organisation" kindref="compound">Organisation</ref></type>
+        <definition>Organisation OpenBetsBeta.Client.Components.OrganisationComponent.sample</definition>
+        <argsstring></argsstring>
+        <name>sample</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" line="26" column="28" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1adddf14309b83ca1b40a411efc43b456e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override Task</type>
+        <definition>async override Task OpenBetsBeta.Client.Components.OrganisationComponent.OnInitializedAsync</definition>
+        <argsstring>()</argsstring>
+        <name>OnInitializedAsync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" line="28" column="39" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1afd5eedf5e058c81e7c7534f0db4aaa9d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Task</type>
+        <definition>override Task OpenBetsBeta.Client.Components.OrganisationComponent.OnAfterRenderAsync</definition>
+        <argsstring>(bool firstRender)</argsstring>
+        <name>OnAfterRenderAsync</name>
+        <param>
+          <type>bool</type>
+          <declname>firstRender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" line="32" column="31" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1aa70b3fece5bd3d0dd72f8149b262a54c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OpenBetsBeta.Client.Components.OrganisationComponent.CreateSampleOrganisations</definition>
+        <argsstring>()</argsstring>
+        <name>CreateSampleOrganisations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" line="39" column="20" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" bodystart="39" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1a503972bc6d468876143e375a4cd79944" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_organisation" kindref="compound">Organisation</ref></type>
+        <definition>Organisation OpenBetsBeta.Client.Components.OrganisationComponent.CreateOrganisation</definition>
+        <argsstring>(string name)</argsstring>
+        <name>CreateOrganisation</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" line="47" column="27" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" bodystart="47" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" line="20" column="19" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" bodystart="21" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1a163f688f0baec8e7ed7968ae05a8a1a7" prot="private" virt="non-virtual"><scope>OpenBetsBeta::Client::Components::OrganisationComponent</scope><name>count</name></member>
+      <member refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1a503972bc6d468876143e375a4cd79944" prot="public" virt="non-virtual"><scope>OpenBetsBeta::Client::Components::OrganisationComponent</scope><name>CreateOrganisation</name></member>
+      <member refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1aa70b3fece5bd3d0dd72f8149b262a54c" prot="private" virt="non-virtual"><scope>OpenBetsBeta::Client::Components::OrganisationComponent</scope><name>CreateSampleOrganisations</name></member>
+      <member refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1afd5eedf5e058c81e7c7534f0db4aaa9d" prot="protected" virt="non-virtual"><scope>OpenBetsBeta::Client::Components::OrganisationComponent</scope><name>OnAfterRenderAsync</name></member>
+      <member refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1adddf14309b83ca1b40a411efc43b456e" prot="protected" virt="non-virtual"><scope>OpenBetsBeta::Client::Components::OrganisationComponent</scope><name>OnInitializedAsync</name></member>
+      <member refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1a94959cff54781490d4abe526da83eb03" prot="private" virt="non-virtual"><scope>OpenBetsBeta::Client::Components::OrganisationComponent</scope><name>organisationData</name></member>
+      <member refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1abe21c59d918300c25152f2646883db71" prot="private" virt="non-virtual"><scope>OpenBetsBeta::Client::Components::OrganisationComponent</scope><name>organisations</name></member>
+      <member refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1add1ff6967f1a37299e351cb17a1d5b5b" prot="private" virt="non-virtual"><scope>OpenBetsBeta::Client::Components::OrganisationComponent</scope><name>sample</name></member>
+      <member refid="class_open_bets_beta_1_1_client_1_1_components_1_1_organisation_component_1a4140146002b93f4aa22f0ecc55478fd6" prot="private" virt="non-virtual"><scope>OpenBetsBeta::Client::Components::OrganisationComponent</scope><name>table</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

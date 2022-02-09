@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_db_connection" kind="class" language="C#" prot="public">
+    <compoundname>DbConnection</compoundname>
+    <basecompoundref refid="interface_i_db_connection" prot="public" virt="non-virtual">IDbConnection</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_db_connection_1a98dff35fe64fe0aa108e5f8f4364fa34" prot="private" static="no" mutable="no">
+        <type>readonly IConfiguration</type>
+        <definition>readonly IConfiguration DbConnection._config</definition>
+        <argsstring></argsstring>
+        <name>_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="7" column="36" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_db_connection_1abd9a6765b01c645ed3ad423677d86a94" prot="private" static="no" mutable="no">
+        <type>readonly IMongoDatabase</type>
+        <definition>readonly IMongoDatabase DbConnection._db</definition>
+        <argsstring></argsstring>
+        <name>_db</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="8" column="36" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_db_connection_1a34cf2febc43a0f7ef17dceb1b259296c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DbConnection._connectionId</definition>
+        <argsstring></argsstring>
+        <name>_connectionId</name>
+        <initializer>= &quot;MongoDB&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="9" column="19" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_db_connection_1aa1479e3185f6d3301f173dd81f64d87b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string DbConnection.DatabaseName</definition>
+        <argsstring></argsstring>
+        <name>DatabaseName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="12" column="18" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_db_connection_1a6a0c59eec1af6bfd340ec88eadce1d4b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string DbConnection.AccountCollectionName</definition>
+        <argsstring></argsstring>
+        <name>AccountCollectionName</name>
+        <initializer>= &quot;accounts&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="13" column="18" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_db_connection_1acd778de0d3b0d56cda0c566dca74a55f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string DbConnection.BetCollectionName</definition>
+        <argsstring></argsstring>
+        <name>BetCollectionName</name>
+        <initializer>= &quot;bets&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="14" column="18" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_db_connection_1aecfcdd59bf70951c5449960cea5a2f75" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string DbConnection.OrganisationCollectionName</definition>
+        <argsstring></argsstring>
+        <name>OrganisationCollectionName</name>
+        <initializer>= &quot;organisations&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="15" column="18" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_db_connection_1af4b8fd3af0c5ccefe690f057edc4e990" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string DbConnection.EventCollectionName</definition>
+        <argsstring></argsstring>
+        <name>EventCollectionName</name>
+        <initializer>= &quot;events&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="16" column="18" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_db_connection_1a59fb763c29669952ba7a2f39e9a5d3c2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string DbConnection.SubEventCollectionName</definition>
+        <argsstring></argsstring>
+        <name>SubEventCollectionName</name>
+        <initializer>= &quot;subevents&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="17" column="18" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_db_connection_1a39523d907cd907075e6a85c307bb0622" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>MongoClient</type>
+        <definition>MongoClient DbConnection.Client</definition>
+        <argsstring></argsstring>
+        <name>Client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="19" column="23" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_db_connection_1af1f61ebade22719f30a98bb7b491ca0e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>IMongoCollection&lt; <ref refid="class_account" kindref="compound">Account</ref> &gt;</type>
+        <definition>IMongoCollection&lt;Account&gt; DbConnection.AccountCollection</definition>
+        <argsstring></argsstring>
+        <name>AccountCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="22" column="28" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_db_connection_1a851de3e8cc553f94391ef70da625552b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>IMongoCollection&lt; <ref refid="class_bet" kindref="compound">Bet</ref> &gt;</type>
+        <definition>IMongoCollection&lt;Bet&gt; DbConnection.BetCollection</definition>
+        <argsstring></argsstring>
+        <name>BetCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="23" column="28" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_db_connection_1a094555da1e59bc3296bfe2e52cc7a857" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>IMongoCollection&lt; <ref refid="class_organisation" kindref="compound">Organisation</ref> &gt;</type>
+        <definition>IMongoCollection&lt;Organisation&gt; DbConnection.OrganisationCollection</definition>
+        <argsstring></argsstring>
+        <name>OrganisationCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="24" column="28" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_db_connection_1ad82ffde3a960e5b5ff2c883721dd472f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>IMongoCollection&lt; <ref refid="class_event" kindref="compound">Event</ref> &gt;</type>
+        <definition>IMongoCollection&lt;Event&gt; DbConnection.EventCollection</definition>
+        <argsstring></argsstring>
+        <name>EventCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="25" column="28" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_db_connection_1a15a406dd4bfb3fd86dddcc56521e97dd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>IMongoCollection&lt; <ref refid="class_sub_event" kindref="compound">SubEvent</ref> &gt;</type>
+        <definition>IMongoCollection&lt;SubEvent&gt; DbConnection.SubEventCollection</definition>
+        <argsstring></argsstring>
+        <name>SubEventCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="26" column="28" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_db_connection_1ae534b0fac9bc50cd730d797adbd79a39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DbConnection.DbConnection</definition>
+        <argsstring>(IConfiguration config)</argsstring>
+        <name>DbConnection</name>
+        <param>
+          <type>IConfiguration</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="29" column="11" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="29" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DbConnection</label>
+        <link refid="class_db_connection"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDbConnection</label>
+        <link refid="interface_i_db_connection"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DbConnection</label>
+        <link refid="class_db_connection"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDbConnection</label>
+        <link refid="interface_i_db_connection"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" line="5" column="7" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/DbConnection.cs" bodystart="6" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_db_connection_1a98dff35fe64fe0aa108e5f8f4364fa34" prot="private" virt="non-virtual"><scope>DbConnection</scope><name>_config</name></member>
+      <member refid="class_db_connection_1a34cf2febc43a0f7ef17dceb1b259296c" prot="private" virt="non-virtual"><scope>DbConnection</scope><name>_connectionId</name></member>
+      <member refid="class_db_connection_1abd9a6765b01c645ed3ad423677d86a94" prot="private" virt="non-virtual"><scope>DbConnection</scope><name>_db</name></member>
+      <member refid="class_db_connection_1af1f61ebade22719f30a98bb7b491ca0e" prot="public" virt="non-virtual"><scope>DbConnection</scope><name>AccountCollection</name></member>
+      <member refid="class_db_connection_1a6a0c59eec1af6bfd340ec88eadce1d4b" prot="public" virt="non-virtual"><scope>DbConnection</scope><name>AccountCollectionName</name></member>
+      <member refid="class_db_connection_1a851de3e8cc553f94391ef70da625552b" prot="public" virt="non-virtual"><scope>DbConnection</scope><name>BetCollection</name></member>
+      <member refid="class_db_connection_1acd778de0d3b0d56cda0c566dca74a55f" prot="public" virt="non-virtual"><scope>DbConnection</scope><name>BetCollectionName</name></member>
+      <member refid="class_db_connection_1a39523d907cd907075e6a85c307bb0622" prot="public" virt="non-virtual"><scope>DbConnection</scope><name>Client</name></member>
+      <member refid="class_db_connection_1aa1479e3185f6d3301f173dd81f64d87b" prot="public" virt="non-virtual"><scope>DbConnection</scope><name>DatabaseName</name></member>
+      <member refid="class_db_connection_1ae534b0fac9bc50cd730d797adbd79a39" prot="public" virt="non-virtual"><scope>DbConnection</scope><name>DbConnection</name></member>
+      <member refid="class_db_connection_1ad82ffde3a960e5b5ff2c883721dd472f" prot="public" virt="non-virtual"><scope>DbConnection</scope><name>EventCollection</name></member>
+      <member refid="class_db_connection_1af4b8fd3af0c5ccefe690f057edc4e990" prot="public" virt="non-virtual"><scope>DbConnection</scope><name>EventCollectionName</name></member>
+      <member refid="class_db_connection_1a094555da1e59bc3296bfe2e52cc7a857" prot="public" virt="non-virtual"><scope>DbConnection</scope><name>OrganisationCollection</name></member>
+      <member refid="class_db_connection_1aecfcdd59bf70951c5449960cea5a2f75" prot="public" virt="non-virtual"><scope>DbConnection</scope><name>OrganisationCollectionName</name></member>
+      <member refid="class_db_connection_1a15a406dd4bfb3fd86dddcc56521e97dd" prot="public" virt="non-virtual"><scope>DbConnection</scope><name>SubEventCollection</name></member>
+      <member refid="class_db_connection_1a59fb763c29669952ba7a2f39e9a5d3c2" prot="public" virt="non-virtual"><scope>DbConnection</scope><name>SubEventCollectionName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

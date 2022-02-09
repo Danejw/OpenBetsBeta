@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_mongo_event_data" kind="class" language="C#" prot="public">
+    <compoundname>MongoEventData</compoundname>
+    <basecompoundref refid="interface_i_event_data" prot="public" virt="non-virtual">IEventData</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mongo_event_data_1afc23a9fd879df17191193260c1b7a8d3" prot="private" static="no" mutable="no">
+        <type>readonly IMongoCollection&lt; <ref refid="class_event" kindref="compound">Event</ref> &gt;</type>
+        <definition>readonly IMongoCollection&lt;Event&gt; MongoEventData._events</definition>
+        <argsstring></argsstring>
+        <name>_events</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" line="7" column="38" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mongo_event_data_1ac41c830cdfaee74e5e1b8fc96b117b05" prot="private" static="no" mutable="no">
+        <type>readonly IMemoryCache</type>
+        <definition>readonly IMemoryCache MongoEventData._cache</definition>
+        <argsstring></argsstring>
+        <name>_cache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" line="8" column="34" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_mongo_event_data_1ac82fd5a17b33684cbe85c56c3bda572c" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string MongoEventData.cacheName</definition>
+        <argsstring></argsstring>
+        <name>cacheName</name>
+        <initializer>= &quot;EventData&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" line="9" column="25" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mongo_event_data_1a241a7d4dbe33892481f54453a3738ad8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MongoEventData.MongoEventData</definition>
+        <argsstring>(IDbConnection db, IMemoryCache cache)</argsstring>
+        <name>MongoEventData</name>
+        <param>
+          <type><ref refid="interface_i_db_connection" kindref="compound">IDbConnection</ref></type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>IMemoryCache</type>
+          <declname>cache</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" line="11" column="11" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" bodystart="11" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_event_data_1ab839672e4f50717fa480a7fc30ac6dfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; List&lt; <ref refid="class_event" kindref="compound">Event</ref> &gt; &gt;</type>
+        <definition>async Task&lt; List&lt; Event &gt; &gt; MongoEventData.GetEventsAsync</definition>
+        <argsstring>()</argsstring>
+        <name>GetEventsAsync</name>
+        <reimplements refid="interface_i_event_data_1ae378af3a675074287d4ca9a8226c1794">GetEventsAsync</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" line="17" column="22" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" bodystart="17" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_event_data_1ab81a8097cb15a9eab55ef712fe4d5a16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_event" kindref="compound">Event</ref> &gt;</type>
+        <definition>async Task&lt; Event &gt; MongoEventData.GetEventAsync</definition>
+        <argsstring>(string id)</argsstring>
+        <name>GetEventAsync</name>
+        <reimplements refid="interface_i_event_data_1a5ec1e3ffe9730a67a14d6b5e48020e79">GetEventAsync</reimplements>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" line="33" column="22" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_event_data_1a950003d27006a86d2dc06748c4f48c41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task MongoEventData.CreateEvent</definition>
+        <argsstring>(Organisation org, Event newEvent)</argsstring>
+        <name>CreateEvent</name>
+        <reimplements refid="interface_i_event_data_1aeb63b0f112b494ac207c935d477fe067">CreateEvent</reimplements>
+        <param>
+          <type><ref refid="class_organisation" kindref="compound">Organisation</ref></type>
+          <declname>org</declname>
+        </param>
+        <param>
+          <type><ref refid="class_event" kindref="compound">Event</ref></type>
+          <declname>newEvent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" line="39" column="16" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_event_data_1ac203adead3d57cd2358c1f9c41859183" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task MongoEventData.UpdateEvent</definition>
+        <argsstring>(Organisation org, Event updateEvent)</argsstring>
+        <name>UpdateEvent</name>
+        <reimplements refid="interface_i_event_data_1a7fd76f1e0132e219a0427145d0d3312b">UpdateEvent</reimplements>
+        <param>
+          <type><ref refid="class_organisation" kindref="compound">Organisation</ref></type>
+          <declname>org</declname>
+        </param>
+        <param>
+          <type><ref refid="class_event" kindref="compound">Event</ref></type>
+          <declname>updateEvent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" line="45" column="16" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" bodystart="45" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IEventData</label>
+        <link refid="interface_i_event_data"/>
+      </node>
+      <node id="1">
+        <label>MongoEventData</label>
+        <link refid="class_mongo_event_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IEventData</label>
+        <link refid="interface_i_event_data"/>
+      </node>
+      <node id="1">
+        <label>MongoEventData</label>
+        <link refid="class_mongo_event_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" line="5" column="7" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoEventData.cs" bodystart="6" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_mongo_event_data_1ac41c830cdfaee74e5e1b8fc96b117b05" prot="private" virt="non-virtual"><scope>MongoEventData</scope><name>_cache</name></member>
+      <member refid="class_mongo_event_data_1afc23a9fd879df17191193260c1b7a8d3" prot="private" virt="non-virtual"><scope>MongoEventData</scope><name>_events</name></member>
+      <member refid="class_mongo_event_data_1ac82fd5a17b33684cbe85c56c3bda572c" prot="private" virt="non-virtual"><scope>MongoEventData</scope><name>cacheName</name></member>
+      <member refid="class_mongo_event_data_1a950003d27006a86d2dc06748c4f48c41" prot="public" virt="non-virtual"><scope>MongoEventData</scope><name>CreateEvent</name></member>
+      <member refid="class_mongo_event_data_1ab81a8097cb15a9eab55ef712fe4d5a16" prot="public" virt="non-virtual"><scope>MongoEventData</scope><name>GetEventAsync</name></member>
+      <member refid="class_mongo_event_data_1ab839672e4f50717fa480a7fc30ac6dfa" prot="public" virt="non-virtual"><scope>MongoEventData</scope><name>GetEventsAsync</name></member>
+      <member refid="class_mongo_event_data_1a241a7d4dbe33892481f54453a3738ad8" prot="public" virt="non-virtual"><scope>MongoEventData</scope><name>MongoEventData</name></member>
+      <member refid="class_mongo_event_data_1ac203adead3d57cd2358c1f9c41859183" prot="public" virt="non-virtual"><scope>MongoEventData</scope><name>UpdateEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

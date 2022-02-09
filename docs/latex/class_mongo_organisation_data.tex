@@ -1,0 +1,78 @@
+\hypertarget{class_mongo_organisation_data}{}\doxysection{Mongo\+Organisation\+Data Class Reference}
+\label{class_mongo_organisation_data}\index{MongoOrganisationData@{MongoOrganisationData}}
+Inheritance diagram for Mongo\+Organisation\+Data\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_mongo_organisation_data}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_mongo_organisation_data_acc5f5dece622f8927a77856275aa663a}{Mongo\+Organisation\+Data}} (\mbox{\hyperlink{interface_i_db_connection}{IDb\+Connection}} db, IMemory\+Cache cache)
+\item 
+async Task$<$ List$<$ \mbox{\hyperlink{class_organisation}{Organisation}} $>$ $>$ \mbox{\hyperlink{class_mongo_organisation_data_a74fef2e885f04a56c706400d8baeb66f}{Get\+Organisations\+Async}} ()
+\item 
+async Task$<$ \mbox{\hyperlink{class_organisation}{Organisation}} $>$ \mbox{\hyperlink{class_mongo_organisation_data_a8f487310e5c49720199a012e388904ab}{Get\+Organisation\+Async}} (string id)
+\item 
+Task \mbox{\hyperlink{class_mongo_organisation_data_a041d7d84f9fc6141b63326f36c26f9d9}{Create\+Organisation}} (\mbox{\hyperlink{class_organisation}{Organisation}} org)
+\item 
+Task \mbox{\hyperlink{class_mongo_organisation_data_aad7bbc84a7bfdcdd9243234d0f6df603}{Update\+Organisation}} (\mbox{\hyperlink{class_organisation}{Organisation}} org)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_mongo_organisation_data_acc5f5dece622f8927a77856275aa663a}\label{class_mongo_organisation_data_acc5f5dece622f8927a77856275aa663a}} 
+\index{MongoOrganisationData@{MongoOrganisationData}!MongoOrganisationData@{MongoOrganisationData}}
+\index{MongoOrganisationData@{MongoOrganisationData}!MongoOrganisationData@{MongoOrganisationData}}
+\doxysubsubsection{\texorpdfstring{MongoOrganisationData()}{MongoOrganisationData()}}
+{\footnotesize\ttfamily Mongo\+Organisation\+Data.\+Mongo\+Organisation\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_i_db_connection}{IDb\+Connection}}}]{db,  }\item[{IMemory\+Cache}]{cache }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_mongo_organisation_data_a041d7d84f9fc6141b63326f36c26f9d9}\label{class_mongo_organisation_data_a041d7d84f9fc6141b63326f36c26f9d9}} 
+\index{MongoOrganisationData@{MongoOrganisationData}!CreateOrganisation@{CreateOrganisation}}
+\index{CreateOrganisation@{CreateOrganisation}!MongoOrganisationData@{MongoOrganisationData}}
+\doxysubsubsection{\texorpdfstring{CreateOrganisation()}{CreateOrganisation()}}
+{\footnotesize\ttfamily Task Mongo\+Organisation\+Data.\+Create\+Organisation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_organisation}{Organisation}}}]{org }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_organisation_data_aa7cf09485c3442d8607869651f8ce3e7}{IOrganisation\+Data}}.
+
+\mbox{\Hypertarget{class_mongo_organisation_data_a8f487310e5c49720199a012e388904ab}\label{class_mongo_organisation_data_a8f487310e5c49720199a012e388904ab}} 
+\index{MongoOrganisationData@{MongoOrganisationData}!GetOrganisationAsync@{GetOrganisationAsync}}
+\index{GetOrganisationAsync@{GetOrganisationAsync}!MongoOrganisationData@{MongoOrganisationData}}
+\doxysubsubsection{\texorpdfstring{GetOrganisationAsync()}{GetOrganisationAsync()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_organisation}{Organisation}} $>$ Mongo\+Organisation\+Data.\+Get\+Organisation\+Async (\begin{DoxyParamCaption}\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_organisation_data_a7227c9e7e1bf409dda34b4ae8540c166}{IOrganisation\+Data}}.
+
+\mbox{\Hypertarget{class_mongo_organisation_data_a74fef2e885f04a56c706400d8baeb66f}\label{class_mongo_organisation_data_a74fef2e885f04a56c706400d8baeb66f}} 
+\index{MongoOrganisationData@{MongoOrganisationData}!GetOrganisationsAsync@{GetOrganisationsAsync}}
+\index{GetOrganisationsAsync@{GetOrganisationsAsync}!MongoOrganisationData@{MongoOrganisationData}}
+\doxysubsubsection{\texorpdfstring{GetOrganisationsAsync()}{GetOrganisationsAsync()}}
+{\footnotesize\ttfamily async Task$<$ List$<$ \mbox{\hyperlink{class_organisation}{Organisation}} $>$ $>$ Mongo\+Organisation\+Data.\+Get\+Organisations\+Async (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_organisation_data_a07b66ae93363a9f96c8fefc39515647f}{IOrganisation\+Data}}.
+
+\mbox{\Hypertarget{class_mongo_organisation_data_aad7bbc84a7bfdcdd9243234d0f6df603}\label{class_mongo_organisation_data_aad7bbc84a7bfdcdd9243234d0f6df603}} 
+\index{MongoOrganisationData@{MongoOrganisationData}!UpdateOrganisation@{UpdateOrganisation}}
+\index{UpdateOrganisation@{UpdateOrganisation}!MongoOrganisationData@{MongoOrganisationData}}
+\doxysubsubsection{\texorpdfstring{UpdateOrganisation()}{UpdateOrganisation()}}
+{\footnotesize\ttfamily Task Mongo\+Organisation\+Data.\+Update\+Organisation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_organisation}{Organisation}}}]{org }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_organisation_data_a77e246255f9788cc6ffe5ab2395452e6}{IOrganisation\+Data}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Recallable\+Facts/\+Documents/\+Git\+Hub/\+Open\+Bets/\+Shared/\+Data\+Access/\mbox{\hyperlink{_mongo_organisation_data_8cs}{Mongo\+Organisation\+Data.\+cs}}\end{DoxyCompactItemize}

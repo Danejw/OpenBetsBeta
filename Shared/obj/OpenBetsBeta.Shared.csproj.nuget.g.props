@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\RecallableFacts\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgDoxygen Condition=" '$(PkgDoxygen)' == '' ">C:\Users\RecallableFacts\.nuget\packages\doxygen\1.8.14</PkgDoxygen>
+  </PropertyGroup>
 </Project>

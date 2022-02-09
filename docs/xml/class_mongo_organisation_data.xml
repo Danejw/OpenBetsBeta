@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_mongo_organisation_data" kind="class" language="C#" prot="public">
+    <compoundname>MongoOrganisationData</compoundname>
+    <basecompoundref refid="interface_i_organisation_data" prot="public" virt="non-virtual">IOrganisationData</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mongo_organisation_data_1afc1c13d589505dfea301298573ab1d91" prot="private" static="no" mutable="no">
+        <type>readonly IMongoCollection&lt; <ref refid="class_organisation" kindref="compound">Organisation</ref> &gt;</type>
+        <definition>readonly IMongoCollection&lt;Organisation&gt; MongoOrganisationData._org</definition>
+        <argsstring></argsstring>
+        <name>_org</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" line="7" column="38" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mongo_organisation_data_1a29879f5da96dad83fc5c49a2a3dca110" prot="private" static="no" mutable="no">
+        <type>readonly IMemoryCache</type>
+        <definition>readonly IMemoryCache MongoOrganisationData._cache</definition>
+        <argsstring></argsstring>
+        <name>_cache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" line="8" column="34" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_mongo_organisation_data_1abc5981c6aa649bd159c32193c00ef9f4" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string MongoOrganisationData.cacheName</definition>
+        <argsstring></argsstring>
+        <name>cacheName</name>
+        <initializer>= &quot;OrganisationData&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" line="9" column="25" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mongo_organisation_data_1acc5f5dece622f8927a77856275aa663a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MongoOrganisationData.MongoOrganisationData</definition>
+        <argsstring>(IDbConnection db, IMemoryCache cache)</argsstring>
+        <name>MongoOrganisationData</name>
+        <param>
+          <type><ref refid="interface_i_db_connection" kindref="compound">IDbConnection</ref></type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>IMemoryCache</type>
+          <declname>cache</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" line="11" column="11" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" bodystart="11" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_organisation_data_1a74fef2e885f04a56c706400d8baeb66f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; List&lt; <ref refid="class_organisation" kindref="compound">Organisation</ref> &gt; &gt;</type>
+        <definition>async Task&lt; List&lt; Organisation &gt; &gt; MongoOrganisationData.GetOrganisationsAsync</definition>
+        <argsstring>()</argsstring>
+        <name>GetOrganisationsAsync</name>
+        <reimplements refid="interface_i_organisation_data_1a07b66ae93363a9f96c8fefc39515647f">GetOrganisationsAsync</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" line="17" column="22" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" bodystart="17" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_organisation_data_1a8f487310e5c49720199a012e388904ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_organisation" kindref="compound">Organisation</ref> &gt;</type>
+        <definition>async Task&lt; Organisation &gt; MongoOrganisationData.GetOrganisationAsync</definition>
+        <argsstring>(string id)</argsstring>
+        <name>GetOrganisationAsync</name>
+        <reimplements refid="interface_i_organisation_data_1a7227c9e7e1bf409dda34b4ae8540c166">GetOrganisationAsync</reimplements>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" line="33" column="22" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_organisation_data_1a041d7d84f9fc6141b63326f36c26f9d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task MongoOrganisationData.CreateOrganisation</definition>
+        <argsstring>(Organisation org)</argsstring>
+        <name>CreateOrganisation</name>
+        <reimplements refid="interface_i_organisation_data_1aa7cf09485c3442d8607869651f8ce3e7">CreateOrganisation</reimplements>
+        <param>
+          <type><ref refid="class_organisation" kindref="compound">Organisation</ref></type>
+          <declname>org</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" line="39" column="16" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mongo_organisation_data_1aad7bbc84a7bfdcdd9243234d0f6df603" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task MongoOrganisationData.UpdateOrganisation</definition>
+        <argsstring>(Organisation org)</argsstring>
+        <name>UpdateOrganisation</name>
+        <reimplements refid="interface_i_organisation_data_1a77e246255f9788cc6ffe5ab2395452e6">UpdateOrganisation</reimplements>
+        <param>
+          <type><ref refid="class_organisation" kindref="compound">Organisation</ref></type>
+          <declname>org</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" line="44" column="16" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" bodystart="44" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IOrganisationData</label>
+        <link refid="interface_i_organisation_data"/>
+      </node>
+      <node id="1">
+        <label>MongoOrganisationData</label>
+        <link refid="class_mongo_organisation_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IOrganisationData</label>
+        <link refid="interface_i_organisation_data"/>
+      </node>
+      <node id="1">
+        <label>MongoOrganisationData</label>
+        <link refid="class_mongo_organisation_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" line="5" column="7" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/MongoOrganisationData.cs" bodystart="6" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_mongo_organisation_data_1a29879f5da96dad83fc5c49a2a3dca110" prot="private" virt="non-virtual"><scope>MongoOrganisationData</scope><name>_cache</name></member>
+      <member refid="class_mongo_organisation_data_1afc1c13d589505dfea301298573ab1d91" prot="private" virt="non-virtual"><scope>MongoOrganisationData</scope><name>_org</name></member>
+      <member refid="class_mongo_organisation_data_1abc5981c6aa649bd159c32193c00ef9f4" prot="private" virt="non-virtual"><scope>MongoOrganisationData</scope><name>cacheName</name></member>
+      <member refid="class_mongo_organisation_data_1a041d7d84f9fc6141b63326f36c26f9d9" prot="public" virt="non-virtual"><scope>MongoOrganisationData</scope><name>CreateOrganisation</name></member>
+      <member refid="class_mongo_organisation_data_1a8f487310e5c49720199a012e388904ab" prot="public" virt="non-virtual"><scope>MongoOrganisationData</scope><name>GetOrganisationAsync</name></member>
+      <member refid="class_mongo_organisation_data_1a74fef2e885f04a56c706400d8baeb66f" prot="public" virt="non-virtual"><scope>MongoOrganisationData</scope><name>GetOrganisationsAsync</name></member>
+      <member refid="class_mongo_organisation_data_1acc5f5dece622f8927a77856275aa663a" prot="public" virt="non-virtual"><scope>MongoOrganisationData</scope><name>MongoOrganisationData</name></member>
+      <member refid="class_mongo_organisation_data_1aad7bbc84a7bfdcdd9243234d0f6df603" prot="public" virt="non-virtual"><scope>MongoOrganisationData</scope><name>UpdateOrganisation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

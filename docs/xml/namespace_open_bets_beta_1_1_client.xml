@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_open_bets_beta_1_1_client" kind="namespace" language="C#">
+    <compoundname>OpenBetsBeta::Client</compoundname>
+    <innernamespace refid="namespace_open_bets_beta_1_1_client_1_1_components">OpenBetsBeta::Client::Components</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/OrganisationComponent.razor.cs" line="18" column="1"/>
+  </compounddef>
+</doxygen>

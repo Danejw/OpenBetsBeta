@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_d7b177f809a268f6ad758575413edf31" kind="dir">
+    <compoundname>C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client</compoundname>
+    <innerdir refid="dir_85c04b811c5959e0c822510079886153">C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components</innerdir>
+    <innerdir refid="dir_2e73b025d50f7f2f5b5a480692bcee09">C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/obj</innerdir>
+    <innerdir refid="dir_4b7ff2313b009cc03cd188d8de57fb38">C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Pages</innerdir>
+    <innerdir refid="dir_a7fd92f90f80ec6a1e55124241aa1b0c">C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/wwwroot</innerdir>
+    <innerfile refid="_client_2_global_usings_8cs">GlobalUsings.cs</innerfile>
+    <innerfile refid="_client_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/"/>
+  </compounddef>
+</doxygen>

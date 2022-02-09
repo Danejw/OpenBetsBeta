@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_server_2_program_8cs" kind="file" language="C#">
+    <compoundname>Program.cs</compoundname>
+    <innernamespace refid="namespace_microsoft_1_1_asp_net_core_1_1_response_compression">Microsoft::AspNetCore::ResponseCompression</innernamespace>
+    <innernamespace refid="namespace_open_bets_1_1_server">OpenBets::Server</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_server_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" prot="public" static="no" mutable="no">
+        <type>var</type>
+        <definition>var builder</definition>
+        <argsstring></argsstring>
+        <name>builder</name>
+        <initializer>= WebApplication.CreateBuilder(args)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" line="4" column="5" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_server_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" prot="public" static="no" mutable="no">
+        <type>var</type>
+        <definition>var app</definition>
+        <argsstring></argsstring>
+        <name>app</name>
+        <initializer>= <ref refid="_client_2_program_8cs_1a103eab9352a5901779f62f6c98b53f7b" kindref="member">builder.Build</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" line="11" column="5" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_server_2_program_8cs_1a0544c3fe466e421738dae463968b70ba" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>else</definition>
+        <argsstring></argsstring>
+        <name>else</name>
+        <initializer>{
+    app.UseExceptionHandler(&quot;/Error&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" line="18" column="1" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_server_2_program_8cs_1afbaab97b3439ca0f47837c99f9997c9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RegisterServices.</type>
+        <definition>RegisterServices. ConfigureServices</definition>
+        <argsstring>(builder)</argsstring>
+        <name>ConfigureServices</name>
+        <param>
+          <type><ref refid="_server_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" line="8" column="17" declfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" declline="8" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="_server_2_program_8cs_1a79a944c7f0e25196ca3c5a8638b919b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>if</definition>
+        <argsstring>(app.Environment.IsDevelopment())</argsstring>
+        <name>if</name>
+        <param>
+          <type>app.Environment.</type>
+          <declname>IsDevelopment</declname>
+          <array>()</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" line="14" column="1" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="_server_2_program_8cs_1a8c2c34f600427906d008e9ce976831ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. UseHsts</definition>
+        <argsstring>()</argsstring>
+        <name>UseHsts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" line="22" column="8" declfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" declline="22" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="_server_2_program_8cs_1aa4d447fc3129a3aa301d736b8bd04ae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. UseHttpsRedirection</definition>
+        <argsstring>()</argsstring>
+        <name>UseHttpsRedirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" line="25" column="4" declfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" declline="25" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_server_2_program_8cs_1aed1efa704e60214c06e980909b57ee78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. UseBlazorFrameworkFiles</definition>
+        <argsstring>()</argsstring>
+        <name>UseBlazorFrameworkFiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" line="27" column="4" declfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" declline="27" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_server_2_program_8cs_1a906a3ce545279a7a73941f1d7b64d7cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. UseStaticFiles</definition>
+        <argsstring>()</argsstring>
+        <name>UseStaticFiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" line="28" column="4" declfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" declline="28" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_server_2_program_8cs_1a94c810d266751293a2d511a720a5625f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. UseRouting</definition>
+        <argsstring>()</argsstring>
+        <name>UseRouting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" line="30" column="4" declfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" declline="30" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_server_2_program_8cs_1aea1890390376604d4d91e0bdb76602a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. MapRazorPages</definition>
+        <argsstring>()</argsstring>
+        <name>MapRazorPages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" line="33" column="4" declfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" declline="33" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_server_2_program_8cs_1a9e2ee3170aa6279b68eefd1651f7d96c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. MapControllers</definition>
+        <argsstring>()</argsstring>
+        <name>MapControllers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" line="34" column="4" declfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" declline="34" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_server_2_program_8cs_1ab162ca4c83853bf01175352d441bd220" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. MapFallbackToFile</definition>
+        <argsstring>(&quot;index.html&quot;)</argsstring>
+        <name>MapFallbackToFile</name>
+        <param>
+          <type>&quot;index.html&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" line="35" column="4" declfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" declline="35" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_server_2_program_8cs_1aaa3dbf02e269c3ef7e8546d290c6b3dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" line="37" column="4" declfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs" declline="37" declcolumn="4"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.ResponseCompression;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>OpenBets.Server;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">var<sp/><ref refid="_client_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref><sp/>=<sp/>WebApplication.CreateBuilder(args);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Add<sp/>services<sp/>to<sp/>the<sp/>container.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">RegisterServices.ConfigureServices(<ref refid="_client_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">var<sp/><ref refid="_server_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref><sp/>=<sp/><ref refid="_client_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Build();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Configure<sp/>the<sp/>HTTP<sp/>request<sp/>pipeline.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_server_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.Environment.IsDevelopment())</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_server_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseWebAssemblyDebugging();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_server_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseExceptionHandler(</highlight><highlight class="stringliteral">&quot;/Error&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>default<sp/>HSTS<sp/>value<sp/>is<sp/>30<sp/>days.<sp/>You<sp/>may<sp/>want<sp/>to<sp/>change<sp/>this<sp/>for<sp/>production<sp/>scenarios,<sp/>see<sp/>https://aka.ms/aspnetcore-hsts.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_server_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseHsts();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><ref refid="_server_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseHttpsRedirection();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><ref refid="_server_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseBlazorFrameworkFiles();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><ref refid="_server_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseStaticFiles();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><ref refid="_server_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseRouting();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><ref refid="_server_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.MapRazorPages();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><ref refid="_server_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.MapControllers();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><ref refid="_server_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.MapFallbackToFile(</highlight><highlight class="stringliteral">&quot;index.html&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><ref refid="_server_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.Run();</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Program.cs"/>
+  </compounddef>
+</doxygen>

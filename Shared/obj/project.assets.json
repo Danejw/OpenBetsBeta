@@ -11,6 +11,9 @@
           "lib/netstandard2.1/DnsClient.dll": {}
         }
       },
+      "Doxygen/1.8.14": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -271,6 +274,20 @@
         "lib/netstandard2.0/DnsClient.xml",
         "lib/netstandard2.1/DnsClient.dll",
         "lib/netstandard2.1/DnsClient.xml"
+      ]
+    },
+    "Doxygen/1.8.14": {
+      "sha512": "2a9Cx5QwwZC3D5tFvRQdSNdjVSIA7INtnHbxq9ogkrbkTBI5XZiS0oI5cln6aNL3M1YuVbGZL2YHIMThbVJRwQ==",
+      "type": "package",
+      "path": "doxygen/1.8.14",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "doxygen.1.8.14.nupkg.sha512",
+        "doxygen.nuspec",
+        "tools/doxygen.exe",
+        "tools/libclang.dll"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
@@ -653,6 +670,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Doxygen >= 1.8.14",
       "Microsoft.Extensions.Caching.Memory >= 6.0.0",
       "Microsoft.Extensions.Configuration.Abstractions >= 6.0.0",
       "MongoDB.Driver >= 2.14.1"
@@ -701,6 +719,12 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Doxygen": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.8.14, )"
+          },
           "Microsoft.Extensions.Caching.Memory": {
             "target": "Package",
             "version": "[6.0.0, )"

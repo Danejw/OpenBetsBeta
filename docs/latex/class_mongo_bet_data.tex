@@ -1,0 +1,78 @@
+\hypertarget{class_mongo_bet_data}{}\doxysection{Mongo\+Bet\+Data Class Reference}
+\label{class_mongo_bet_data}\index{MongoBetData@{MongoBetData}}
+Inheritance diagram for Mongo\+Bet\+Data\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_mongo_bet_data}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_mongo_bet_data_abf5c1493de9b545cd058872f5cad9e28}{Mongo\+Bet\+Data}} (\mbox{\hyperlink{interface_i_db_connection}{IDb\+Connection}} db, IMemory\+Cache cache)
+\item 
+async Task$<$ List$<$ \mbox{\hyperlink{class_bet}{Bet}} $>$ $>$ \mbox{\hyperlink{class_mongo_bet_data_a3e32f8d0f552442f043f05b8e1908c40}{Get\+Bets\+Async}} ()
+\item 
+async Task$<$ \mbox{\hyperlink{class_bet}{Bet}} $>$ \mbox{\hyperlink{class_mongo_bet_data_a540912504f8f166bdabe97acf4ee7fa2}{Get\+Bet\+Async}} (string id)
+\item 
+Task \mbox{\hyperlink{class_mongo_bet_data_adca2b3a178da4f13f258223405a53784}{Create\+Bet}} (\mbox{\hyperlink{class_bet}{Bet}} bet)
+\item 
+void \mbox{\hyperlink{class_mongo_bet_data_a345cb84b522a19f373c5a5da0d310827}{Match\+Bet}} (\mbox{\hyperlink{class_bet}{Bet}} bet)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_mongo_bet_data_abf5c1493de9b545cd058872f5cad9e28}\label{class_mongo_bet_data_abf5c1493de9b545cd058872f5cad9e28}} 
+\index{MongoBetData@{MongoBetData}!MongoBetData@{MongoBetData}}
+\index{MongoBetData@{MongoBetData}!MongoBetData@{MongoBetData}}
+\doxysubsubsection{\texorpdfstring{MongoBetData()}{MongoBetData()}}
+{\footnotesize\ttfamily Mongo\+Bet\+Data.\+Mongo\+Bet\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_i_db_connection}{IDb\+Connection}}}]{db,  }\item[{IMemory\+Cache}]{cache }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_mongo_bet_data_adca2b3a178da4f13f258223405a53784}\label{class_mongo_bet_data_adca2b3a178da4f13f258223405a53784}} 
+\index{MongoBetData@{MongoBetData}!CreateBet@{CreateBet}}
+\index{CreateBet@{CreateBet}!MongoBetData@{MongoBetData}}
+\doxysubsubsection{\texorpdfstring{CreateBet()}{CreateBet()}}
+{\footnotesize\ttfamily Task Mongo\+Bet\+Data.\+Create\+Bet (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bet}{Bet}}}]{bet }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_bet_data_a781f0c2023bd85b479236b2260cca703}{IBet\+Data}}.
+
+\mbox{\Hypertarget{class_mongo_bet_data_a540912504f8f166bdabe97acf4ee7fa2}\label{class_mongo_bet_data_a540912504f8f166bdabe97acf4ee7fa2}} 
+\index{MongoBetData@{MongoBetData}!GetBetAsync@{GetBetAsync}}
+\index{GetBetAsync@{GetBetAsync}!MongoBetData@{MongoBetData}}
+\doxysubsubsection{\texorpdfstring{GetBetAsync()}{GetBetAsync()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_bet}{Bet}} $>$ Mongo\+Bet\+Data.\+Get\+Bet\+Async (\begin{DoxyParamCaption}\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_bet_data_aec9ddf2e888242f8812b451248c0bc08}{IBet\+Data}}.
+
+\mbox{\Hypertarget{class_mongo_bet_data_a3e32f8d0f552442f043f05b8e1908c40}\label{class_mongo_bet_data_a3e32f8d0f552442f043f05b8e1908c40}} 
+\index{MongoBetData@{MongoBetData}!GetBetsAsync@{GetBetsAsync}}
+\index{GetBetsAsync@{GetBetsAsync}!MongoBetData@{MongoBetData}}
+\doxysubsubsection{\texorpdfstring{GetBetsAsync()}{GetBetsAsync()}}
+{\footnotesize\ttfamily async Task$<$ List$<$ \mbox{\hyperlink{class_bet}{Bet}} $>$ $>$ Mongo\+Bet\+Data.\+Get\+Bets\+Async (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_bet_data_a8cdbc0bb9e99821e5d00b2e9f067dec5}{IBet\+Data}}.
+
+\mbox{\Hypertarget{class_mongo_bet_data_a345cb84b522a19f373c5a5da0d310827}\label{class_mongo_bet_data_a345cb84b522a19f373c5a5da0d310827}} 
+\index{MongoBetData@{MongoBetData}!MatchBet@{MatchBet}}
+\index{MatchBet@{MatchBet}!MongoBetData@{MongoBetData}}
+\doxysubsubsection{\texorpdfstring{MatchBet()}{MatchBet()}}
+{\footnotesize\ttfamily void Mongo\+Bet\+Data.\+Match\+Bet (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bet}{Bet}}}]{bet }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_bet_data_a045238dcc13efda5708c0e3faddb2647}{IBet\+Data}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Recallable\+Facts/\+Documents/\+Git\+Hub/\+Open\+Bets/\+Shared/\+Data\+Access/\mbox{\hyperlink{_mongo_bet_data_8cs}{Mongo\+Bet\+Data.\+cs}}\end{DoxyCompactItemize}

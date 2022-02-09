@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="interface_i_bet_data" kind="interface" language="C#" prot="public">
+    <compoundname>IBetData</compoundname>
+    <derivedcompoundref refid="class_mongo_bet_data" prot="public" virt="non-virtual">MongoBetData</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_i_bet_data_1a781f0c2023bd85b479236b2260cca703" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task IBetData.CreateBet</definition>
+        <argsstring>(Bet bet)</argsstring>
+        <name>CreateBet</name>
+        <reimplementedby refid="class_mongo_bet_data_1adca2b3a178da4f13f258223405a53784">CreateBet</reimplementedby>
+        <param>
+          <type><ref refid="class_bet" kindref="compound">Bet</ref></type>
+          <declname>bet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/IBetData.cs" line="6" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_bet_data_1aec9ddf2e888242f8812b451248c0bc08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_bet" kindref="compound">Bet</ref> &gt;</type>
+        <definition>Task&lt; Bet &gt; IBetData.GetBetAsync</definition>
+        <argsstring>(string id)</argsstring>
+        <name>GetBetAsync</name>
+        <reimplementedby refid="class_mongo_bet_data_1a540912504f8f166bdabe97acf4ee7fa2">GetBetAsync</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/IBetData.cs" line="7" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_bet_data_1a8cdbc0bb9e99821e5d00b2e9f067dec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_bet" kindref="compound">Bet</ref> &gt; &gt;</type>
+        <definition>Task&lt; List&lt; Bet &gt; &gt; IBetData.GetBetsAsync</definition>
+        <argsstring>()</argsstring>
+        <name>GetBetsAsync</name>
+        <reimplementedby refid="class_mongo_bet_data_1a3e32f8d0f552442f043f05b8e1908c40">GetBetsAsync</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/IBetData.cs" line="8" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_bet_data_1a045238dcc13efda5708c0e3faddb2647" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IBetData.MatchBet</definition>
+        <argsstring>(Bet bet)</argsstring>
+        <name>MatchBet</name>
+        <reimplementedby refid="class_mongo_bet_data_1a345cb84b522a19f373c5a5da0d310827">MatchBet</reimplementedby>
+        <param>
+          <type><ref refid="class_bet" kindref="compound">Bet</ref></type>
+          <declname>bet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/IBetData.cs" line="9" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IBetData</label>
+        <link refid="interface_i_bet_data"/>
+      </node>
+      <node id="2">
+        <label>MongoBetData</label>
+        <link refid="class_mongo_bet_data"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/IBetData.cs" line="4" column="18" bodyfile="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Shared/DataAccess/IBetData.cs" bodystart="5" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interface_i_bet_data_1a781f0c2023bd85b479236b2260cca703" prot="public" virt="non-virtual"><scope>IBetData</scope><name>CreateBet</name></member>
+      <member refid="interface_i_bet_data_1aec9ddf2e888242f8812b451248c0bc08" prot="public" virt="non-virtual"><scope>IBetData</scope><name>GetBetAsync</name></member>
+      <member refid="interface_i_bet_data_1a8cdbc0bb9e99821e5d00b2e9f067dec5" prot="public" virt="non-virtual"><scope>IBetData</scope><name>GetBetsAsync</name></member>
+      <member refid="interface_i_bet_data_1a045238dcc13efda5708c0e3faddb2647" prot="public" virt="non-virtual"><scope>IBetData</scope><name>MatchBet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

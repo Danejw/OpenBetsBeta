@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_5dfe16ef4ac4b2637a7bac8a7a32cffd" kind="dir">
+    <compoundname>C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/obj/Debug/net6.0</compoundname>
+    <innerfile refid="_server_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs">.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</innerfile>
+    <innerfile refid="_open_bets_beta_8_server_8_assembly_info_8cs">OpenBetsBeta.Server.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_open_bets_beta_8_server_8_global_usings_8g_8cs">OpenBetsBeta.Server.GlobalUsings.g.cs</innerfile>
+    <innerfile refid="_open_bets_beta_8_server_8_razor_assembly_info_8cs">OpenBetsBeta.Server.RazorAssemblyInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/obj/Debug/net6.0/"/>
+  </compounddef>
+</doxygen>

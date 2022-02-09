@@ -11,6 +11,9 @@
           "lib/netstandard2.1/DnsClient.dll": {}
         }
       },
+      "Doxygen/1.8.14": {
+        "type": "package"
+      },
       "LibSassBuilder/2.0.1": {
         "type": "package",
         "build": {
@@ -633,6 +636,9 @@
           "lib/netstandard2.1/DnsClient.dll": {}
         }
       },
+      "Doxygen/1.8.14": {
+        "type": "package"
+      },
       "LibSassBuilder/2.0.1": {
         "type": "package",
         "build": {
@@ -1217,6 +1223,20 @@
         "lib/netstandard2.0/DnsClient.xml",
         "lib/netstandard2.1/DnsClient.dll",
         "lib/netstandard2.1/DnsClient.xml"
+      ]
+    },
+    "Doxygen/1.8.14": {
+      "sha512": "2a9Cx5QwwZC3D5tFvRQdSNdjVSIA7INtnHbxq9ogkrbkTBI5XZiS0oI5cln6aNL3M1YuVbGZL2YHIMThbVJRwQ==",
+      "type": "package",
+      "path": "doxygen/1.8.14",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "doxygen.1.8.14.nupkg.sha512",
+        "doxygen.nuspec",
+        "tools/doxygen.exe",
+        "tools/libclang.dll"
       ]
     },
     "LibSassBuilder/2.0.1": {
@@ -2385,6 +2405,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Doxygen >= 1.8.14",
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.0",
       "OpenBetsBeta.Shared >= 1.0.0",
@@ -2438,6 +2459,12 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Doxygen": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.8.14, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[6.0.0, )"

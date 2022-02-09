@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespaceglobal_1_1_microsoft_1_1_extensions_1_1_dependency_injection" kind="namespace" language="C#">
+    <compoundname>global::Microsoft::Extensions::DependencyInjection</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/obj/Debug/net6.0/OpenBetsBeta.Client.GlobalUsings.g.cs" line="3" column="62"/>
+  </compounddef>
+</doxygen>

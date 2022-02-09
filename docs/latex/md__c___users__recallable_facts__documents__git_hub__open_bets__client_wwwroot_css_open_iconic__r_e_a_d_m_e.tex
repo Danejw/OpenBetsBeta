@@ -1,0 +1,109 @@
+\hypertarget{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md0}{}\doxysubsection{Open Iconic is the open source sibling of $<$a href=\char`\"{}http\+://useiconic.\+com\char`\"{} $>$\+Iconic$<$/a$>$. It is a hyper-\/legible collection of 223 icons with a tiny footprint—ready to use with Bootstrap and Foundation. $<$a href=\char`\"{}http\+://useiconic.\+com/open\#icons\char`\"{} $>$\+View the collection$<$/a$>$}\label{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md0}
+\hypertarget{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md1}{}\doxysection{What\textquotesingle{}s in Open Iconic?}\label{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md1}
+
+\begin{DoxyItemize}
+\item 223 icons designed to be legible down to 8 pixels
+\item Super-\/light SVG files -\/ 61.\+8 for the entire set
+\item SVG sprite---the modern replacement for icon fonts
+\item Webfont (EOT, OTF, SVG, TTF, WOFF), PNG and WebP formats
+\item Webfont stylesheets (including versions for Bootstrap and Foundation) in CSS, LESS, SCSS and Stylus formats
+\item PNG and WebP raster images in 8px, 16px, 24px, 32px, 48px and 64px.
+\end{DoxyItemize}\hypertarget{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md2}{}\doxysection{Getting Started}\label{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md2}
+\hypertarget{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md3}{}\doxysubsubsection{For code samples and everything else you need to get started with Open Iconic, check out our $<$a href=\char`\"{}http\+://useiconic.\+com/open\#icons\char`\"{} $>$\+Icons$<$/a$>$ and $<$a href=\char`\"{}http\+://useiconic.\+com/open\#reference\char`\"{} $>$\+Reference$<$/a$>$ sections.}\label{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md3}
+\hypertarget{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md4}{}\doxysubsection{General Usage}\label{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md4}
+\hypertarget{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md5}{}\doxysubsubsection{Using Open Iconic\textquotesingle{}s SVGs}\label{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md5}
+We like SVGs and we think they\textquotesingle{}re the way to display icons on the web. Since Open Iconic are just basic SVGs, we suggest you display them like you would any other image (don\textquotesingle{}t forget the {\ttfamily alt} attribute).
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{<img src="{}/open-\/iconic/svg/icon-\/name.svg"{} alt="{}icon name"{}>}
+
+\end{DoxyCode}
+\hypertarget{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md6}{}\doxysubsubsection{Using Open Iconic\textquotesingle{}s SVG Sprite}\label{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md6}
+Open Iconic also comes in a SVG sprite which allows you to display all the icons in the set with a single request. It\textquotesingle{}s like an icon font, without being a hack.
+
+Adding an icon from an SVG sprite is a little different than what you\textquotesingle{}re used to, but it\textquotesingle{}s still a piece of cake. {\itshape Tip\+: To make your icons easily style able, we suggest adding a general class to the} {\ttfamily \texorpdfstring{$<$}{<}svg\texorpdfstring{$>$}{>}} {\itshape tag and a unique class name for each different icon in the} {\ttfamily \texorpdfstring{$<$}{<}use\texorpdfstring{$>$}{>}} {\itshape tag.} ~\newline
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{<svg class="{}icon"{}>}
+\DoxyCodeLine{  <use xlink:href="{}open-\/iconic.svg\#account-\/login"{} class="{}icon-\/account-\/login"{}></use>}
+\DoxyCodeLine{</svg>}
+
+\end{DoxyCode}
+
+
+Sizing icons only needs basic CSS. All the icons are in a square format, so just set the {\ttfamily \texorpdfstring{$<$}{<}svg\texorpdfstring{$>$}{>}} tag with equal width and height dimensions.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{.icon \{}
+\DoxyCodeLine{  width: 16px;}
+\DoxyCodeLine{  height: 16px;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Coloring icons is even easier. All you need to do is set the {\ttfamily fill} rule on the {\ttfamily \texorpdfstring{$<$}{<}use\texorpdfstring{$>$}{>}} tag.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{.icon-\/account-\/login \{}
+\DoxyCodeLine{  fill: \#f00;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+To learn more about SVG Sprites, read \href{http://css-tricks.com/svg-sprites-use-better-icon-fonts/}{\texttt{ Chris Coyier\textquotesingle{}s guide}}.\hypertarget{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md7}{}\doxysubsubsection{Using Open Iconic\textquotesingle{}s Icon Font...}\label{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md7}
+\hypertarget{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md8}{}\doxyparagraph{…with Bootstrap}\label{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md8}
+You can find our Bootstrap stylesheets in {\ttfamily font/css/open-\/iconic-\/bootstrap.\{css, less, scss, styl\}}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{<link href="{}/open-\/iconic/font/css/open-\/iconic-\/bootstrap.css"{} rel="{}stylesheet"{}>}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{<span class="{}oi oi-\/icon-\/name"{} title="{}icon name"{} aria-\/hidden="{}true"{}></span>}
+
+\end{DoxyCode}
+\hypertarget{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md9}{}\doxyparagraph{…with Foundation}\label{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md9}
+You can find our Foundation stylesheets in {\ttfamily font/css/open-\/iconic-\/foundation.\{css, less, scss, styl\}}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{<link href="{}/open-\/iconic/font/css/open-\/iconic-\/foundation.css"{} rel="{}stylesheet"{}>}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{<span class="{}fi-\/icon-\/name"{} title="{}icon name"{} aria-\/hidden="{}true"{}></span>}
+
+\end{DoxyCode}
+\hypertarget{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md10}{}\doxyparagraph{…on its own}\label{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md10}
+You can find our default stylesheets in {\ttfamily font/css/open-\/iconic.\{css, less, scss, styl\}}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{<link href="{}/open-\/iconic/font/css/open-\/iconic.css"{} rel="{}stylesheet"{}>}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{<span class="{}oi"{} data-\/glyph="{}icon-\/name"{} title="{}icon name"{} aria-\/hidden="{}true"{}></span>}
+
+\end{DoxyCode}
+\hypertarget{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md11}{}\doxysection{License}\label{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md11}
+\hypertarget{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md12}{}\doxysubsection{Icons}\label{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md12}
+All code (including SVG markup) is under the \href{http://opensource.org/licenses/MIT}{\texttt{ MIT License}}.\hypertarget{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md13}{}\doxysubsection{Fonts}\label{md__c___users__recallable_facts__documents__git_hub__open_bets__client_wwwroot_css_open_iconic__r_e_a_d_m_e_autotoc_md13}
+All fonts are under the \href{http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web}{\texttt{ SIL Licensed}}. 
