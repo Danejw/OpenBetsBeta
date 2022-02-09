@@ -1,10 +1,23 @@
 ﻿@page "/event"
+@using Radzen
+@using Radzen.Blazor
 
 
 <!--Events-->
 <div class="container">
     <h2>Events:</h2>
-            <table class="table table-striped table-bordered">
+    
+        <!--AddButton-->
+    <div align="right">
+        <RadzenButton 
+            Click=@CreateAndAddEvent 
+            Text="Add New Event" 
+            ButtonStyle="ButtonStyle.Primary">
+        </RadzenButton>       
+    </div>
+  
+    
+    <table class="table table-striped table-bordered">
 
         <thead>
             <tr>
@@ -18,7 +31,7 @@
             </tr>
         </thead>
 
-        <!--
+        
         <tbody>
             @foreach (var e in events)
             {
@@ -33,19 +46,8 @@
                 </tr>
             }          
         </tbody>
-        -->
+        
 
     </table>
 </div>
 
-@code{
-    private List<Event> events;
-    private readonly MongoEventData eventData;
-    private string selectedEvent = "All";
-
-    protected async override Task OnInitializedAsync()
-    {
-        events = await eventData.GetEventsAsync();
-    }
-
-}

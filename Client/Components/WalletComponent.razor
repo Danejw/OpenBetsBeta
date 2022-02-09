@@ -22,7 +22,7 @@
             </tr>
         </thead>
 
-        <!--
+        
         <tbody>
             @foreach (var account in accounts)
             {
@@ -41,19 +41,9 @@
                 </tr>
             }          
         </tbody>
-        -->
+        
 
     </table>
 </div>
 
 
-@code {
-    private List<Account> accounts;
-    private readonly MongoAccountData accountData;
-
-    protected async override Task OnInitializedAsync()
-    {
-       accounts = await accountData.GetAccountsAsync();
-    }
-
-}

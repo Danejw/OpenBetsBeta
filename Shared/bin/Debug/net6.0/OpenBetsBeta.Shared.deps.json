@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "OpenBetsBeta.Shared/1.0.0": {
         "dependencies": {
+          "Doxygen": "1.8.14",
           "Microsoft.Extensions.Caching.Memory": "6.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "MongoDB.Driver": "2.14.1"
@@ -24,6 +25,7 @@
           }
         }
       },
+      "Doxygen/1.8.14": {},
       "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "6.0.0"
@@ -225,6 +227,13 @@
       "sha512": "sha512-CO1NG1zQdV0nEAXmr/KppLZ0S1qkaPwV0kPX5YPgmYBtrBVh1XMYHM54IXy3RBJu1k4thFtpzwo4HNHqxiuFYw==",
       "path": "dnsclient/1.4.0",
       "hashPath": "dnsclient.1.4.0.nupkg.sha512"
+    },
+    "Doxygen/1.8.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2a9Cx5QwwZC3D5tFvRQdSNdjVSIA7INtnHbxq9ogkrbkTBI5XZiS0oI5cln6aNL3M1YuVbGZL2YHIMThbVJRwQ==",
+      "path": "doxygen/1.8.14",
+      "hashPath": "doxygen.1.8.14.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
       "type": "package",
