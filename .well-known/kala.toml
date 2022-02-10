@@ -1,1 +1,35 @@
-Put kala.toml file here
+NETWORK_PASSPHRASE="Public Global Stellar Network ; February 2022"
+FEDERATION_SERVER="https://api.domain.com/federation"
+AUTH_SERVER="https://api.domain.com/auth"
+TRANSFER_SERVER="https://api.domain.com"
+SIGNING_KEY="GBBHQ7H4V6RRORKYLHTCAWP6MOHNORRFJSDPXDFYDGJB2LPZUFPXUEW3"
+HORIZON_URL="https://horizon.domain.com"
+ACCOUNTS=[
+"GD5DJQDDBKGAYNEAXU562HYGOOSYAEOO6AS53PZXBOZGCP5M2OPGMZV3",
+"GAENZLGHJGJRCMX5VCHOLHQXU3EMCU5XWDNU4BGGJFNLI2EL354IVBK7",
+"GAOO3LWBC4XF6VWRP5ESJ6IBHAISVJMSBTALHOQM2EZG7Q477UWA6L7U"
+]
+VERSION="2.0.0"
+
+[DOCUMENTATION]
+ORG_NAME="Sand Slide Krew"
+ORG_DBA="SSK"
+ORG_URL="https://www.domain.com"
+ORG_LOGO=""
+ORG_DESCRIPTION="Made in Hawaii, By da Boys, For da Boys"
+ORG_PHYSICAL_ADDRESS="Westside, Shores, HI 96707, United States"
+ORG_OFFICIAL_EMAIL="theesupremekai@gmail.com"
+
+[[PRINCIPALS]]
+name="Dickie"
+email="theesupremekai@gmail.com"
+github="SupremeKai69"
+
+# asset with meta info
+[[CURRENCIES]]
+code="SSK"
+issuer="GAXDULLORURF3W4P5LYH2EWCXMCNOLN6GEERN67SBZY52CEKZ2JSWIPC"
+display_decimals=3
+name="SSK Tokens"
+conditions="There will only ever be 1,000,000 SSK tokens in existence. We will distribute the revenue during special events only"
+image=""
