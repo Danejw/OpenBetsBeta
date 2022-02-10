@@ -4,19 +4,26 @@
 
 
 <!--Events-->
-<div class="container">
-    <h2>Events:</h2>
-    
-        <!--AddButton-->
-    <div align="right">
+<div class="container-fluid">
+    <div class="card">
+      <div class="card-body">
+        <h1 align="center">Events</h1>
+
+    <!--AddButton-->
+    <div align="center">
         <RadzenButton 
             Click=@CreateAndAddEvent 
             Text="Add New Event" 
             ButtonStyle="ButtonStyle.Primary">
         </RadzenButton>       
     </div>
-  
+
+      </div>
+    </div>
     
+
+  
+    <div class="card">
     <table class="table table-striped table-bordered">
 
         <thead>
@@ -46,8 +53,8 @@
                 </tr>
             }          
         </tbody>
-        
-
+       
     </table>
+    </div>
 </div>
 
