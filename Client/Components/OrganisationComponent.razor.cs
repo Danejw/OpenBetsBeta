@@ -19,37 +19,54 @@ namespace OpenBetsBeta.Client.Components
 {
     public partial class OrganisationComponent
     {
-      RadzenDataGrid<Organisation> table;
-      private IEnumerable<Organisation> organisations;
-      private MongoOrganisationData organisationData;
-      private int count;
-      private Organisation sample;
-        //private string selectedOrganisation = "All";
-        protected async override Task OnInitializedAsync()
-        {
-            organisations = await organisationData.GetOrganisationsAsync();
-        }
-      protected override Task OnAfterRenderAsync(bool firstRender)
-      {
-         sample = CreateOrganisation("UFC");
+       private List<Organisation> organisations = new();
+       private MongoOrganisationData organisationData;
+       private int count;
+       
+         //private string selectedOrganisation = "All";
+       protected async override Task OnInitializedAsync()
+       {
+         CreateSampleOrganisations();
 
+
+         await base.OnInitializedAsync();
+          //organisations = await organisationData.GetOrganisationsAsync();
+       }
+       protected override Task OnAfterRenderAsync(bool firstRender)
+      {      
          return base.OnAfterRenderAsync(firstRender);
       }
-
-      private void CreateSampleOrganisations()
+       
+       private void CreateSampleOrganisations()
       {
-         //organisations = await organisationData.GetOrganisationsAsync();
-         table.InsertRow(CreateOrganisation("UFC"));
-         table.InsertRow(CreateOrganisation("NFL"));
-         table.InsertRow(CreateOrganisation("MBA"));
-      }
+         Organisation ufc = CreateOrganisation("UFC", "The Ultimate Figting Championship");
+         Organisation nfl = CreateOrganisation("NFL", "The National Football League");
+         Organisation nba = CreateOrganisation("NBA", "THe National Basketball Association");
 
-      public Organisation CreateOrganisation(string name)
+         organisations.Add(ufc);
+         organisations.Add(nfl);
+         organisations.Add(nba);
+      }
+       
+       public Organisation CreateOrganisation(string name)
       {
          Organisation org = new Organisation();
          org.Id = count++.ToString();
          org.Name = name;
          org.Description = "";
+         org.CreatedDate = DateTime.UtcNow;
+         org.Events = new List<Event>();
+         return org;
+
+         //Console.Out.WriteLine("Added New Organisation: " + org.Name);
+         //await organisationData.CreateOrganisation(org);
+      }
+       public Organisation CreateOrganisation(string name, string desc)
+      {
+         Organisation org = new Organisation();
+         org.Id = count++.ToString();
+         org.Name = name;
+         org.Description = desc;
          org.CreatedDate = DateTime.UtcNow;
          org.Events = new List<Event>();
          return org;
