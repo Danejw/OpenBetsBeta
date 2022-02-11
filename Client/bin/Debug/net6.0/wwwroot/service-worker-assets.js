@@ -73,8 +73,28 @@
       "url": "OpenBetsBeta.Client.styles.css"
     },
     {
+      "hash": "sha256-z6qKBvWvrG9\/WCX1rHT1DuLKhpwTHgk3e7zEZO4hwLI=",
+      "url": "_framework\/Common.Logging.dll"
+    },
+    {
+      "hash": "sha256-N1etuvirNg6bPBNa9k+tAlMp8GSLrLgHasZqPu3b0Qo=",
+      "url": "_framework\/Common.Logging.Core.dll"
+    },
+    {
       "hash": "sha256-gWqxqdNWccOfJcbLM+dhjMNj1xkEDo+YNJiZkDQnEGs=",
       "url": "_framework\/DnsClient.dll"
+    },
+    {
+      "hash": "sha256-yuJAGPK3GTMCaDVA7BEDwD\/pM53o\/bfjvWQpCniSkas=",
+      "url": "_framework\/dotnetstandard-bip32.dll"
+    },
+    {
+      "hash": "sha256-S9XeK\/kiiyhsViE2u9xVHvwwqE+lSqyx3BD+t\/TORNY=",
+      "url": "_framework\/dotnetstandard-bip39.dll"
+    },
+    {
+      "hash": "sha256-auhUj7L\/YCfoh51d74iNdhJNYqLA7L9UDQ2Xbl4LbHk=",
+      "url": "_framework\/LaunchDarkly.EventSource.dll"
     },
     {
       "hash": "sha256-ODuGqSb\/EjQtAKtKGIHBUB8NM5h18TZENSXeu+IQyNk=",
@@ -189,12 +209,32 @@
       "url": "_framework\/MongoDB.Libmongocrypt.dll"
     },
     {
+      "hash": "sha256-v+cllQKarfLf+sZeWorT1mJrs84F9H0zZgCxFgPVGlU=",
+      "url": "_framework\/Nett.dll"
+    },
+    {
+      "hash": "sha256-BPeXAMTZKR8pJ7LpQA8+w4soJFGV1TLt2PPpnmpBUeE=",
+      "url": "_framework\/Newtonsoft.Json.dll"
+    },
+    {
+      "hash": "sha256-s8hcld8oxoLgwhGW0wqwtTJP36csdBQFkx+Cl1RkVro=",
+      "url": "_framework\/NSec.Cryptography.dll"
+    },
+    {
       "hash": "sha256-QSZCVNTY\/KF9TzrCvUp5opMp+UAVkNr1Z7Be5AfYZ2M=",
       "url": "_framework\/Radzen.Blazor.dll"
     },
     {
       "hash": "sha256-g6OkB2E3tHVhjYz074TwY\/qKeHk14HgEWYjivSizy68=",
       "url": "_framework\/SharpCompress.dll"
+    },
+    {
+      "hash": "sha256-Wmv8hrEdacClwTMSAATF5mVyOH1jAJDvDcyOJg1yiMs=",
+      "url": "_framework\/stellar-dotnet-sdk.dll"
+    },
+    {
+      "hash": "sha256-9sjLcGNZjGhYMfBAXJPmPZMkr4vjbsxf2TK853EptnQ=",
+      "url": "_framework\/stellar-dotnet-sdk-xdr.dll"
     },
     {
       "hash": "sha256-82Azhz6bwUir2bGFgxIgFUe0ecr6JTEuxlnxtWpds+I=",
@@ -905,11 +945,11 @@
       "url": "_framework\/OpenBetsBeta.Shared.pdb"
     },
     {
-      "hash": "sha256-Ay037bEzG9QmS4sWQc4kg0t9ZH2yVv90P6tCfbeLB\/Q=",
+      "hash": "sha256-5pYp2ZRl6veZ1ukKXYzRvsZ6ZtosbfLw22F7pMIlzP0=",
       "url": "_framework\/OpenBetsBeta.Client.dll"
     },
     {
-      "hash": "sha256-T6WdX\/zxYJci4Q7n2BD2NyxWjhF+T4UaUAgALKv6Ca4=",
+      "hash": "sha256-Yaehn+31CAkCa4A8jGmxOqDBB3gNgTSwfRdxuyagt+U=",
       "url": "_framework\/OpenBetsBeta.Client.pdb"
     },
     {
@@ -917,7 +957,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-i\/m8AjuGWGRyfgyVYLHNaYa6mGj33jBLo7uoDH92Hfc=",
+      "hash": "sha256-INwasJkUECBFXYTr2DCS29sviqtIy5XBpCZprlpt7qM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1029,5 +1069,5 @@
       "url": "_content\/Radzen.Blazor\/Radzen.Blazor.js"
     }
   ],
-  "version": "tLKOR\/mb"
+  "version": "3aQoiZL0"
 };

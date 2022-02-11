@@ -1,0 +1,270 @@
+﻿++Solution 'OpenBets' ‎(3 of 3 projects)
+i:{00000000-0000-0000-0000-000000000000}:OpenBets.sln
+++Solution Items
+i:{00000000-0000-0000-0000-000000000000}:Solution Items
+++.editorconfig
+i:{582f68ea-ab73-46ba-ae88-ff5447d205c4}:C:\Users\RecallableFacts\Documents\GitHub\OpenBets\.editorconfig
+++OpenBetsBeta.Server
+i:{00000000-0000-0000-0000-000000000000}:OpenBetsBeta.Server
+++Connected Services 
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:>2435
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:>2434
+++Dependencies
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:>2433
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:>1403
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:>2432
+++Properties
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\users\recallablefacts\documents\github\openbets\server\properties\
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\properties\
+++Controllers
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\users\recallablefacts\documents\github\openbets\server\controllers\
+++Pages
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\users\recallablefacts\documents\github\openbets\server\pages\
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\pages\
+++appsettings.json
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\users\recallablefacts\documents\github\openbets\server\appsettings.json
+++Program.cs
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\users\recallablefacts\documents\github\openbets\server\program.cs
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\program.cs
+++RegisterServices.cs
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\users\recallablefacts\documents\github\openbets\server\registerservices.cs
+++No service dependencies discovered
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:>2436
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:>2437
+++Analyzers
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:analyzers
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:analyzers
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:analyzers
+++Frameworks
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:frameworks
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:frameworks
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:frameworks
+++Packages
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:packages
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:packages
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:packages
+++Projects
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:projects
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:projects
+++launchSettings.json
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\users\recallablefacts\documents\github\openbets\server\properties\launchsettings.json
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\properties\launchsettings.json
+++Error.cshtml
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\users\recallablefacts\documents\github\openbets\server\pages\error.cshtml
+++appsettings.Development.json
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\users\recallablefacts\documents\github\openbets\server\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\.nuget\packages\microsoft.aspnetcore.components.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\users\recallablefacts\documents\github\openbets\server\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\users\recallablefacts\documents\github\openbets\server\microsoft.netcore.app
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\microsoft.netcore.app
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\microsoft.netcore.app
+++Doxygen (1.8.14)
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:>2480
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:>2448
+++Microsoft.AspNetCore.Components.WebAssembly.Server (6.0.0)
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:>2482
+++OpenBetsBeta.Client
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\users\recallablefacts\documents\github\openbets\client\bin\debug\net6.0\openbetsbeta.client.dll
+i:{00000000-0000-0000-0000-000000000000}:OpenBetsBeta.Client
+++OpenBetsBeta.Shared
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\users\recallablefacts\documents\github\openbets\shared\bin\debug\net6.0\openbetsbeta.shared.dll
+i:{00000000-0000-0000-0000-000000000000}:OpenBetsBeta.Shared
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\shared\bin\debug\net6.0\openbetsbeta.shared.dll
+++Error.cshtml.cs
+i:{edb4499c-285b-4b64-8877-ebac7bf14c89}:c:\users\recallablefacts\documents\github\openbets\server\pages\error.cshtml.cs
+++DataAccess
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\dataaccess\
+++Models
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\models\
+++GlobalUsings.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\globalusings.cs
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\globalusings.cs
+++DbConnection.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\dataaccess\dbconnection.cs
+++IAccountData.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\dataaccess\iaccountdata.cs
+++IBetData.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\dataaccess\ibetdata.cs
+++IDbConnection.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\dataaccess\idbconnection.cs
+++IEventData.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\dataaccess\ieventdata.cs
+++IOrganisationData.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\dataaccess\iorganisationdata.cs
+++ISubEventData.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\dataaccess\isubeventdata.cs
+++MongoAccountData.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\dataaccess\mongoaccountdata.cs
+++MongoBetData.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\dataaccess\mongobetdata.cs
+++MongoEventData.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\dataaccess\mongoeventdata.cs
+++MongoOrganisationData.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\dataaccess\mongoorganisationdata.cs
+++MongoSubEventData.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\dataaccess\mongosubeventdata.cs
+++Account.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\models\account.cs
+++BasicAccount.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\models\basicaccount.cs
+++BasicBet.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\models\basicbet.cs
+++Bet.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\models\bet.cs
+++Event.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\models\event.cs
+++Organisation.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\models\organisation.cs
+++SubEvent.cs
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:c:\users\recallablefacts\documents\github\openbets\shared\models\subevent.cs
+++Microsoft.Extensions.Caching.Memory (6.0.0)
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:>2449
+++Microsoft.Extensions.Configuration.Abstractions (6.0.0)
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:>2446
+++MongoDB.Driver (2.14.1)
+i:{a1f4c91e-5450-4869-8dd5-396c63edc385}:>2447
+++wwwroot
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\
+++css
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\open-iconic\font\css\
+++images
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\images\
+++favicon.ico
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\favicon.ico
+++icon-192.png
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\icon-192.png
+++icon-512.png
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\icon-512.png
+++index.html
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\index.html
+++manifest.json
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\manifest.json
+++service-worker.js
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\service-worker.js
+++Components
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\components\
+++Index.razor
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\pages\index.razor
+++Index.razor.cs
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\pages\index.razor.cs
+++Shared
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\shared\
+++MainLayout.razor
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\shared\mainlayout.razor
+++NavMenu.razor
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\shared\navmenu.razor
+++TopNavMenu.razor
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\shared\topnavmenu.razor
+++_Imports.razor
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\_imports.razor
+++App.razor
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\app.razor
+++bootstrap
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\bootstrap\
+++open-iconic
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\open-iconic\
+++app.css
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\app.css
+++service-worker.published.js
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\service-worker.published.js
+++BetComponent.razor
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\components\betcomponent.razor
+++EventComponent.razor
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\components\eventcomponent.razor
+++FighterComponent.razor
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\components\fightercomponent.razor
+++OrganisationComponent.razor
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\components\organisationcomponent.razor
+++SubEventsComponent.razor
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\components\subeventscomponent.razor
+++TabComponent.razor
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\components\tabcomponent.razor
+++WalletComponent.razor
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\components\walletcomponent.razor
+++MainLayout.razor.css
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\shared\mainlayout.razor.css
+++NavMenu.razor.css
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\shared\navmenu.razor.css
+++ILLink.CodeFixProvider
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\illink.codefixprovider.dll
+++ILLink.RoslynAnalyzer
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\illink.roslynanalyzer.dll
+++Microsoft.AspNetCore.Components.WebAssembly (6.0.0)
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:>2479
+++Microsoft.AspNetCore.Components.WebAssembly.DevServer (6.0.0)
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:>2483
+++Radzen.Blazor (3.14.12)
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:>2481
+++bootstrap.min.css
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\bootstrap\bootstrap.min.css
+++font
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\open-iconic\font\
+++FONT-LICENSE
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\open-iconic\font-license
+++ICON-LICENSE
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\open-iconic\icon-license
+++README.md
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\open-iconic\readme.md
+++BetComponent.razor.cs
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\components\betcomponent.razor.cs
+++EventComponent.razor.cs
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\components\eventcomponent.razor.cs
+++OrganisationComponent.razor.cs
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\components\organisationcomponent.razor.cs
+++SubEventsComponent.razor.cs
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\components\subeventscomponent.razor.cs
+++WalletComponent.razor.cs
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\components\walletcomponent.razor.cs
+++bootstrap.min.css.map
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\bootstrap\bootstrap.min.css.map
+++fonts
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\open-iconic\font\fonts\
+++open-iconic-bootstrap.min.css
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+++open-iconic.eot
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+++open-iconic.otf
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+++open-iconic.svg
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+++open-iconic.ttf
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+++open-iconic.woff
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:c:\users\recallablefacts\documents\github\openbets\client\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
+++stellar-dotnet-sdk (7.2.18)
+i:{eb86495a-61b7-467b-9721-47d25bf6e22a}:>4253

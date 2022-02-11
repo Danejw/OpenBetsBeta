@@ -59,6 +59,10 @@
             "Radzen.Blazor": {
               "target": "Package",
               "version": "[3.14.12, )"
+            },
+            "stellar-dotnet-sdk": {
+              "target": "Package",
+              "version": "[7.2.18, )"
             }
           },
           "imports": [

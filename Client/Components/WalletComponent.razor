@@ -1,5 +1,5 @@
 ﻿@page "/wallet"
-
+@using Radzen
 
 <!--Accounts-->
 <div class="p-2 flex-fill bd-highlight">
@@ -54,4 +54,16 @@
     </div>
 </div>
 
+<button onclick=@ConnectToAccount type="button" class="btn btn-primary btn-lg">
+    
+    CreateKeyPair
+    
+</button>
 
+    <h5>@if(@secretSeed != null) @secretSeed</h5>
+    <h5>@if(@publicKey != null) @publicKey</h5>
+    <h5>@if(@privateKey != null) @privateKey</h5>
+    <h5>@if(@accountId != null) @accountId</h5>
+    <h5>@if(@source != null) @source</h5>
+    <h5>@if(@destination != null) @destination</h5>
+    <h5>@if(@server != null) @server</h5>

@@ -13,13 +13,26 @@ using Microsoft.AspNetCore.Components.WebAssembly.Http;
 using Microsoft.JSInterop;
 using OpenBetsBeta.Client;
 using OpenBetsBeta.Client.Shared;
+using stellar_dotnet_sdk;
+using stellar_dotnet_sdk.responses;
 
 namespace OpenBetsBeta.Client.Components
 {
     public partial class WalletComponent
     {
-        private List<Account> accounts = new();
+        private List<OpenBets.Shared.Models.Account> accounts = new();
         private readonly MongoAccountData accountData;
+
+      string stellarUrl = "https://horizon-testnet.stellar.org";
+      Server server;
+      public string secretSeed = "Seed";
+      public byte[] publicKey;
+      public byte[] privateKey;
+      public string accountId ="AccountId";
+
+      public KeyPair source;
+      public KeyPair destination;
+
 
         protected async override Task OnInitializedAsync()
         {
@@ -27,13 +40,16 @@ namespace OpenBetsBeta.Client.Components
             accounts.Add(CreateSampleAccount("SupremeKai"));
             accounts.Add(CreateSampleAccount("Sponger"));
 
+
+            
+
             await base.OnInitializedAsync();
             //accounts = await accountData.GetAccountsAsync();
         }
 
-      private Account CreateSampleAccount(string name)
+      private OpenBets.Shared.Models.Account CreateSampleAccount(string name)
       {
-         Account account = new Account();
+         OpenBets.Shared.Models.Account account = new OpenBets.Shared.Models.Account();
          account.Id = (accounts.Count + 1).ToString();
          account.Name = name;
          account.PublicAddress = "";
@@ -45,6 +61,13 @@ namespace OpenBetsBeta.Client.Components
          account.PendingBets = new();
          account.PastBets = new();
          return account;
+      }
+
+      public async Task ConnectToAccount()
+      {
+         stellar_dotnet_sdk.Network.UseTestNetwork();
+
+         server = new stellar_dotnet_sdk.Server(stellarUrl);
       }
     }
 }
