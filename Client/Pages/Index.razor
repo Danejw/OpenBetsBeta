@@ -1,28 +1,23 @@
 ﻿@page "/"
+@using OpenBetsBeta.Client.Components
+
 
 <PageTitle>OpenBets</PageTitle>
-
-<div class="container">
-    <h1 class="text-center"><strong>OpenBets</strong></h1>
-    <br>
+<div class="card-header rounded-3">
+    <h1 align="center">OpenBets</h1>  
 </div>
 
-<br>
-<h2>Search Options</h2>
-<br>
-<h4>Selected Organisation: @selectedOrganisation</h4>
-<h4>Selected Event: @selectedEvent</h4>
-<h4>Search Text: @searchText</h4>
-<h4>Sort By New: @isSortedByNew</h4>
-<br>
+<div>
+    <img class="w-100 img-fluid rounded-3" src="/images/web-site-banner.jpg" alt="...">
+</div>
 
 
-<OpenBetsBeta.Client.Components.WalletComponent></OpenBetsBeta.Client.Components.WalletComponent>
+<EthWallet></EthWallet>
 
-<OpenBetsBeta.Client.Components.OrganisationComponent></OpenBetsBeta.Client.Components.OrganisationComponent>
+<OrganisationComponent></OrganisationComponent>
 
-<OpenBetsBeta.Client.Components.EventComponent></OpenBetsBeta.Client.Components.EventComponent>
+<EventComponent></EventComponent>
 
-<OpenBetsBeta.Client.Components.SubEventsComponent></OpenBetsBeta.Client.Components.SubEventsComponent>
+<SubEventsComponent></SubEventsComponent>
 
-<OpenBetsBeta.Client.Components.BetComponent></OpenBetsBeta.Client.Components.BetComponent>
+<BetComponent></BetComponent>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FsKDSo1fobpm3yVJzXrpPyZVsUHophGkrtIFQwLWhJk=",
+  "Hash": "e6SILun+569xCzHMFQnlgaTItKyOpV6lWBfcgOHrlr0=",
   "Source": "OpenBetsBeta.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -9042,6 +9042,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon-512.png"
+    },
+    {
+      "Identity": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Client\\wwwroot\\images\\web-site-banner.jpg",
+      "SourceId": "OpenBetsBeta.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/web-site-banner.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\web-site-banner.jpg"
     },
     {
       "Identity": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Client\\wwwroot\\index.html",
