@@ -21,3 +21,4 @@ C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\obj\Debug\net6.0\OpenB
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\obj\Debug\net6.0\OpenBetsBeta.Shared.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\obj\Debug\net6.0\ref\OpenBetsBeta.Shared.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\obj\Debug\net6.0\OpenBetsBeta.Shared.pdb
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\obj\Debug\net6.0\OpenBetsBeta.Shared.csproj.AssemblyReference.cache

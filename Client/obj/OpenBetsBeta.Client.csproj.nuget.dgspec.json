@@ -56,9 +56,25 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Nethereum.HdWallet": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Nethereum.KeyStore": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Nethereum.Web3": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
             "Radzen.Blazor": {
               "target": "Package",
               "version": "[3.14.12, )"
+            },
+            "WalletConnect.NEthereum": {
+              "target": "Package",
+              "version": "[1.6.5, )"
             },
             "stellar-dotnet-sdk": {
               "target": "Package",

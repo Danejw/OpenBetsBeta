@@ -26,6 +26,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCZXRDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/EthWallet.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFdGhXYWxsZXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/EthWalletComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFdGhXYWxsZXRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/EventComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFdmVudENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

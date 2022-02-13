@@ -61,7 +61,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-U0B9ZVU+tXyMgOI9xkrAOxg1FokyAgqWJWDZF5UEX6Q=",
+      "hash": "sha256-IXde1JPO19qwHw+Yfc\/qwJrpRbdTzwOWpRPLMIuNT6U=",
       "url": "index.html"
     },
     {
@@ -209,16 +209,88 @@
       "url": "_framework\/MongoDB.Libmongocrypt.dll"
     },
     {
+      "hash": "sha256-oO0ga6oVG0GF6mhWhWk5AbE7zOqRLjK85SCYZiOxWDg=",
+      "url": "_framework\/NBitcoin.dll"
+    },
+    {
+      "hash": "sha256-S5FEbI+wUwOKYiSW+jARlzg2PRXRixMI9BQI+9PNfjs=",
+      "url": "_framework\/NBitcoin.Secp256k1.dll"
+    },
+    {
+      "hash": "sha256-KhZG91rjiIc7nodoP2q6pvWcROb2yA2KMgOIFrxheNs=",
+      "url": "_framework\/Nethereum.ABI.dll"
+    },
+    {
+      "hash": "sha256-SpHIwcBM\/OXLBvzFqWCI5mbdrvaElgycsfAkxRO74Yc=",
+      "url": "_framework\/Nethereum.Accounts.dll"
+    },
+    {
+      "hash": "sha256-Dj+xcSJ\/DeJTBUOZ4B0DOtHqtNg9Z+vWjHObmOuoEx0=",
+      "url": "_framework\/Nethereum.BlockchainProcessing.dll"
+    },
+    {
+      "hash": "sha256-Gk0nhfcuI5bWVVE3Qsejl9NdnI+IwTfHpycBn27efy4=",
+      "url": "_framework\/Nethereum.Contracts.dll"
+    },
+    {
+      "hash": "sha256-4K5hqTi9u46rWdldJzjP22CHkghU7kyC6ASYhOtbAJM=",
+      "url": "_framework\/Nethereum.HdWallet.dll"
+    },
+    {
+      "hash": "sha256-19gi6rqp1WAe8zh8MYRn7TMfQXLoMqD90FdnmC8e6sg=",
+      "url": "_framework\/Nethereum.Hex.dll"
+    },
+    {
+      "hash": "sha256-CDKRe0Q7GQuCZHlP8o0SVG5p587t+dVEoruCnsIlacU=",
+      "url": "_framework\/Nethereum.JsonRpc.Client.dll"
+    },
+    {
+      "hash": "sha256-NTscO9zAjQu6HYWxoo32vFwhJEqvX8eSz9xzKRcvodQ=",
+      "url": "_framework\/Nethereum.JsonRpc.RpcClient.dll"
+    },
+    {
+      "hash": "sha256-nH8Emb0RXcNKY8el1Jcu7CtdQ8Cd39vAB0MiGM6Jh3Q=",
+      "url": "_framework\/Nethereum.KeyStore.dll"
+    },
+    {
+      "hash": "sha256-MgqhG7xIkHIeyMpPg3B\/zbCgYZnplIHSUWiV4AOgJ9g=",
+      "url": "_framework\/Nethereum.Model.dll"
+    },
+    {
+      "hash": "sha256-ZVomDN2qUgvZfSsBS9H+TD2IHoyI+k+yZamOUATOnxQ=",
+      "url": "_framework\/Nethereum.RLP.dll"
+    },
+    {
+      "hash": "sha256-ijQDG+5wTIm\/1u7CQOmyF91Amn96Nb3QG9RJ3yT\/MxQ=",
+      "url": "_framework\/Nethereum.RPC.dll"
+    },
+    {
+      "hash": "sha256-mLmVYYFsXrcxviRGuXuAoLjoAqRQyvaZXEi7MP\/IupI=",
+      "url": "_framework\/Nethereum.Signer.dll"
+    },
+    {
+      "hash": "sha256-GFwnqtSAUbMWx7xcoYkC4s93F76TqN\/TkG4KAJyeyGo=",
+      "url": "_framework\/Nethereum.Util.dll"
+    },
+    {
+      "hash": "sha256-V9oNVlTUlD0THaE8vPKzIj2ptXDTr620pp4ZWBdvT7g=",
+      "url": "_framework\/Nethereum.Web3.dll"
+    },
+    {
       "hash": "sha256-v+cllQKarfLf+sZeWorT1mJrs84F9H0zZgCxFgPVGlU=",
       "url": "_framework\/Nett.dll"
     },
     {
-      "hash": "sha256-BPeXAMTZKR8pJ7LpQA8+w4soJFGV1TLt2PPpnmpBUeE=",
+      "hash": "sha256-cs8pHUurDt0IqbB8YXPh560au3q3J\/1wRL9jBddRVmE=",
       "url": "_framework\/Newtonsoft.Json.dll"
     },
     {
       "hash": "sha256-s8hcld8oxoLgwhGW0wqwtTJP36csdBQFkx+Cl1RkVro=",
       "url": "_framework\/NSec.Cryptography.dll"
+    },
+    {
+      "hash": "sha256-n7KC+76rIikEfNEJ10mSwNXh+MMbda\/f4FD9fZ8WIw4=",
+      "url": "_framework\/BouncyCastle.Crypto.dll"
     },
     {
       "hash": "sha256-QSZCVNTY\/KF9TzrCvUp5opMp+UAVkNr1Z7Be5AfYZ2M=",
@@ -243,6 +315,14 @@
     {
       "hash": "sha256-+dlU8yi5zWnF9GeqOTl26t\/y5vllHc9O3mEwXdQjP7M=",
       "url": "_framework\/System.Linq.Dynamic.Core.dll"
+    },
+    {
+      "hash": "sha256-4m9Gjy0bxjcuCU3NR5pFVgwCGn049KyVEJgnTadA\/Sc=",
+      "url": "_framework\/WalletConnectSharp.Core.dll"
+    },
+    {
+      "hash": "sha256-aOUTG9ZUJkZMiLnHRdRjXShkHASrayDdhWg1KYfdHA0=",
+      "url": "_framework\/WalletConnectSharp.NEthereum.dll"
     },
     {
       "hash": "sha256-EGpAt7kwlRUTVib4sRhW2WM6jM0n4g3HdFLpAtTGRQk=",
@@ -945,11 +1025,11 @@
       "url": "_framework\/OpenBetsBeta.Shared.pdb"
     },
     {
-      "hash": "sha256-5pYp2ZRl6veZ1ukKXYzRvsZ6ZtosbfLw22F7pMIlzP0=",
+      "hash": "sha256-aYiej6G7aiBYus2GTeWOpUY4+KWS1jbBrG9s2U2yHN4=",
       "url": "_framework\/OpenBetsBeta.Client.dll"
     },
     {
-      "hash": "sha256-Yaehn+31CAkCa4A8jGmxOqDBB3gNgTSwfRdxuyagt+U=",
+      "hash": "sha256-cO0dBmv60Q8hywstX7nD2Oj+OtVmFOeHwxfMcP7MFjg=",
       "url": "_framework\/OpenBetsBeta.Client.pdb"
     },
     {
@@ -957,7 +1037,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-INwasJkUECBFXYTr2DCS29sviqtIy5XBpCZprlpt7qM=",
+      "hash": "sha256-SY8I5A1PJViHfdYjTEfCMw\/adrtYl9dtiGbJ+LxyPCg=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1069,5 +1149,5 @@
       "url": "_content\/Radzen.Blazor\/Radzen.Blazor.js"
     }
   ],
-  "version": "3aQoiZL0"
+  "version": "+Nh3Or9n"
 };

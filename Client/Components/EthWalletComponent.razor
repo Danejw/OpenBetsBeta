@@ -1,0 +1,216 @@
+﻿@page "/eth"
+@using Newtonsoft.Json;
+@using Nethereum.Web3;
+@using Nethereum.JsonRpc.Client;
+@using Nethereum.Web3.Accounts;
+@using Nethereum.Web3.Accounts.Managed;
+@using Nethereum.Hex.HexTypes;
+@using Nethereum.HdWallet;
+<!--@using Microsoft.AspNetCore.Blazor.Browser.Interop;-->
+@using Nethereum.Contracts;
+@using Nethereum.RPC.Eth.Blocks;
+@using Nethereum.JsonRpc.Client.RpcMessages;
+@using System.Numerics
+
+
+@inject HttpClient Http;
+
+<!--Title-->
+<div class="container-fluid">   
+    <div class="card">
+      <div class="card-body">
+        <h1 align="center">Eth Wallet</h1>    
+      </div>
+    </div>
+</div>
+
+<p>Block Json: @GetBlockJson()</p>
+<p>Loaded Account: @LoadAccount()</p>
+
+
+<p>Rpc: @rpcUrl</p>
+<p>User Address: @userAddress</p>
+<p>@smartContractAddress</p>
+<p>CurrentBlock: @GetCurrentBlock().ToJson()</p>
+<p>Balance: @GetBalance().ToJson()</p>
+
+
+<div align="center">
+        <button onclick="@CreateHDWallet" type="button" class="btn btn-primary btn-lg">
+            CreateHDWallet
+        </button>
+        <button onclick="@CreateNewAccount" type="button" class="btn btn-primary btn-lg">
+            CreateNewAccount
+        </button>
+        <button onclick="@GetAccountBalance" type="button" class="btn btn-primary btn-lg">
+            GetAccountBalance
+        </button>
+        <button onclick="@GetAllAccounts" type="button" class="btn btn-primary btn-lg">
+            GetAllAccounts
+        </button>
+        <button onclick="@GetFirstAccount" type="button" class="btn btn-primary btn-lg">
+            GetFirstAccount
+        </button>
+
+
+</div>
+
+<p>Wallet: @wallet</p>
+<p>All Accounts: @walletAccounts</p>
+
+@if (walletAccounts != null)
+{
+    @foreach (string count in walletAccounts)
+    {
+        <p>@count</p>
+    }
+}
+
+<p>Account:  @userAddress</p>
+<p>Account:  @userAddress</p>
+<p>Account Public Key:  @publicKey</p>
+<p>Mnemonic:  @mnemonic</p>
+
+<p>Web3:  @web3</p>
+<p>Balance:  @bigIntBalance</p>
+
+
+@functions {
+
+    string rpcUrl;
+    string userAddress = "0xED751387AFae910Bd0d2FBF75e7CD7cf60eB6AbF";
+    decimal balance;
+    string smartContractAddress;
+    int currentBlock = 0;
+    string deployContractTransaction = "";
+    string abiStandardToken = @"[{""constant"":false,""inputs"":[{""name"":""_spender"",""type"":""address""},{""name"":""_value"",""type"":""uint256""}],""name"":""approve"",""outputs"":[{""name"":""success"",""type"":""bool""}],""type"":""function""},{""constant"":true,""inputs"":[],""name"":""totalSupply"",""outputs"":[{""name"":""supply"",""type"":""uint256""}],""type"":""function""},{""constant"":false,""inputs"":[{""name"":""_from"",""type"":""address""},{""name"":""_to"",""type"":""address""},{""name"":""_value"",""type"":""uint256""}],""name"":""transferFrom"",""outputs"":[{""name"":""success"",""type"":""bool""}],""type"":""function""},{""constant"":true,""inputs"":[{""name"":""_owner"",""type"":""address""}],""name"":""balanceOf"",""outputs"":[{""name"":""balance"",""type"":""uint256""}],""type"":""function""},{""constant"":false,""inputs"":[{""name"":""_to"",""type"":""address""},{""name"":""_value"",""type"":""uint256""}],""name"":""transfer"",""outputs"":[{""name"":""success"",""type"":""bool""}],""type"":""function""},{""constant"":true,""inputs"":[{""name"":""_owner"",""type"":""address""},{""name"":""_spender"",""type"":""address""}],""name"":""allowance"",""outputs"":[{""name"":""remaining"",""type"":""uint256""}],""type"":""function""},{""inputs"":[{""name"":""_initialAmount"",""type"":""uint256""}],""type"":""constructor""},{""anonymous"":false,""inputs"":[{""indexed"":true,""name"":""_from"",""type"":""address""},{""indexed"":true,""name"":""_to"",""type"":""address""},{""indexed"":false,""name"":""_value"",""type"":""uint256""}],""name"":""Transfer"",""type"":""event""},{""anonymous"":false,""inputs"":[{""indexed"":true,""name"":""_owner"",""type"":""address""},{""indexed"":true,""name"":""_spender"",""type"":""address""},{""indexed"":false,""name"":""_value"",""type"":""uint256""}],""name"":""Approval"",""type"":""event""}]";
+
+    string blockJson;
+
+    // transaction
+    bool useDefaultTransaction = true;
+
+    string web3TestNetURL = "https://ropsten.infura.io/v3/05fed8e2281c4582b923ebeca90e628f";
+    string web3MainNetURL = "https://mainnet.infura.io/v3/05fed8e2281c4582b923ebeca90e628f";
+
+    Wallet wallet;
+    byte[] walletPublicKey;
+    string[] walletAccounts;
+    Account account;
+    string publicKey;
+    NBitcoin.Mnemonic mnemonic;
+
+    Web3 web3;
+    BigInteger bigIntBalance;
+
+    protected override Task OnInitializedAsync()
+    {
+        userAddress = "0xED751387AFae910Bd0d2FBF75e7CD7cf60eB6AbF";
+        return base.OnInitializedAsync();
+    }
+
+    async Task<decimal> GetBalance()
+    {
+        var web3 = new Web3(new SimpleRpcClient(new Uri(rpcUrl), Http, null));
+        var contract = web3.Eth.GetContract(abiStandardToken, smartContractAddress);
+        var balanceFunction = contract.GetFunction("balanceOf");
+        var balanceWei = await balanceFunction.CallAsync<System.Numerics.BigInteger>(userAddress);
+        StateHasChanged();    
+        return balance = Web3.Convert.FromWei(balanceWei);         
+    }
+
+    async Task<int> GetCurrentBlock()
+    {
+        var web3 = new Web3(new SimpleRpcClient(new Uri(rpcUrl), Http, null));
+        var block = await web3.Eth.Blocks.GetBlockNumber.SendRequestAsync();
+        StateHasChanged();
+        return currentBlock = (int)block.Value;
+    }
+
+    private string GetBlockJson()
+    {
+        var blockNumber = new EthBlockNumber(null);
+        var request = blockNumber.BuildRequest();
+        var requestMessage = new RpcRequestMessage(request.Id, request.Method, request.RawParameters);
+        return blockJson = JsonConvert.SerializeObject(requestMessage, Formatting.Indented);
+    }
+
+    private string LoadAccount()
+    {
+        //Not working I assume is an issue with Bouncy Castle and Elliptic Curve ?
+        var privateKey = "0xb5b1870957d373ef0eeffecc6e4812c0fd08f554b37b233526acc331bf1544f7";
+        var account = new Account(privateKey);
+        return userAddress = account.Address;
+    }
+
+    private async void SendTransaction(Account fromAccount, Account toAccount)
+    {
+        var web3 = new Web3(web3TestNetURL);
+
+        if (useDefaultTransaction)
+        {
+            // This type of transaction uses the default amount of Gas 21000. Each transaction has a price per unit of gas, if we don’t specify the gas price the current average price provided by the client would be used.
+            var transaction = await web3.Eth.GetEtherTransferService().TransferEtherAndWaitForReceiptAsync(fromAccount.Address, 1.11m);
+        }
+        else
+        {
+            //The higher price of a transaction cost, the higher the possibility to be picked and prioritised by the miners quickly.
+            //The unit used to provide the price is Gwei, in this scenario 2 GWei.
+            var transaction = await web3.Eth.GetEtherTransferService().TransferEtherAndWaitForReceiptAsync(fromAccount.Address, 1.11m, 2, new BigInteger(25000));
+        }
+    }
+
+    private async void CreateHDWallet()
+    {
+        mnemonic = new NBitcoin.Mnemonic(NBitcoin.Wordlist.English, NBitcoin.WordCount.Eighteen);
+        string password = "password";
+        wallet = new Wallet(mnemonic.ToString(), password);
+        walletAccounts = wallet.GetAddresses();
+        account = new Wallet(mnemonic.ToString(), password).GetAccount(0);
+
+        publicKey = account.PublicKey;
+        Console.WriteLine("The account address is: " + account.Address);
+
+
+
+        web3 = new Web3(account, web3TestNetURL);
+
+        var hexBalance = await web3.Eth.GetBalance.SendRequestAsync(account.Address);
+        bigIntBalance = hexBalance.Value;
+        Console.WriteLine("The account balance is: " + bigIntBalance);
+    }
+
+    private void CreateNewAccount()
+    {
+        account = new Account(mnemonic.ToString());
+        publicKey = account.PublicKey;
+
+    }
+
+
+
+
+
+
+
+    private async void GetAccountBalance()
+    {
+        // TODO store this elsewhere higher in the hierarchy
+        var web3 = new Web3(web3MainNetURL);
+        var hexBalance = await web3.Eth.GetBalance.SendRequestAsync(userAddress);
+        bigIntBalance = hexBalance.Value;        
+    }
+
+    private async void GetAllAccounts()
+    {
+        var web3 = new Web3(web3MainNetURL);
+        walletAccounts = await web3.Eth.Accounts.SendRequestAsync();
+    }
+
+    private void GetFirstAccount()
+    {
+        userAddress = walletAccounts.FirstOrDefault();
+    }
+
+
+}

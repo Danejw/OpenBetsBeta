@@ -15,10 +15,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="smartContractData.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.0" PrivateAssets="all" />
+    <PackageReference Include="Nethereum.HdWallet" Version="4.1.1" />
+    <PackageReference Include="Nethereum.KeyStore" Version="4.1.1" />
+    <PackageReference Include="Nethereum.Web3" Version="4.1.1" />
     <PackageReference Include="Radzen.Blazor" Version="3.14.12" />
     <PackageReference Include="stellar-dotnet-sdk" Version="7.2.18" />
+    <PackageReference Include="WalletConnect.NEthereum" Version="1.6.5" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +39,10 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="smartContractData.cs" />
   </ItemGroup>
 
 </Project>
