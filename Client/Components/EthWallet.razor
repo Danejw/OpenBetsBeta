@@ -1,0 +1,185 @@
+﻿@page "/ethwallet"
+@using System.Numerics
+@using NBitcoin
+@using Nethereum.HdWallet
+@using Nethereum.Web3
+@using Nethereum.Web3.Accounts.Managed
+@using Nethereum.Web3.Accounts
+@using Nethereum.Contracts
+@using Nethereum.Contracts.CQS
+@using Nethereum.Contracts.Extensions
+@using Nethereum.Util
+@using Nethereum.Hex.HexConvertors
+@using Nethereum.Hex.HexTypes
+@using Nethereum.Hex.HexConvertors.Extensions
+@using Nethereum.ABI.FunctionEncoding.Attributes
+
+
+
+<!--Title-->
+<div class="container-fluid">   
+    <div class="card-header">
+        <h1 align="center">Eth Wallet</h1>    
+    </div>
+    
+    <!--Buttons-->
+    <div class="card-body">
+        <div align="center"
+        <!--Connect Input--> 
+            <div class="input-group mb-3">
+                <input @bind="address" type="text" class="form-control rounded-pill" placeholder="Your Address" aria-label="User Address" aria-describedby="basic-addon2">
+                <!--Connect Button-->
+                <button onclick="@ConnectWallet" type="button" class="btn btn-primary btn-sm col-5 rounded-pill">
+                    Connect
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!--Table-->
+    <div class="card-body bg-light rounded-3">
+        <table class="table table-light table-striped table-bordered">
+            <!--Table Header-->
+            <thead class="text-center">
+                <tr>
+                    <th class="col-3">Address</th>
+                    <th class="col-2">Balance</th>
+                </tr>
+            </thead>
+            <!--Table Body-->
+            <tbody>
+                <tr>
+                    <td>@userAddress</td>              
+                    <td>@userBalance Eth</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--Transaction Card-->
+       <div class="card-body">
+           <!--Send-->
+            <div align="center"> 
+                <!--Send Input-->
+                <div class="input-group mb-3">
+                    <input @bind="sendAddress" type="text" class="form-control rounded-pill" placeholder="Send Address" aria-label="SendAddress" aria-describedby="basic-addon2">
+                    <input @bind="sendAmount" type="text" class="form-control col-2 rounded-pill" placeholder="eth" aria-label="SendAmount" aria-describedby="basic-addon2">
+                    <!--Send Button-->
+                    <button onclick="@SendManagedTransationFromInput" type="button" class="btn btn-primary btn-sm col-3 rounded-pill">
+                        Send
+                    </button>
+                </div>
+            </div>
+
+            <!--Recieve-->
+            <div align="center"> 
+                <div class="input-group mb-3">
+                    <!--Recieve Button-->
+                    <button onclick="@RecieveManagedTransactionFromInput" type="button" class="btn btn-primary btn-sm col-4 rounded-pill">
+                        Recieve
+                    </button>
+                    <!--Recieve Input-->
+                    <input @bind="fromAmount" type="text" class="form-control col-2 rounded-pill" placeholder="eth" aria-label="FromAmount" aria-describedby="basic-addon2">
+                    <input @bind="fromAddress" type="text" class="form-control rounded-pill" placeholder="From Address" aria-label="FromAddress" aria-describedby="basic-addon2">         
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<p>@managedTransaction</p>
+
+
+
+
+
+
+
+@code {
+    string web3TestNetURL = "https://ropsten.infura.io/v3/05fed8e2281c4582b923ebeca90e628f";
+    string web3MainNetURL = "https://mainnet.infura.io/v3/05fed8e2281c4582b923ebeca90e628f";
+
+
+    private string userAddress = "";
+    private decimal userBalance;
+    private Mnemonic mnemonic;
+
+    // input
+    private string address;
+    private string sendAddress;
+    private int sendAmount;
+    private string fromAddress;
+    private int fromAmount;
+
+    ManagedAccount managedAccount;
+    Web3 web3Managed;
+    string memberAddress = "ADDRESS";
+    string memberPassword = "THEPASSWORD";
+
+    string managedTransaction;
+
+    private void CreateWallet()
+    {
+        mnemonic = new Mnemonic(Wordlist.English, WordCount.Twelve);
+        string password = "password";
+        Wallet wallet = new Wallet(mnemonic.ToString(), password);
+        var account = wallet.GetAccount(0);
+        userAddress = account.Address;
+    }
+
+    //! Initiates the action to connect to a wallet account using the input parameter
+    private async Task ConnectWallet()
+    {
+        if (address == null || address == "") return;
+
+        userAddress = address;
+        await GetManagedAccount(address);
+    }
+
+    private async Task GetAccountBalance(string address)
+    {
+        // TODO store this elsewhere higher in the hierarchy
+        var web3 = new Web3(web3TestNetURL);
+        var hexBalance = await web3.Eth.GetBalance.SendRequestAsync(address);
+        userBalance = Web3.Convert.FromWei(hexBalance.Value);
+    }
+
+    //! Creates a new managed account with the address parameter
+    private async Task GetManagedAccount(string address)
+    {
+        managedAccount = new ManagedAccount(address, memberPassword);
+        web3Managed = new Web3(managedAccount, web3TestNetURL);
+
+        var managedBalance = await web3Managed.Eth.GetBalance.SendRequestAsync(address);
+
+        userBalance = Web3.Convert.FromWei(managedBalance.Value);
+        memberAddress = address;   
+
+    }
+
+    private async Task SendTransaction(string addressTo, int amount)
+    {
+        var transaction = await web3Managed?.TransactionManager.SendTransactionAsync(managedAccount.Address, addressTo, new Nethereum.Hex.HexTypes.HexBigInteger(amount));
+    }
+
+    private async Task SendManagedTransationFromInput()
+    {
+        await SendManagedTransaction(sendAddress, sendAmount);
+    }
+
+    private async Task SendManagedTransaction(string addressTo, int amount)
+    {
+        managedTransaction = await web3Managed?.TransactionManager.SendTransactionAsync(managedAccount.Address, addressTo, new HexBigInteger(amount));
+    }
+
+    private async Task RecieveManagedTransactionFromInput()
+    {
+        await RecieveManagedTransation(fromAddress, fromAmount);
+    }
+
+    private async Task RecieveManagedTransation(string fromAddress, int amount)
+    {
+        
+    }
+
+
+}
