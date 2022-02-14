@@ -8,45 +8,40 @@
 
     <!--Title-->
     <a class="navbar-brand" href="#">OpenBets</a>
+              
+    <!--Wallet-->
+    <button class="btn-primary rounded-pill">
+       <a class="nav-link active text-white" aria-current="page" href="/ethwallet">Wallet</a>
+    </button>
+
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <!--Wallet-->
-          <li class="nav-item">
-             <a class="nav-link active" aria-current="page" href="/ethwallet">Wallet</a>
-          </li>
+
           <!--Organisation-->
-          <li class="nav-item dropdown">
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="/organisation" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Organisations
+            Organizations
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
 
-            <li><a class="dropdown-item" href="/organisation">UFC</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item disabled" href="#">NFL</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item disabled" href="#">NBA</a></li>
-
+                <li><a class="dropdown-item" href="/organisation">UFC</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item disabled" href="#">NFL</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item disabled" href="#">NBA</a></li>
           </ul>
         </li>
+
         <!--BetZone-->
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/bet">BetZone</a>
-        </li>
-        <!--Events-->
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/event">Events</a>
-        </li>
-        <!--SubEvents-->
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/subevent">SubEvents</a>
+          <a class="nav-link active" aria-current="page" href="/eventdash">BetZone</a>
         </li>
 
       </ul>
 
       <!--Search-->
-      <form class="d-flex">
+      <form class="d-flex col-4 p-2">
         <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-primary btn-sm col-5 rounded-pill" type="submit">Search</button>
       </form>

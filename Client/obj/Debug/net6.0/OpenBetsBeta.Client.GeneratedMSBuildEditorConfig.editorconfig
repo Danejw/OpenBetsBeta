@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFdmVudENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/EventDashBoard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFdmVudERhc2hCb2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Client/Components/FighterComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGaWdodGVyQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

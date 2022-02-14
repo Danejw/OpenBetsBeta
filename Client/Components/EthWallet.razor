@@ -20,9 +20,8 @@
     <!--Title-->
     <div class="card-header rounded-3">
         <!--Network?-->
-        <p align="right">Ropsten</p>
-
-        <h1 align="center">Eth Wallet</h1>         
+        <p align="left">Ropsten</p>
+        <h1 align="center">Eth Wallet</h1>
     </div>
     
     <!--Buttons-->
@@ -52,8 +51,8 @@
             <!--Table Body-->
             <tbody>
                 <tr>
-                    <td>@userAddress</td>              
-                    <td>@userBalance Eth</td>
+                    <td>@memberAddress</td>              
+                    <td>@memberBalance Eth</td>
                 </tr>
             </tbody>
         </table>
@@ -102,8 +101,7 @@
     string web3MainNetURL = "https://mainnet.infura.io/v3/05fed8e2281c4582b923ebeca90e628f";
 
 
-    private string userAddress = "";
-    private decimal userBalance;
+    // private string userAddress = "";
     private Mnemonic mnemonic;
 
     // input
@@ -113,10 +111,11 @@
     private string fromAddress;
     private int fromAmount;
 
-    ManagedAccount managedAccount;
-    Web3 web3Managed;
-    string memberAddress = "ADDRESS";
-    string memberPassword = "THEPASSWORD";
+    private ManagedAccount managedAccount;
+    private Web3 web3Managed;
+    private string memberAddress = "ADDRESS";
+    private string memberPassword = "THEPASSWORD";
+    private decimal memberBalance;
 
     string managedTransaction;
 
@@ -126,7 +125,7 @@
         string password = "password";
         Wallet wallet = new Wallet(mnemonic.ToString(), password);
         var account = wallet.GetAccount(0);
-        userAddress = account.Address;
+        //userAddress = account.Address;
     }
 
     //! Initiates the action to connect to a wallet account using the input parameter
@@ -134,7 +133,6 @@
     {
         if (address == null || address == "") return;
 
-        userAddress = address;
         await GetManagedAccount(address);
     }
 
@@ -143,7 +141,7 @@
         // TODO store this elsewhere higher in the hierarchy
         var web3 = new Web3(web3TestNetURL);
         var hexBalance = await web3.Eth.GetBalance.SendRequestAsync(address);
-        userBalance = Web3.Convert.FromWei(hexBalance.Value);
+        memberBalance = Web3.Convert.FromWei(hexBalance.Value);
     }
 
     //! Creates a new managed account with the address parameter
@@ -152,11 +150,10 @@
         managedAccount = new ManagedAccount(address, memberPassword);
         web3Managed = new Web3(managedAccount, web3TestNetURL);
 
-        var managedBalance = await web3Managed.Eth.GetBalance.SendRequestAsync(address);
-
-        userBalance = Web3.Convert.FromWei(managedBalance.Value);
+        var managedBalance = await web3Managed?.Eth.GetBalance.SendRequestAsync(address);    
+        memberBalance = Web3.Convert.FromWei(managedBalance.Value);
         memberAddress = address;   
-
+        
     }
 
     private async Task SendTransaction(string addressTo, int amount)
