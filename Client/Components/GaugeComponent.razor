@@ -21,18 +21,20 @@
     </div>
     -->
 
-    <div class="card">
+    <div class="card-header rounded-3">
 
         <div class="container rounded-3">
-            <div class="row align-items-start">
+
+            <!--Top-->
+            <div class="row align-items-start p-2">
                 <!--Header-->
                 <div class="col text-center my-auto">
                     <h3>Isreal Adesanya</h3>
                 </div>
 
-                <!--Organzation-->
+                <!--TLV-->
                 <div class="col text-center my-auto">
-                    <h5 class="d-inline">TotalBets</h5>               
+                    <h5 class="d-inline">@(blueBets + redBets)</h5>               
                     <h5 class="d-inline"><span class="badge rounded-pill bg-secondary">TotalLockedValue</span></h5>
                 </div>
                 <!--
@@ -45,16 +47,14 @@
                 <div class="col text-center my-auto">
                     <h3>Robert Whittaker</h3>
                 </div>
-
             </div>
 
-
-            <div class="row align-items-middle">
-                <!--Center-->
+            <!--Middle-->
+            <div class="row align-items-middle p-2">
 
                 <!--Profole Pic-->
                 <div class="col d-flex justify-content-center">                
-                      <img src="https://ssl.gstatic.com/onebox/media/sports/photos/ufc/3051_Yo9nIA_96x96.png" class="rounded-circle" alt="...">
+                      <img class="rounded-circle border border-5" src="https://ssl.gstatic.com/onebox/media/sports/photos/ufc/3051_Yo9nIA_96x96.png" alt="...">
                 </div>
 
                 <!--Gauge-->
@@ -62,7 +62,7 @@
                     <div class="text-center my-auto justify-content-center">
                         <RadzenArcGauge Style="width: 100%; height: 100%;">
                             <RadzenArcGaugeScale Step="20" MinorStep="2" Min="0" Max="100" Radius="1.5" TickPosition=@tickPosition Y="0.9" Margin="0" Fill="rgb(249, 32, 99)">
-                                <RadzenArcGaugeScaleValue Value=@oddsValue ShowValue=@showValue Fill="rgb(49,132,253)">
+                                <RadzenArcGaugeScaleValue Value=@CalculateOdds() ShowValue=@showValue Fill="rgb(49,132,253)">
                                     <Template Context="pointer">
                                         <h4>
                                             @pointer.Value                                          
@@ -74,42 +74,60 @@
                     </div>
                 </div>
                          
-                <!--Profole Pic-->
+                <!--Profile Pic-->
                 <div class="col d-flex justify-content-center">
-                      <img src="https://ssl.gstatic.com/onebox/media/sports/photos/ufc/2037_e8t4YA_96x96.png" class="rounded-circle" alt="...">
-                </div>
-            
+                      <img  class="rounded-circle border border-5"  src="https://ssl.gstatic.com/onebox/media/sports/photos/ufc/2037_e8t4YA_96x96.png" alt="...">
+                </div>    
+
             </div>
 
             <!--Bottom-->
-            <div class="row align-items-end">
+            <div class="row align-items-end p-2">
 
                 <!--Info-->
-                <div class="col text-center my-auto">
-                  <h3>@oddsValue%</h3>
+                <div class="col text-center my-auto d-inline align-left">
+                  <!--<h3>@CalculateOdds</h3>-->
+                  
+                <div>
+                    <button class="btn btn-primary btn-sm col-5 rounded-pill" onclick="@BetOnBlue">
+                         Vote
+                    </button>
                 </div>
+             </div>
 
                 <div class="col text-center"> 
                     <p>
                         <!--Odds Slider-->
                       <label>
-                          <!--<span class="d-block mt-3 mb-1">@oddsValue:@(InversePercent())</span>-->
-                          <input @bind-value=@oddsValue type="range" class="form-range" min="0" max="100" id="oddsRange">
+                          <span class="d-block mt-3 mb-1">@blueBets:@redBets</span>
+                          <!--<input @bind-value=@oddsValue type="range" class="form-range" min="0" max="100" id="oddsRange">-->
                       </label>                                          
                       
                       <!--Timer Progress Bar-->
                       <div class="progress">
-                          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: @timeValue%;" aria-valuenow="@timeValue" aria-valuemin="0" aria-valuemax="100">@(timeValue)%</div>
+                          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: @timeValue%;" aria-valuenow="@timeValue" aria-valuemin="0" aria-valuemax="100">
+                              Time Remaining
+                              </div>
                       </div>                  
                     </p>
                 </div>
 
+
+
                 <!--Info-->
                 <div class="col text-center my-auto">
-                  <h3>@(InversePercent())%</h3>
+                  <!--<h3>@InversePercent</h3>-->
+
+                <div>
+                    <button class="btn btn-danger btn-sm col-5 rounded-pill" onclick="@BetOnRed">
+                         Vote
+                    </button>
                 </div>
 
+
+                </div>
           </div>
+
         </div>
 
     </div>
@@ -117,15 +135,39 @@
 
 @code {
     bool showValue = false;
-    double oddsValue = 50;
+    double oddsValue;
     double timeValue = 50;
-    double inverseValue = 0;
+    double inverseValue;
     IEnumerable<GaugeTickPosition> tickPositions = Enum.GetValues(typeof(GaugeTickPosition)).Cast<GaugeTickPosition>();
     GaugeTickPosition tickPosition = GaugeTickPosition.Outside;
+
+    int blueBets;
+    int redBets;
 
     private double InversePercent()
     {
         return 100 - oddsValue;
     }
+
+    private void BetOnRed() 
+    { 
+        redBets++;
+    }
+
+    private void BetOnBlue() 
+    { 
+        blueBets++;
+    }
+
+
+    private double CalculateOdds()
+    {
+        if (redBets != 0 || blueBets != 0)
+            return oddsValue = blueBets / (redBets + blueBets);
+        else
+            return 100;
+    }   
+    
+
 }
 

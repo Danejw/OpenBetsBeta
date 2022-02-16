@@ -2,9 +2,10 @@
   <div class="container-fluid">
 
     <!--Nav collapse Toggle-->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
 
     <!--Title-->
     <a class="navbar-brand" href="#">OpenBets</a>
@@ -15,17 +16,17 @@
     </button>
 
 
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <div class="collapse navbar-collapse" id="navbarToggler">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
           <!--Organisation-->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/organisation" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="/organisation" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Organizations
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                <li><a class="dropdown-item" href="/organisation">UFC</a></li>
+                <li><a class="dropdown-item" href="/organisation/ufc">UFC</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item disabled" href="#">NFL</a></li>
                 <li><hr class="dropdown-divider"></li>
@@ -50,3 +51,17 @@
     </div>
   </div>
 </nav>
+
+
+@code {
+    bool menuOpen = false;
+
+    private void ToggleMenu()
+    {
+        if (menuOpen)
+            menuOpen = false;
+        else
+            menuOpen = true;
+
+    }
+}

@@ -1,0 +1,1 @@
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\obj\Release\net6.0\browser-wasm\PubTmp\Out\web.config

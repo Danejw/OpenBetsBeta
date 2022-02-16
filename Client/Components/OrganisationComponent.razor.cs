@@ -41,7 +41,7 @@ namespace OpenBetsBeta.Client.Components
       {
          Organisation ufc = CreateOrganisation("UFC", "The Ultimate Figting Championship");
          Organisation nfl = CreateOrganisation("NFL", "The National Football League");
-         Organisation nba = CreateOrganisation("NBA", "THe National Basketball Association");
+         Organisation nba = CreateOrganisation("NBA", "The National Basketball Association");
 
          organisations.Add(ufc);
          organisations.Add(nfl);
