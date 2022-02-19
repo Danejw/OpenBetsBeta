@@ -677,23 +677,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RecallableFacts\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\danej\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Shared\\OpenBetsBeta.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\danej\\OneDrive\\Documents\\GitHub\\OpenBetsBeta\\Shared\\OpenBetsBeta.Shared.csproj",
       "projectName": "OpenBetsBeta.Shared",
-      "projectPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Shared\\OpenBetsBeta.Shared.csproj",
-      "packagesPath": "C:\\Users\\RecallableFacts\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Shared\\obj\\",
+      "projectPath": "C:\\Users\\danej\\OneDrive\\Documents\\GitHub\\OpenBetsBeta\\Shared\\OpenBetsBeta.Shared.csproj",
+      "packagesPath": "C:\\Users\\danej\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\danej\\OneDrive\\Documents\\GitHub\\OpenBetsBeta\\Shared\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\RecallableFacts\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\danej\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -753,7 +749,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

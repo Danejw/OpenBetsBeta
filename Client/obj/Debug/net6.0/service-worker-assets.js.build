@@ -5,7 +5,7 @@
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "hash": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7\/p4nS6D\/0=",
       "url": "css\/bootstrap\/bootstrap.min.css"
     },
     {
@@ -65,7 +65,7 @@
       "url": "images\/web-site-banner.jpg"
     },
     {
-      "hash": "sha256-IXde1JPO19qwHw+Yfc\/qwJrpRbdTzwOWpRPLMIuNT6U=",
+      "hash": "sha256-D4c60ozOeyEXwRtgsmTBU9GjIws6v7sH6Cf82JuRrJw=",
       "url": "index.html"
     },
     {
@@ -993,8 +993,8 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-LOq52qjRa3+zt3w4UL10rS3UdwHxVQxW0JAsMPO9QAM=",
-      "url": "_framework\/dotnet.6.0.0.e1ygqxteqp.js"
+      "hash": "sha256-wbTVn69TU0+WI83iB+kky8tf\/BjZdYJeM0rUP96ur\/c=",
+      "url": "_framework\/dotnet.6.0.2.t2xk6u9gyy.js"
     },
     {
       "hash": "sha256-MSlKZuLHfzsKLVF\/3omAUcZ57QL0puRif12PGTAXwDY=",
@@ -1021,19 +1021,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-U319AwfCb0GDL+k8H+BNrIE7mTZ26WwctSBuIT5LAn4=",
+      "hash": "sha256-byLzce+\/P1lcD4d+Hg7WwcFhpOTZ47hwB1Qa0SDNgMg=",
       "url": "_framework\/OpenBetsBeta.Shared.dll"
     },
     {
-      "hash": "sha256-5N4yQ3WuNzSQvPUp+EZyf9vsc58iAoTrr8DhM3IYNl4=",
+      "hash": "sha256-UaJ7LK+B4zhDbhsNYOkftjl4wDyUD7zl\/Nj2LPyyXyM=",
       "url": "_framework\/OpenBetsBeta.Shared.pdb"
     },
     {
-      "hash": "sha256-zKdtUhAJ4hXCAaPN61freM40Ke\/kG1j3doeuQaOVeko=",
+      "hash": "sha256-F2VkI+D3zfNzk+KkBF9iNWbbhEzaYLa9cBbFwS3vLGQ=",
       "url": "_framework\/OpenBetsBeta.Client.dll"
     },
     {
-      "hash": "sha256-2QmKS3Z5qyq9IXhemVoDOH6RRruoJKFNLWSA73uoWm4=",
+      "hash": "sha256-plnJDvAhBfsYKZyCMsXtAM0oH3DgGaRRQ7s6LJro9DQ=",
       "url": "_framework\/OpenBetsBeta.Client.pdb"
     },
     {
@@ -1041,7 +1041,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-SxlMFyMtZPor\/MNMjFJYZODlHZgo2ZcLMrz6iQJYHmE=",
+      "hash": "sha256-P8P+w95ZEr4sWD23lA6khXcurjPSi+1xwWwi6bwzV4E=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1153,5 +1153,5 @@
       "url": "_content\/Radzen.Blazor\/Radzen.Blazor.js"
     }
   ],
-  "version": "n7ukW5C4"
+  "version": "XxwcWopf"
 };

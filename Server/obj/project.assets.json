@@ -3961,23 +3961,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RecallableFacts\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\danej\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Server\\OpenBetsBeta.Server.csproj",
+      "projectUniqueName": "C:\\Users\\danej\\OneDrive\\Documents\\GitHub\\OpenBetsBeta\\Server\\OpenBetsBeta.Server.csproj",
       "projectName": "OpenBetsBeta.Server",
-      "projectPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Server\\OpenBetsBeta.Server.csproj",
-      "packagesPath": "C:\\Users\\RecallableFacts\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Server\\obj\\",
+      "projectPath": "C:\\Users\\danej\\OneDrive\\Documents\\GitHub\\OpenBetsBeta\\Server\\OpenBetsBeta.Server.csproj",
+      "packagesPath": "C:\\Users\\danej\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\danej\\OneDrive\\Documents\\GitHub\\OpenBetsBeta\\Server\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\RecallableFacts\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\danej\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3991,11 +3987,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Client\\OpenBetsBeta.Client.csproj": {
-              "projectPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Client\\OpenBetsBeta.Client.csproj"
+            "C:\\Users\\danej\\OneDrive\\Documents\\GitHub\\OpenBetsBeta\\Client\\OpenBetsBeta.Client.csproj": {
+              "projectPath": "C:\\Users\\danej\\OneDrive\\Documents\\GitHub\\OpenBetsBeta\\Client\\OpenBetsBeta.Client.csproj"
             },
-            "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Shared\\OpenBetsBeta.Shared.csproj": {
-              "projectPath": "C:\\Users\\RecallableFacts\\Documents\\GitHub\\OpenBets\\Shared\\OpenBetsBeta.Shared.csproj"
+            "C:\\Users\\danej\\OneDrive\\Documents\\GitHub\\OpenBetsBeta\\Shared\\OpenBetsBeta.Shared.csproj": {
+              "projectPath": "C:\\Users\\danej\\OneDrive\\Documents\\GitHub\\OpenBetsBeta\\Shared\\OpenBetsBeta.Shared.csproj"
             }
           }
         }
@@ -4039,7 +4035,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

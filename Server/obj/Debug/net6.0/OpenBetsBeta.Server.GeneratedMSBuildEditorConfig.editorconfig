@@ -8,13 +8,13 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OpenBetsBeta.Server
 build_property.RootNamespace = OpenBetsBeta.Server
-build_property.ProjectDir = C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Server\
+build_property.ProjectDir = C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Server\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Server
+build_property.MSBuildProjectDirectory = C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Server
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/RecallableFacts/Documents/GitHub/OpenBets/Server/Pages/Error.cshtml]
+[C:/Users/danej/OneDrive/Documents/GitHub/OpenBetsBeta/Server/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
