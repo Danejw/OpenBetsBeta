@@ -1,0 +1,29 @@
+﻿@page "/stellar"
+
+@using OpenBetsBeta.Shared.API;
+
+<button class="btn btn-success" onclick="@StellarApi">
+    Do Stellar Shit
+</button>
+
+<p>Response: @response</p>
+<p>@count</p>
+
+
+
+
+@code {
+    private string response;
+    int count;
+
+    public async void StellarApi()
+    {
+        count++;
+
+        StellarAPI stellar = new StellarAPI();
+        var res = await stellar.GetStellarHolders();
+        response = res.ToString();
+    }
+
+
+}

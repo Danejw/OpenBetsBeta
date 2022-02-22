@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bgcO82tAz9njQAoPW5eFVG6FBr4dEnk+GsTw7trDaBo2DSbWnHpFT0lITkXNACPRcrlLew5Zp+wNqgAxEjx6+w==",
+  "dgSpecHash": "SBYK8fGkXv4RRJlakPWWaE7QByzqV4F71O/tObVoDBzpglGgP5w+l4Er7MyHMi5UwCaaMJpZ3KdS9W1zySyuEA==",
   "success": true,
   "projectFilePath": "C:\\Users\\danej\\OneDrive\\Documents\\GitHub\\OpenBetsBeta\\Server\\OpenBetsBeta.Server.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\danej\\.nuget\\packages\\launchdarkly.eventsource\\3.3.2\\launchdarkly.eventsource.3.3.2.nupkg.sha512",
     "C:\\Users\\danej\\.nuget\\packages\\libsassbuilder\\2.0.1\\libsassbuilder.2.0.1.nupkg.sha512",
     "C:\\Users\\danej\\.nuget\\packages\\libsodium\\1.0.17.1\\libsodium.1.0.17.1.nupkg.sha512",
+    "C:\\Users\\danej\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\danej\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.0\\microsoft.aspnetcore.authorization.6.0.0.nupkg.sha512",
     "C:\\Users\\danej\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.0\\microsoft.aspnetcore.components.6.0.0.nupkg.sha512",
     "C:\\Users\\danej\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.0\\microsoft.aspnetcore.components.analyzers.6.0.0.nupkg.sha512",
@@ -66,6 +67,7 @@
     "C:\\Users\\danej\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\danej\\.nuget\\packages\\nett\\0.10.0\\nett.0.10.0.nupkg.sha512",
     "C:\\Users\\danej\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\danej\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Users\\danej\\.nuget\\packages\\nsec.cryptography\\19.5.0\\nsec.cryptography.19.5.0.nupkg.sha512",
     "C:\\Users\\danej\\.nuget\\packages\\portable.bouncycastle\\1.8.2\\portable.bouncycastle.1.8.2.nupkg.sha512",
     "C:\\Users\\danej\\.nuget\\packages\\radzen.blazor\\3.14.12\\radzen.blazor.3.14.12.nupkg.sha512",

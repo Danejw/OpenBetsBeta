@@ -4,3 +4,4 @@ global using OpenBets.Shared.Models;
 global using OpenBets.Shared.DataAccess;
 global using OpenBetsBeta.Shared.DataAccess;
 global using OpenBetsBeta.Client.Pages;
+global using OpenBetsBeta.Shared.API;

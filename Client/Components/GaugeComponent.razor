@@ -111,9 +111,12 @@
 
           </div>
         </div>
-
     </div>
+
 </div>
+
+<p>Event Response: </p>
+<p>Schedule Response:</p>
 
 @code {
     bool showValue = false;
@@ -123,9 +126,17 @@
     IEnumerable<GaugeTickPosition> tickPositions = Enum.GetValues(typeof(GaugeTickPosition)).Cast<GaugeTickPosition>();
     GaugeTickPosition tickPosition = GaugeTickPosition.Outside;
 
+
     private double InversePercent()
     {
         return 100 - oddsValue;
     }
+    /*
+    private List<UfcEvent> GetEventData()
+    {
+        SportsDataAPI sportsData = new SportsDataAPI();
+        return sportsData.GetEventAsync().Result;
+    }
+    */
 }
 

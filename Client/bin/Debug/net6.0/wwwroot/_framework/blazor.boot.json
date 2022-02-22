@@ -13,6 +13,7 @@
       "dotnetstandard-bip32.dll": "sha256-yuJAGPK3GTMCaDVA7BEDwD\/pM53o\/bfjvWQpCniSkas=",
       "dotnetstandard-bip39.dll": "sha256-S9XeK\/kiiyhsViE2u9xVHvwwqE+lSqyx3BD+t\/TORNY=",
       "LaunchDarkly.EventSource.dll": "sha256-auhUj7L\/YCfoh51d74iNdhJNYqLA7L9UDQ2Xbl4LbHk=",
+      "System.Net.Http.Formatting.dll": "sha256-7zKFggP3JjqldnuuTpRWf6Gzze3iFLqHYDAJwcF7Jk8=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-ODuGqSb\/EjQtAKtKGIHBUB8NM5h18TZENSXeu+IQyNk=",
       "Microsoft.AspNetCore.Components.dll": "sha256-OHXy3+qxNjNPiVPhtM6knnUNVpcsVVAbYQzt9ymQykI=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-JL6o2IwhVoOKMOUJKALvvZX5HskL\/2V75XnhH0T\/RhQ=",
@@ -60,6 +61,7 @@
       "Nethereum.Web3.dll": "sha256-V9oNVlTUlD0THaE8vPKzIj2ptXDTr620pp4ZWBdvT7g=",
       "Nett.dll": "sha256-v+cllQKarfLf+sZeWorT1mJrs84F9H0zZgCxFgPVGlU=",
       "Newtonsoft.Json.dll": "sha256-cs8pHUurDt0IqbB8YXPh560au3q3J\/1wRL9jBddRVmE=",
+      "Newtonsoft.Json.Bson.dll": "sha256-tgbl3XemJCyh8d9xfrU9lQWuVpBDMLl1wI1PLb6MMxk=",
       "NSec.Cryptography.dll": "sha256-s8hcld8oxoLgwhGW0wqwtTJP36csdBQFkx+Cl1RkVro=",
       "BouncyCastle.Crypto.dll": "sha256-n7KC+76rIikEfNEJ10mSwNXh+MMbda\/f4FD9fZ8WIw4=",
       "Radzen.Blazor.dll": "sha256-QSZCVNTY\/KF9TzrCvUp5opMp+UAVkNr1Z7Be5AfYZ2M=",
@@ -236,15 +238,15 @@
       "mscorlib.dll": "sha256-c1dVVfosFaf5aiS3brr2amBi1Ue0kg6mqECzmCbGyfA=",
       "netstandard.dll": "sha256-+9Yr\/gSP3tCZAMbOdAcGhHGuMcyg\/AaxVKtt3tGsvao=",
       "System.Private.CoreLib.dll": "sha256-SnxOe5QK250duVAQOw0iWr1sODhUuVEUykExQyQ\/WSk=",
-      "OpenBetsBeta.Shared.dll": "sha256-byLzce+\/P1lcD4d+Hg7WwcFhpOTZ47hwB1Qa0SDNgMg=",
-      "OpenBetsBeta.Client.dll": "sha256-PkeEwlKRFR6Zii7Zpriy7h5JEGYxrvz9Fdahtqd9rxs="
+      "OpenBetsBeta.Shared.dll": "sha256-2e\/eu+CCD39jVOBDD4W8SQglm+xS9xBNWUNKmy9r1T0=",
+      "OpenBetsBeta.Client.dll": "sha256-dE0mNv3ju2j7NdV3Y4NQxf\/fRznKQ\/Ni3v0a8uq2kII="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "OpenBetsBeta.Shared.pdb": "sha256-UaJ7LK+B4zhDbhsNYOkftjl4wDyUD7zl\/Nj2LPyyXyM=",
-      "OpenBetsBeta.Client.pdb": "sha256-p5TJBxS6Ex9V2hHCsV3\/lYxWBFm\/GgCIWSucjHZQm8s="
+      "OpenBetsBeta.Shared.pdb": "sha256-IYUhEDnbH+WO\/6sUjRmyo7uc02WeJNCNoFgl7eK1x9o=",
+      "OpenBetsBeta.Client.pdb": "sha256-r+Bog2jpNs1+Zzms40ToVvyRp0a3K9\/Ttj08zUdMT9M="
     },
     "runtime": {
       "dotnet.6.0.2.t2xk6u9gyy.js": "sha256-wbTVn69TU0+WI83iB+kky8tf\/BjZdYJeM0rUP96ur\/c=",

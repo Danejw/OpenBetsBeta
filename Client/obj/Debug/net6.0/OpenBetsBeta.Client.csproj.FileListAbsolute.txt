@@ -1844,11 +1844,13 @@ C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\obj\Debug\net6.0\OpenB
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\obj\Debug\net6.0\OpenBetsBeta.Client.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\obj\Debug\net6.0\ref\OpenBetsBeta.Client.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Client\obj\Debug\net6.0\OpenBetsBeta.Client.pdb
+C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\BouncyCastle.Crypto.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\Common.Logging.Core.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\Common.Logging.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\DnsClient.dll
+C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.2.t2xk6u9gyy.js
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\dotnetstandard-bip32.dll
@@ -1911,8 +1913,13 @@ C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\ww
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\Nethereum.Web3.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\netstandard.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\Nett.dll
+C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.Bson.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\NSec.Cryptography.dll
+C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Client.dll
+C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Client.pdb
+C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Shared.dll
+C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Shared.pdb
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\Radzen.Blazor.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\SharpCompress.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\stellar-dotnet-sdk.dll
@@ -1978,6 +1985,7 @@ C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\ww
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Memory.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.dll
+C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.Formatting.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.Json.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.HttpListener.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.Mail.dll
@@ -2080,12 +2088,6 @@ C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\ww
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\WalletConnectSharp.Core.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\WalletConnectSharp.NEthereum.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\WindowsBase.dll
-C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
-C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.2.t2xk6u9gyy.js
-C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Client.dll
-C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Client.pdb
-C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Shared.dll
-C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\OpenBetsBeta.Shared.pdb
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.Security.dll.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Text.Json.dll.gz
@@ -2191,6 +2193,7 @@ C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\ww
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.ObjectModel.dll.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.dll.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
+C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.Bson.dll.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.dll.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll.gz
@@ -2228,6 +2231,7 @@ C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\ww
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Extensions.dll.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Primitives.dll.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Security.Principal.Windows.dll.gz
+C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.Formatting.dll.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.Primitives.dll.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.dll.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
@@ -2338,6 +2342,7 @@ C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\Dn
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\dotnetstandard-bip32.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\dotnetstandard-bip39.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\LaunchDarkly.EventSource.dll
+C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\System.Net.Http.Formatting.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
@@ -2385,6 +2390,7 @@ C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\Ne
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\Nethereum.Web3.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\Nett.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\NSec.Cryptography.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\BouncyCastle.Crypto.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\bin\Debug\net6.0\Radzen.Blazor.dll
@@ -2582,6 +2588,7 @@ C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\bu
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\build-gz\kNdD7g8W.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\build-gz\dp1nNqs2.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\build-gz\skkm0L9n.gz
+C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\build-gz\mus4AvCn.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\build-gz\Akzy4qns.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\build-gz\tZ+e1L0d.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\build-gz\jNT57klH.gz
@@ -2629,6 +2636,7 @@ C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\bu
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\build-gz\B2PUNWYu.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\build-gz\63Ujx+6+.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\build-gz\XLYyZXRD.gz
+C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\build-gz\IzQeCAtQ.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\build-gz\z8+iBBMF.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\build-gz\bA+LUv05.gz
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Client\obj\Debug\net6.0\build-gz\up1CSd5B.gz

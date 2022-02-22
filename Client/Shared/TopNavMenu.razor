@@ -6,13 +6,14 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
+
     <!--Title-->
-    <a class="navbar-brand" href="#">OpenBets</a>
-              
-    <!--Wallet-->
-    <button class="btn-primary rounded-pill">
-       <a class="nav-link active text-white" aria-current="page" href="/ethwallet">Wallet</a>
-    </button>
+    <span class="navbar-brand" href="#">
+        <img src="/images/Shield.png" alt="" width="30" height="30" class="d-inline-block align-text-middle">
+        
+        OpenBets  
+
+    </span>
 
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -37,16 +38,40 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/eventdash">BetZone</a>
         </li>
-
-      </ul>
-
-      <!--Search-->
-      <form class="d-flex col-4 p-2">
-        <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-primary btn-sm col-5 rounded-pill" type="submit">Search</button>
-      </form>
-     
+        
+         <!--Search-->
+         <!--
+         <li class="nav-item">
+             <form class="d-flex col-4 p-2">
+               <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+               <button class="btn btn-primary btn-sm col-5 rounded-pill" type="submit">Search</button>
+             </form>
+         </li>
+         -->
+        </ul>
 
     </div>
+
+    <!--Wallet-->
+    <div class="dropdown justify-content-end">
+        <button class="btn btn-success btn-md col-12 rounded-pill dropdown-toggle" type="button" id="WalletDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="active text-white" aria-current="page">
+                Wallet
+            </span>
+        </button>
+
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="WalletDropdown">    
+            <OpenBetsBeta.Client.Components.EthWallet></OpenBetsBeta.Client.Components.EthWallet>
+        </ul>
+    </div>
+
   </div>
 </nav>
+
+
+
+<style>
+    .dropdown-menu {
+        min-width: 400px;
+    }
+</style>
