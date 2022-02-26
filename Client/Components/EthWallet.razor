@@ -31,9 +31,19 @@
             <div class="input-group mb-3">
                 <input @bind="address" type="text" class="form-control rounded-pill" placeholder="Your Public Address" aria-label="User Address" aria-describedby="basic-addon2">
                 <!--Connect Button-->
-                <button onclick="@ConnectWallet" type="button" class="btn btn-primary btn-sm col-5 rounded-pill">
-                    Connect
-                </button>
+                @if (!isWalletConnected)
+                {
+                    <button onclick="@ConnectWallet" type="button" class="btn btn-success btn-sm col-5 rounded-pill">
+                        Connect
+                    </button>
+                }
+                else
+                {
+                    <button onclick="@ConnectWallet" type="button" class="btn btn-success btn-sm col-5 rounded-pill">
+                        Address
+                    </button>
+                }
+
             </div>
         </div>
     </div>
@@ -66,7 +76,7 @@
                     <input @bind="sendAddress" type="text" class="form-control rounded-pill" placeholder="Send Address" aria-label="SendAddress" aria-describedby="basic-addon2">
                     <input @bind="sendAmount" type="text" class="form-control col-2 rounded-pill" placeholder="eth" aria-label="SendAmount" aria-describedby="basic-addon2">
                     <!--Send Button-->
-                    <button onclick="@SendManagedTransationFromInput" type="button" class="btn btn-primary btn-sm col-3 rounded-pill">
+                    <button onclick="@SendManagedTransationFromInput" type="button" class="btn btn-success btn-sm col-3 rounded-pill">
                         Send
                     </button>
                 </div>
@@ -76,7 +86,7 @@
             <div align="center"> 
                 <div class="input-group mb-3">
                     <!--Recieve Button-->
-                    <button onclick="@RecieveManagedTransactionFromInput" type="button" class="btn btn-primary btn-sm col-4 rounded-pill">
+                    <button onclick="@RecieveManagedTransactionFromInput" type="button" class="btn btn-success btn-sm col-4 rounded-pill">
                         Recieve
                     </button>
                     <!--Recieve Input-->
@@ -88,7 +98,8 @@
     </div>
 </div>
 
-<p>@managedTransaction</p>
+
+<p>@isWalletConnected.ToString()</p>
 
 
 
@@ -97,7 +108,8 @@
 
 
 @code {
-    string web3TestNetURL = "https://ropsten.infura.io/v3/05fed8e2281c4582b923ebeca90e628f";
+    string web3RopstenURL = "https://ropsten.infura.io/v3/05fed8e2281c4582b923ebeca90e628f";
+    string web3RinkebyURL = "https://rinkeby.infura.io/v3/05fed8e2281c4582b923ebeca90e628f";
     string web3MainNetURL = "https://mainnet.infura.io/v3/05fed8e2281c4582b923ebeca90e628f";
 
 
@@ -119,6 +131,8 @@
 
     string managedTransaction;
 
+    private bool isWalletConnected = false;
+
     private void CreateWallet()
     {
         mnemonic = new Mnemonic(Wordlist.English, WordCount.Twelve);
@@ -133,22 +147,30 @@
     {
         if (address == null || address == "") return;
 
-        await GetManagedAccount(address);
+        await GetAccountBalance(address);
     }
+
+
 
     private async Task GetAccountBalance(string address)
     {
         // TODO store this elsewhere higher in the hierarchy
-        var web3 = new Web3(web3TestNetURL);
+        var web3 = new Web3(web3RinkebyURL);
+        
         var hexBalance = await web3.Eth.GetBalance.SendRequestAsync(address);
+        var unlockResult = web3.Personal.UnlockAccount.SendRequestAsync(address, memberPassword, 120);
+        unlockResult.Wait();
+        isWalletConnected = true;
+        
         memberBalance = Web3.Convert.FromWei(hexBalance.Value);
+        memberAddress = address;
     }
 
     //! Creates a new managed account with the address parameter
     private async Task GetManagedAccount(string address)
     {
         managedAccount = new ManagedAccount(address, memberPassword);
-        web3Managed = new Web3(managedAccount, web3TestNetURL);
+        web3Managed = new Web3(managedAccount, web3RinkebyURL);
 
         var managedBalance = await web3Managed?.Eth.GetBalance.SendRequestAsync(address);    
         memberBalance = Web3.Convert.FromWei(managedBalance.Value);
@@ -180,6 +202,7 @@
     {
         
     }
+
 
 
 }

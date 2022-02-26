@@ -10,17 +10,6 @@ C:\Users\RecallableFacts\Documents\GitHub\OpenBetsBeta\Shared\obj\Debug\net6.0\O
 C:\Users\RecallableFacts\Documents\GitHub\OpenBetsBeta\Shared\obj\Debug\net6.0\OpenBetsBeta.Shared.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBetsBeta\Shared\obj\Debug\net6.0\ref\OpenBetsBeta.Shared.dll
 C:\Users\RecallableFacts\Documents\GitHub\OpenBetsBeta\Shared\obj\Debug\net6.0\OpenBetsBeta.Shared.pdb
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\bin\Debug\net6.0\OpenBetsBeta.Shared.deps.json
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\bin\Debug\net6.0\OpenBetsBeta.Shared.dll
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\bin\Debug\net6.0\ref\OpenBetsBeta.Shared.dll
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\bin\Debug\net6.0\OpenBetsBeta.Shared.pdb
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\obj\Debug\net6.0\OpenBetsBeta.Shared.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\obj\Debug\net6.0\OpenBetsBeta.Shared.AssemblyInfoInputs.cache
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\obj\Debug\net6.0\OpenBetsBeta.Shared.AssemblyInfo.cs
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\obj\Debug\net6.0\OpenBetsBeta.Shared.csproj.CoreCompileInputs.cache
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\obj\Debug\net6.0\OpenBetsBeta.Shared.dll
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\obj\Debug\net6.0\ref\OpenBetsBeta.Shared.dll
-C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\obj\Debug\net6.0\OpenBetsBeta.Shared.pdb
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Shared\bin\Debug\net6.0\OpenBetsBeta.Shared.deps.json
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Shared\bin\Debug\net6.0\OpenBetsBeta.Shared.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Shared\bin\Debug\net6.0\OpenBetsBeta.Shared.pdb
@@ -33,3 +22,7 @@ C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Shared\obj\Debug\net6.0\Op
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Shared\obj\Debug\net6.0\refint\OpenBetsBeta.Shared.dll
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Shared\obj\Debug\net6.0\OpenBetsBeta.Shared.pdb
 C:\Users\danej\OneDrive\Documents\GitHub\OpenBetsBeta\Shared\obj\Debug\net6.0\ref\OpenBetsBeta.Shared.dll
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\obj\Debug\net6.0\OpenBetsBeta.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\obj\Debug\net6.0\OpenBetsBeta.Shared.AssemblyInfoInputs.cache
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\obj\Debug\net6.0\OpenBetsBeta.Shared.AssemblyInfo.cs
+C:\Users\RecallableFacts\Documents\GitHub\OpenBets\Shared\obj\Debug\net6.0\OpenBetsBeta.Shared.csproj.CoreCompileInputs.cache
