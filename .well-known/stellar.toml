@@ -1,0 +1,30 @@
+NETWORK_PASSPHRASE="Public Global Stellar Network ; February 2022"
+SIGNING_KEY="GBBHQ7H4V6RRORKYLHTCAWP6MOHNORRFJSDPXDFYDGJB2LPZUFPXUEW3"
+ACCOUNTS=[
+"GD5DJQDDBKGAYNEAXU562HYGOOSYAEOO6AS53PZXBOZGCP5M2OPGMZV3",
+"GAENZLGHJGJRCMX5VCHOLHQXU3EMCU5XWDNU4BGGJFNLI2EL354IVBK7",
+"GAOO3LWBC4XF6VWRP5ESJ6IBHAISVJMSBTALHOQM2EZG7Q477UWA6L7U"
+]
+VERSION="2.0.0"
+
+[DOCUMENTATION]
+ORG_NAME="Sand Slide Krew"
+ORG_DBA="SSK"
+ORG_LOGO="https://i.imgur.com/yR6B03D.png"
+ORG_DESCRIPTION="Made in Hawaii, By da Boys, For da Boys"
+ORG_PHYSICAL_ADDRESS="Westside, Shores, HI 96707, United States"
+ORG_TELEGRAM="t.me/official_kala_community"
+ORG_OFFICIAL_EMAIL="theesupremekai@gmail.com"
+
+[[PRINCIPALS]]
+name="Dickie"
+email="theesupremekai@gmail.com"
+github="SupremeKai69"
+
+[[CURRENCIES]]
+code="SSK"
+issuer="GAXDULLORURF3W4P5LYH2EWCXMCNOLN6GEERN67SBZY52CEKZ2JSWIPC"
+display_decimals=3
+name="SSK Tokens"
+conditions="There will only ever be 1,000,000 SSK tokens in existence. We will distribute the revenue during special events only"
+image="https://i.imgur.com/33EbOKI.png"
