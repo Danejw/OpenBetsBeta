@@ -2,6 +2,9 @@
  
  OpenBetsBeta
  
+ <img src="https://i.imgur.com/33EbOKI.png"
+width="200" height="200">
+ 
  </strong></h1>
 
  <h5 align="center">
